@@ -20,7 +20,12 @@ Here are some ideas to get you started:
 
 #  Asistive Touch
 #### Vì app tren chplay có nhiều quảng cáo nên tự code app tự dùng 
+<<<<<<< HEAD
 ## DownLoad  [App.apk](file/app-release.apk)
+=======
+## DownLoad [Tải.apk](file/assistivetouch.apk "download")
+
+>>>>>>> 3e05bd0600fbb5a8cfe23c5e6b179add106d7063
 
 ## Ảnh sử dụng
 <img src="ima/1.png" width="48%"> <img src="ima/2.png" width="48%">
