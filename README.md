@@ -1,9 +1,3 @@
-
-<center>
-    <p>Văn bản được căn giữa bằng cách sử dụng thẻ &lt;center&gt;.</p>
-</center>
-
-
 ### Hi there 👋
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi+everybody++!;My+name+is+Hoang;Nice+to+meet+you;Goodbye+!)](https://github.com/hoangsvn)
 
