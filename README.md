@@ -15,3 +15,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+
+#  Asistive Touch
+#### Vì app tren chplay có nhiều quảng cáo nên tự code app tự dùng 
+
+## Ảnh sử dụng
+
+<img src="ima/1.png" width="300"> <img src="ima/2.png" width="300">
