@@ -1,11 +1,9 @@
 ### Hi there 👋
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi+everybody++!;My+name+is+Hoang;Nice+to+meet+you;Goodbye+!)](https://github.com/hoangsvn)
- 
+
 <!--
 **hoangsvn/hoangsvn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -16,16 +14,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-
-
 #  Asistive Touch
 #### Vì app tren chplay có nhiều quảng cáo nên tự code app tự dùng 
-<<<<<<< HEAD
 ## DownLoad  [App.apk](file/app-release.apk)
-=======
-## DownLoad [Tải.apk](file/assistivetouch.apk "download")
-
->>>>>>> 3e05bd0600fbb5a8cfe23c5e6b179add106d7063
 
 ## Ảnh sử dụng
 <img src="ima/1.png" width="48%"> <img src="ima/2.png" width="48%">
