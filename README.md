@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 -->
 
 #  Asistive Touch
-#### Vì app tren chplay có nhiều quảng cáo nên tự code app tự dùng 
+#### Vì app trên chplay có nhiều quảng cáo nên tự code app tự dùng 
 ## DownLoad  [App.apk](https://github.com/hoangsvn/hoangsvn/raw/main/file/app-release.apk)
 
 ## Ảnh sử dụng
