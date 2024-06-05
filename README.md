@@ -23,4 +23,4 @@ Here are some ideas to get you started:
 
 ## Ảnh sử dụng
 
-<img src="ima/1.png" width="300"> <img src="ima/2.png" width="300">
+<img src="ima/1.png" style="max-width: 100%;"> <img src="ima/2.png" style="max-width: 100%;">
