@@ -19,4 +19,4 @@ Here are some ideas to get you started:
 ## DownLoad  [App.apk](https://github.com/hoangsvn/hoangsvn/raw/main/file/app-release.apk)
 
 ## Ảnh sử dụng
-<img src="ima/1.png" width="48%"> <img src="ima/2.png" width="48%">
+<img src="ima/1.png" width="30%"> <img src="ima/2.png" width="30%"> <img src="ima/3.png" width="30%">
