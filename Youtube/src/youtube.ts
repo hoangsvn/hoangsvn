@@ -31,6 +31,7 @@ export abstract class YouTubeMessage {
 
     decodeArgument(): Record<string, any> {
         const args = {
+
             debug: false
         }
         return $.decodeParams(args)

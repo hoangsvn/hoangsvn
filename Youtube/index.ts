@@ -1,28 +1,28 @@
 import createMessage from './lib/factory'
-import { $ } from './lib/env'
+import {$} from './lib/env'
 
-async function run (): Promise<void> {
-  const responseMsg = createMessage($.request.url)
+async function run(): Promise<void> {
+    const responseMsg = createMessage($.request.url)
 
-  if (responseMsg) {
-    const body = $.response.bodyBytes
+    if (responseMsg) {
+        const body = $.response.bodyBytes
 
-    $.timeStart('fromBinary')
-    responseMsg.fromBinary(body)
-    $.timeEnd('fromBinary')
+        $.timeStart('fromBinary')
+        responseMsg.fromBinary(body)
+        $.timeEnd('fromBinary')
 
-    $.timeStart('modify')
-    await responseMsg.modify()
-    $.timeEnd('modify')
+        $.timeStart('modify')
+        await responseMsg.modify()
+        $.timeEnd('modify')
 
-    responseMsg.done()
-  } else {
-    $.exit()
-  }
+        responseMsg.done()
+    } else {
+        $.exit()
+    }
 }
 
 run().catch(e => {
-  $.log(e.toString())
+    $.log(e.toString())
 }).finally(() => {
-  $.exit()
+    $.exit()
 })
