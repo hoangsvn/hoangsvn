@@ -1,6 +1,6 @@
 #!name =YouTube
-#!desc =Youtube No Ads
-#!author = 36Icloudvn
+#!desc =No Ads
+
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
