@@ -85,12 +85,10 @@ DOMAIN-SUFFIX,tvc.biphim.club,REJECT
 DOMAIN-SUFFIX,v9banners.com,REJECT
 DOMAIN-SUFFIX,vads.net.vn,REJECT
 
-DOMAIN,advertising.amazon.com,REJECT
 DOMAIN,ad.vidverto.io,REJECT
 DOMAIN,advertising.amazon.com,REJECT
-DOMAIN,advertising.amazon.com,REJECT
-DOMAIN,advertising.amazon.com,REJECT
-DOMAIN,advertising.amazon.com,REJECT
+
+
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
