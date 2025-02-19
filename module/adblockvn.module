@@ -1,5 +1,5 @@
-﻿#!name= BlockADS
-#!desc=ADS VN
+﻿#!name=Block Ads VN
+#!desc=Ads Block Hosts
 [Rule]
 # A
 DOMAIN-SUFFIX,ad.vidverto.io,REJECT
