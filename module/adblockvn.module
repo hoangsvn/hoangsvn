@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,c.amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,cdn.adop.asia,REJECT
 DOMAIN-SUFFIX,cdn.tpmedia.online,REJECT
 DOMAIN-SUFFIX,cdn.bncloudfl.com,REJECT
+DOMAIN-SUFFIX,cdn.vipads.cc,REJECT
 DOMAIN-SUFFIX,cdnv.tpmedia.online,REJECT
 DOMAIN-SUFFIX,click.advertnative.com,REJECT
 DOMAIN-SUFFIX,cnt.trvdp.com,REJECT
@@ -81,12 +82,14 @@ DOMAIN-SUFFIX,lavanetwork.net,REJECT
 # M
 DOMAIN-SUFFIX,media.yomedia.vn,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
-DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
+DOMAIN-SUFFIX,max88.com,REJECT
+DOMAIN,max88.com,REJECT
 
 # N
 DOMAIN-SUFFIX,ny.foonerne.com,REJECT
 DOMAIN-SUFFIX,net88.in,REJECT
+DOMAIN,net88.in,REJECT
 
 # O
 DOMAIN-SUFFIX,oursty.com,REJECT
@@ -118,6 +121,7 @@ DOMAIN-SUFFIX,static.eclick.vn,REJECT
 DOMAIN-SUFFIX,static.philacct.com,REJECT
 DOMAIN-SUFFIX,syphonseity.com,REJECT
 DOMAIN-SUFFIX,soc88.com,REJECT
+DOMAIN,soc88.com,REJECT
 
 # T
 DOMAIN-SUFFIX,taboola.com,REJECT
