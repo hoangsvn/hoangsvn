@@ -1,33 +1,36 @@
 ﻿#!name= BlockADS
 #!desc=ADS VN
 [Rule]
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,eclick.vn,REJECT
-DOMAIN-SUFFIX,googleadservices.com,REJECT
-DOMAIN-SUFFIX,pubmatic.com,REJECT
-DOMAIN-SUFFIX,admicro.vn,REJECT
-DOMAIN-SUFFIX,vidverto.io,REJECT
+# A
 DOMAIN-SUFFIX,ad.vidverto.io,REJECT
+DOMAIN-SUFFIX,adfly.vn,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
+DOMAIN-SUFFIX,adlinknetwork.vn,REJECT
+DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,adpia.vn,REJECT
 DOMAIN-SUFFIX,ads-cdn.fptplay.net,REJECT
 DOMAIN-SUFFIX,ads.mxhnkn.pro,REJECT
 DOMAIN-SUFFIX,ads.starzd.com,REJECT
-DOMAIN-SUFFIX,adtima-static.zadn.vn,REJECT
-DOMAIN-SUFFIX,adtima-static.zascdn.me,REJECT
-DOMAIN-SUFFIX,adtima.vn,REJECT
-DOMAIN-SUFFIX,adtimaserver.vn,REJECT
+DOMAIN-SUFFIX,adsmogo.org,REJECT
+DOMAIN-SUFFIX,advertising.amazon.com,REJECT
 DOMAIN-SUFFIX,affordedseasick.com,REJECT
 DOMAIN-SUFFIX,aiactiv.io,REJECT
 DOMAIN-SUFFIX,aj1047.online,REJECT
 DOMAIN-SUFFIX,aj2393.online,REJECT
 DOMAIN-SUFFIX,ajsc.yodimedia.com,REJECT
+DOMAIN-SUFFIX,akadigital.vn,REJECT
+DOMAIN-SUFFIX,aiservice.vn,REJECT
 DOMAIN-SUFFIX,amcdn.vn,REJECT
+DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
-DOMAIN-SUFFIX,adfly.vn,REJECT
 DOMAIN-SUFFIX,apinas.nct.vn,REJECT
+
+# B
 DOMAIN-SUFFIX,bidgear-syndication.com,REJECT
 DOMAIN-SUFFIX,blueseed.tv,REJECT
+
+# C
+DOMAIN-SUFFIX,c.amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,cdn.adop.asia,REJECT
 DOMAIN-SUFFIX,cdn.tpmedia.online,REJECT
 DOMAIN-SUFFIX,cdnv.tpmedia.online,REJECT
@@ -35,40 +38,72 @@ DOMAIN-SUFFIX,click.advertnative.com,REJECT
 DOMAIN-SUFFIX,cnt.trvdp.com,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
 DOMAIN-SUFFIX,cpt.geniee.jp,REJECT
+
+# D
 DOMAIN-SUFFIX,delivery.yomedia.vn,REJECT
 DOMAIN-SUFFIX,distinctrobin.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+
+# E
+DOMAIN-SUFFIX,eclick.vn,REJECT
+
+# F
 DOMAIN-SUFFIX,fv.togataurnfuls.com,REJECT
+
+# G
 DOMAIN-SUFFIX,gammaplatform.com,REJECT
 DOMAIN-SUFFIX,genieesspv.jp,REJECT
 DOMAIN-SUFFIX,genmonet.com,REJECT
 DOMAIN-SUFFIX,glodretsa.net,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,gullyending.com,REJECT
+
+# H
 DOMAIN-SUFFIX,hqq.to,REJECT
+
+# I
 DOMAIN-SUFFIX,iads.staticscdn.net,REJECT
 DOMAIN-SUFFIX,iads.vision,REJECT
 DOMAIN-SUFFIX,imad24.com,REJECT
 DOMAIN-SUFFIX,img.yeuketqua.net,REJECT
 DOMAIN-SUFFIX,immaculate-suspect.com,REJECT
-DOMAIN-SUFFIX,aiservice.vn,REJECT
+
+# J
 DOMAIN-SUFFIX,jsc.yodimedia.com,REJECT
+
+# L
+DOMAIN-SUFFIX,lavamedia.vn,REJECT
+DOMAIN-SUFFIX,lavanetwork.net,REJECT
+
+# M
 DOMAIN-SUFFIX,media.yomedia.vn,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
+
+# N
 DOMAIN-SUFFIX,ny.foonerne.com,REJECT
+
+# O
 DOMAIN-SUFFIX,oursty.com,REJECT
-DOMAIN-SUFFIX,adlinknetwork.vn,REJECT
+
+# P
 DOMAIN-SUFFIX,player.gliacloud.com,REJECT
 DOMAIN-SUFFIX,poasauwhoothy.net,REJECT
 DOMAIN-SUFFIX,psugheeghuli.net,REJECT
-DOMAIN-SUFFIX,akadigital.vn,REJECT
-DOMAIN-SUFFIX,lavamedia.vn,REJECT
-DOMAIN-SUFFIX,lavanetwork.net,REJECT
+DOMAIN-SUFFIX,pubmatic.com,REJECT
+
+# Q
 DOMAIN-SUFFIX,qc.coccoc.com,REJECT
 DOMAIN-SUFFIX,qc.violet.vn,REJECT
 DOMAIN-SUFFIX,qcv5.blogtruyenmoi.com,REJECT
 DOMAIN-SUFFIX,qz.almudestilths.com,REJECT
+
+# R
 DOMAIN-SUFFIX,realclick.vn,REJECT
 DOMAIN-SUFFIX,rq.overseagyassa.com,REJECT
+
+# S
+DOMAIN-SUFFIX,s.shopee.vn,REJECT
 DOMAIN-SUFFIX,sbbanner.com,REJECT
 DOMAIN-SUFFIX,sourcetobin.com,REJECT
 DOMAIN-SUFFIX,ss.yomedia.vn,REJECT
@@ -77,18 +112,20 @@ DOMAIN-SUFFIX,static.dable.io,REJECT
 DOMAIN-SUFFIX,static.eclick.vn,REJECT
 DOMAIN-SUFFIX,static.philacct.com,REJECT
 DOMAIN-SUFFIX,syphonseity.com,REJECT
+
+# T
 DOMAIN-SUFFIX,taboola.com,REJECT
+DOMAIN-SUFFIX,tag.adbro.me,REJECT
 DOMAIN-SUFFIX,tags.fly-ads.net,REJECT
 DOMAIN-SUFFIX,tags.native-ad.net,REJECT
 DOMAIN-SUFFIX,toathoule.com,REJECT
 DOMAIN-SUFFIX,tvc.biphim.club,REJECT
+
+# V
 DOMAIN-SUFFIX,v9banners.com,REJECT
 DOMAIN-SUFFIX,vads.net.vn,REJECT
-DOMAIN-SUFFIX,s.shopee.vn,REJECT 
-DOMAIN-SUFFIX,advertising.amazon.com,REJECT
-DOMAIN-SUFFIX,ad.vidverto.io,REJECT
-DOMAIN-SUFFIX,tag.adbro.me,REJECT
-DOMAIN-SUFFIX,c.amazon-adsystem.com,REJECT
+DOMAIN-SUFFIX,vidverto.io,REJECT
+
 
 
 [URL Rewrite]
