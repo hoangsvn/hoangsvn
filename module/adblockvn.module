@@ -87,6 +87,9 @@ DOMAIN-SUFFIX,vads.net.vn,REJECT
 DOMAIN-SUFFIX,s.shopee.vn,REJECT 
 DOMAIN-SUFFIX,advertising.amazon.com,REJECT
 DOMAIN-SUFFIX,ad.vidverto.io,REJECT
+DOMAIN-SUFFIX,tag.adbro.me,REJECT
+DOMAIN-SUFFIX,c.amazon-adsystem.com,REJECT
+
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
