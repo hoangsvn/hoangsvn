@@ -8,7 +8,6 @@ esbuild.buildSync({
   bundle: true,
   minify: !debug,
   banner: { js: `// Build: ${now}` },
-  inject: ['./lib/text-polyfill.mjs'],
   sourcemap: false,
-  outfile: './dist/youtube.js',
+  outfile: './dist/youtube.js'
 })
