@@ -1,8 +1,15 @@
 ﻿#!name=SoundCloud
-#!desc=Active Go
-[Script]
-SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/refs/heads/main/Soundcloud/soundcloud.js
-[MITM]
-hostname= %APPEND% api-mobile.soundcloud.com
-
-
+#!desc=Active Go
+
+[Script]
+
+SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/Soundcloud/soundcloud.js
+
+[MITM]
+
+hostname= %APPEND% api-mobile.soundcloud.com
+
+
+
+
+
