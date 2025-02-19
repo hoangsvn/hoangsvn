@@ -60,7 +60,7 @@ obj.features = [
 
       ]
     },
-
+    
     {
       "name" : "spotlight",
       "enabled" : false,
