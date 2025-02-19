@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,pubmatic.com,REJECT
 DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,vidverto.io,REJECT
+DOMAIN-SUFFIX,ad.vidverto.io,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
 DOMAIN-SUFFIX,adpia.vn,REJECT
 DOMAIN-SUFFIX,ads-cdn.fptplay.net,REJECT
@@ -80,16 +81,12 @@ DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,tags.fly-ads.net,REJECT
 DOMAIN-SUFFIX,tags.native-ad.net,REJECT
 DOMAIN-SUFFIX,toathoule.com,REJECT
-DOMAIN-SUFFIX,truyentuan.xyz,REJECT
 DOMAIN-SUFFIX,tvc.biphim.club,REJECT
 DOMAIN-SUFFIX,v9banners.com,REJECT
 DOMAIN-SUFFIX,vads.net.vn,REJECT
-
-DOMAIN,ad.vidverto.io,REJECT
-DOMAIN,advertising.amazon.com,REJECT
-DOMAIN,s.shopee.vn,REJECT
-
-
+DOMAIN-SUFFIX,s.shopee.vn,REJECT 
+DOMAIN-SUFFIX,advertising.amazon.com,REJECT
+DOMAIN-SUFFIX,ad.vidverto.io,REJECT
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
