@@ -87,7 +87,7 @@ DOMAIN-SUFFIX,vads.net.vn,REJECT
 
 DOMAIN,ad.vidverto.io,REJECT
 DOMAIN,advertising.amazon.com,REJECT
-DOMAIN,s.shoppe.vn,REJECT
+DOMAIN,s.shopee.vn,REJECT
 
 
 
