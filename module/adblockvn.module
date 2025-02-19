@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,adpia.vn,REJECT
 DOMAIN-SUFFIX,ads-cdn.fptplay.net,REJECT
 DOMAIN-SUFFIX,ads.mxhnkn.pro,REJECT
+DOMAIN-SUFFIX,ads.x-cdn.org,REJECT
 DOMAIN-SUFFIX,ads.starzd.com,REJECT
 DOMAIN-SUFFIX,adsmogo.org,REJECT
 DOMAIN-SUFFIX,advertising.amazon.com,REJECT
@@ -33,11 +34,13 @@ DOMAIN-SUFFIX,blueseed.tv,REJECT
 DOMAIN-SUFFIX,c.amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,cdn.adop.asia,REJECT
 DOMAIN-SUFFIX,cdn.tpmedia.online,REJECT
+DOMAIN-SUFFIX,cdn.bncloudfl.com,REJECT
 DOMAIN-SUFFIX,cdnv.tpmedia.online,REJECT
 DOMAIN-SUFFIX,click.advertnative.com,REJECT
 DOMAIN-SUFFIX,cnt.trvdp.com,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
 DOMAIN-SUFFIX,cpt.geniee.jp,REJECT
+DOMAIN-SUFFIX,cloudfront.net,REJECT
 
 # D
 DOMAIN-SUFFIX,delivery.yomedia.vn,REJECT
@@ -78,10 +81,12 @@ DOMAIN-SUFFIX,lavanetwork.net,REJECT
 # M
 DOMAIN-SUFFIX,media.yomedia.vn,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
+DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
 
 # N
 DOMAIN-SUFFIX,ny.foonerne.com,REJECT
+DOMAIN-SUFFIX,net88.in,REJECT
 
 # O
 DOMAIN-SUFFIX,oursty.com,REJECT
@@ -112,6 +117,7 @@ DOMAIN-SUFFIX,static.dable.io,REJECT
 DOMAIN-SUFFIX,static.eclick.vn,REJECT
 DOMAIN-SUFFIX,static.philacct.com,REJECT
 DOMAIN-SUFFIX,syphonseity.com,REJECT
+DOMAIN-SUFFIX,soc88.com,REJECT
 
 # T
 DOMAIN-SUFFIX,taboola.com,REJECT
