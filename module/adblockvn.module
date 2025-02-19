@@ -1,0 +1,10 @@
+﻿#!name= BlockADS
+#!desc=ADS VN
+[URL Rewrite]
+# > Google - *.googlevideo.com,www.youtube.com,s.youtube.com
+^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
+[MITM]
+hostname = %APPENP% www.youtube.com,s.youtube.com,home.mi.com
