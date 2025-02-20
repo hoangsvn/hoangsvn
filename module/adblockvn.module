@@ -2,49 +2,43 @@
 #!desc=Ads Block Hosts
 [Rule]
 # A
-DOMAIN-SUFFIX,ad.vidverto.io,REJECT
 DOMAIN-SUFFIX,adfly.vn,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
 DOMAIN-SUFFIX,adlinknetwork.vn,REJECT
 DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,adpia.vn,REJECT
-DOMAIN-SUFFIX,ads-cdn.fptplay.net,REJECT
-DOMAIN-SUFFIX,ads.mxhnkn.pro,REJECT
-DOMAIN-SUFFIX,ads.x-cdn.org,REJECT
-DOMAIN-SUFFIX,ads.starzd.com,REJECT
 DOMAIN-SUFFIX,adsmogo.org,REJECT
-DOMAIN-SUFFIX,advertising.amazon.com,REJECT
+DOMAIN-SUFFIX,advertnative.com,REJECT
 DOMAIN-SUFFIX,affordedseasick.com,REJECT
 DOMAIN-SUFFIX,aiactiv.io,REJECT
 DOMAIN-SUFFIX,aj1047.online,REJECT
 DOMAIN-SUFFIX,aj2393.online,REJECT
-DOMAIN-SUFFIX,ajsc.yodimedia.com,REJECT
 DOMAIN-SUFFIX,akadigital.vn,REJECT
-DOMAIN-SUFFIX,aiservice.vn,REJECT
 DOMAIN-SUFFIX,amcdn.vn,REJECT
+DOMAIN-SUFFIX,aiservice.vn,REJECT
 DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,apinas.nct.vn,REJECT
+DOMAIN-SUFFIX,adbro.me,REJECT
+
+DOMAIN,ads-cdn.fptplay.net,REJECT
+DOMAIN,ads.mxhnkn.pro,REJECT
+DOMAIN,ads.starzd.com,REJECT
+DOMAIN,ads.x-cdn.org,REJECT
+DOMAIN,advertising.amazon.com,REJECT
 
 # B
 DOMAIN-SUFFIX,bidgear-syndication.com,REJECT
 DOMAIN-SUFFIX,blueseed.tv,REJECT
+DOMAIN-SUFFIX,bncloudfl.com,REJECT
 
 # C
-DOMAIN-SUFFIX,c.amazon-adsystem.com,REJECT
-DOMAIN-SUFFIX,cdn.adop.asia,REJECT
-DOMAIN-SUFFIX,cdn.tpmedia.online,REJECT
-DOMAIN-SUFFIX,cdn.bncloudfl.com,REJECT
-DOMAIN-SUFFIX,cdn.vipads.cc,REJECT
-DOMAIN-SUFFIX,cdnv.tpmedia.online,REJECT
-DOMAIN-SUFFIX,click.advertnative.com,REJECT
-DOMAIN-SUFFIX,cnt.trvdp.com,REJECT
+DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
 DOMAIN-SUFFIX,cpt.geniee.jp,REJECT
-DOMAIN-SUFFIX,cloudfront.net,REJECT
 
 # D
-DOMAIN-SUFFIX,delivery.yomedia.vn,REJECT
+DOMAIN-SUFFIX,dable.io,REJECT
 DOMAIN-SUFFIX,distinctrobin.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
 
@@ -52,6 +46,7 @@ DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,eclick.vn,REJECT
 
 # F
+DOMAIN-SUFFIX,fly-ads.net,REJECT
 DOMAIN-SUFFIX,fv.togataurnfuls.com,REJECT
 
 # G
@@ -66,76 +61,75 @@ DOMAIN-SUFFIX,gullyending.com,REJECT
 DOMAIN-SUFFIX,hqq.to,REJECT
 
 # I
-DOMAIN-SUFFIX,iads.staticscdn.net,REJECT
 DOMAIN-SUFFIX,iads.vision,REJECT
 DOMAIN-SUFFIX,imad24.com,REJECT
 DOMAIN-SUFFIX,img.yeuketqua.net,REJECT
 DOMAIN-SUFFIX,immaculate-suspect.com,REJECT
-
-# J
-DOMAIN-SUFFIX,jsc.yodimedia.com,REJECT
+DOMAIN-SUFFIX,staticscdn.net,REJECT
 
 # L
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
 DOMAIN-SUFFIX,lavanetwork.net,REJECT
 
 # M
-DOMAIN-SUFFIX,media.yomedia.vn,REJECT
+DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
-DOMAIN-SUFFIX,max88.com,REJECT
+DOMAIN-SUFFIX,yomedia.vn,REJECT
+
 DOMAIN,max88.com,REJECT
 
 # N
-DOMAIN-SUFFIX,ny.foonerne.com,REJECT
 DOMAIN-SUFFIX,net88.in,REJECT
+DOMAIN-SUFFIX,ny.foonerne.com,REJECT
+
 DOMAIN,net88.in,REJECT
 
 # O
 DOMAIN-SUFFIX,oursty.com,REJECT
+DOMAIN-SUFFIX,overseagyassa.com,REJECT
 
 # P
-DOMAIN-SUFFIX,player.gliacloud.com,REJECT
 DOMAIN-SUFFIX,poasauwhoothy.net,REJECT
 DOMAIN-SUFFIX,psugheeghuli.net,REJECT
 DOMAIN-SUFFIX,pubmatic.com,REJECT
 
 # Q
-DOMAIN-SUFFIX,qc.coccoc.com,REJECT
-DOMAIN-SUFFIX,qc.violet.vn,REJECT
-DOMAIN-SUFFIX,qcv5.blogtruyenmoi.com,REJECT
-DOMAIN-SUFFIX,qz.almudestilths.com,REJECT
+DOMAIN-SUFFIX,almudestilths.com,REJECT
+
+DOMAIN,qc.coccoc.com,REJECT
+DOMAIN,qc.violet.vn,REJECT
+DOMAIN,qcv5.blogtruyenmoi.com,REJECT
 
 # R
 DOMAIN-SUFFIX,realclick.vn,REJECT
-DOMAIN-SUFFIX,rq.overseagyassa.com,REJECT
+
 
 # S
-DOMAIN-SUFFIX,s.shopee.vn,REJECT
 DOMAIN-SUFFIX,sbbanner.com,REJECT
-DOMAIN-SUFFIX,sourcetobin.com,REJECT
-DOMAIN-SUFFIX,ss.yomedia.vn,REJECT
-DOMAIN-SUFFIX,static.adconnect.vn,REJECT
-DOMAIN-SUFFIX,static.dable.io,REJECT
-DOMAIN-SUFFIX,static.eclick.vn,REJECT
-DOMAIN-SUFFIX,static.philacct.com,REJECT
-DOMAIN-SUFFIX,syphonseity.com,REJECT
 DOMAIN-SUFFIX,soc88.com,REJECT
+DOMAIN-SUFFIX,sourcetobin.com,REJECT
+DOMAIN-SUFFIX,syphonseity.com,REJECT
+DOMAIN-SUFFIX,philacct.com,REJECT
+DOMAIN-SUFFIX,adconnect.vn,REJECT
+
 DOMAIN,soc88.com,REJECT
+DOMAIN,s.shopee.vn,REJECT
+DOMAIN,ss.yomedia.vn,REJECT
 
 # T
 DOMAIN-SUFFIX,taboola.com,REJECT
-DOMAIN-SUFFIX,tag.adbro.me,REJECT
-DOMAIN-SUFFIX,tags.fly-ads.net,REJECT
 DOMAIN-SUFFIX,tags.native-ad.net,REJECT
 DOMAIN-SUFFIX,toathoule.com,REJECT
-DOMAIN-SUFFIX,tvc.biphim.club,REJECT
+DOMAIN,tvc.biphim.club,REJECT
 
 # V
 DOMAIN-SUFFIX,v9banners.com,REJECT
 DOMAIN-SUFFIX,vads.net.vn,REJECT
 DOMAIN-SUFFIX,vidverto.io,REJECT
 
+# Y
+DOMAIN-SUFFIX,yodimedia.com,REJECT
 
 
 [URL Rewrite]
