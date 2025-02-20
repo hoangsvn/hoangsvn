@@ -77,7 +77,7 @@ DOMAIN-SUFFIX,staticscdn.net,REJECT
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
 DOMAIN-SUFFIX,lavanetwork.net,REJECT
 DOMAIN-SUFFIX,logging.admicro.vn,REJECT
-
+DOMAIN-SUFFIX,log.adtimaserver.vn,REJECT
 
 # M
 DOMAIN-SUFFIX,max88.com,REJECT
