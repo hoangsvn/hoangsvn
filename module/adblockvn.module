@@ -40,6 +40,8 @@ DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
 DOMAIN-SUFFIX,cpt.geniee.jp,REJECT
 
+DOMAIN,cdnstoremedia.com,REJECT
+
 # D
 DOMAIN-SUFFIX,dable.io,REJECT
 DOMAIN-SUFFIX,distinctrobin.com,REJECT
@@ -81,6 +83,7 @@ DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
 DOMAIN-SUFFIX,yomedia.vn,REJECT
+DOMAIN-SUFFIX,mediacdn.vn,REJECT
 DOMAIN,media1.admicro.vn,REJECT
 
 DOMAIN,max88.com,REJECT
