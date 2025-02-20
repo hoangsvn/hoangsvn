@@ -5,7 +5,6 @@
 DOMAIN-SUFFIX,adfly.vn,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
 DOMAIN-SUFFIX,adlinknetwork.vn,REJECT
-DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,adpia.vn,REJECT
 DOMAIN-SUFFIX,adsmogo.org,REJECT
 DOMAIN-SUFFIX,advertnative.com,REJECT
@@ -20,13 +19,16 @@ DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,apinas.nct.vn,REJECT
 DOMAIN-SUFFIX,adbro.me,REJECT
-
+DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN,ads-cdn.fptplay.net,REJECT
 DOMAIN,ads.mxhnkn.pro,REJECT
 DOMAIN,ads.starzd.com,REJECT
 DOMAIN,ads.x-cdn.org,REJECT
 DOMAIN,advertising.amazon.com,REJECT
 DOMAIN,adx.admicro.vn,REJECT
+
+
+
 
 # B
 DOMAIN-SUFFIX,bidgear-syndication.com,REJECT
@@ -71,12 +73,15 @@ DOMAIN-SUFFIX,staticscdn.net,REJECT
 # L
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
 DOMAIN-SUFFIX,lavanetwork.net,REJECT
+DOMAIN-SUFFIX,logging.admicro.vn,REJECT
+DOMAIN,logging.admicro.vn,REJECT
 
 # M
 DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
 DOMAIN-SUFFIX,yomedia.vn,REJECT
+DOMAIN,media1.admicro.vn,REJECT
 
 DOMAIN,max88.com,REJECT
 
