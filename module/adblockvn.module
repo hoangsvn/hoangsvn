@@ -26,6 +26,7 @@ DOMAIN,ads.mxhnkn.pro,REJECT
 DOMAIN,ads.starzd.com,REJECT
 DOMAIN,ads.x-cdn.org,REJECT
 DOMAIN,advertising.amazon.com,REJECT
+DOMAIN,adx.admicro.vn,REJECT
 
 # B
 DOMAIN-SUFFIX,bidgear-syndication.com,REJECT
@@ -103,6 +104,8 @@ DOMAIN,qcv5.blogtruyenmoi.com,REJECT
 
 # R
 DOMAIN-SUFFIX,realclick.vn,REJECT
+
+DOMAIN,rottencycle.com,REJECT
 
 
 # S
