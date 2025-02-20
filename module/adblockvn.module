@@ -26,6 +26,7 @@ DOMAIN,ads.starzd.com,REJECT
 DOMAIN,ads.x-cdn.org,REJECT
 DOMAIN,advertising.amazon.com,REJECT
 DOMAIN,adx.admicro.vn,REJECT
+DOMAIN,advertise.cloudlinks.cn,REJECT
 
 
 
@@ -83,8 +84,6 @@ DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
 DOMAIN-SUFFIX,yomedia.vn,REJECT
-DOMAIN-SUFFIX,mediacdn.vn,REJECT
-
 
 DOMAIN,max88.com,REJECT
 
@@ -133,6 +132,7 @@ DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,tags.native-ad.net,REJECT
 DOMAIN-SUFFIX,toathoule.com,REJECT
 DOMAIN,tvc.biphim.club,REJECT
+DOMAIN,trunkpkg.com,REJECT
 
 # V
 DOMAIN-SUFFIX,v9banners.com,REJECT
