@@ -3,6 +3,7 @@
 [Rule]
 # A
 DOMAIN,admicro.vn,REJECT
+DOMAIN,adrealclick.com,REJECT
 DOMAIN,ads-cdn.fptplay.net,REJECT
 DOMAIN,ads.mxhnkn.pro,REJECT
 DOMAIN,ads.starzd.com,REJECT
@@ -10,8 +11,9 @@ DOMAIN,ads.x-cdn.org,REJECT
 DOMAIN,advertising.amazon.com,REJECT
 DOMAIN,advertise.cloudlinks.cn,REJECT
 DOMAIN,afcdn.net,REJECT
+DOMAIN,adminplayer.sohatv.vn,REJECT
 
-
+DOMAIN-SUFFIX,adrealclick.com,REJECT
 DOMAIN-SUFFIX,adfly.vn,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
 DOMAIN-SUFFIX,adlinknetwork.vn,REJECT
@@ -31,6 +33,8 @@ DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,apinas.nct.vn,REJECT
 DOMAIN-SUFFIX,adbro.me,REJECT
+DOMAIN-SUFFIX,adxcontent.com,REJECT
+DOMAIN-SUFFIX,adtrafficquality.google,REJECT
 
 
 # B
@@ -61,6 +65,12 @@ DOMAIN-SUFFIX,cdn.storageimagedisplay.com,REJECT
 
 
 # D
+
+DOMAIN,deqik.com,REJECT
+DOMAIN,diagramjawlineunhappy.com,REJECT
+DOMAIN,images.dmca.com,REJECT
+
+
 DOMAIN-SUFFIX,dable.io,REJECT
 DOMAIN-SUFFIX,distinctrobin.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
@@ -84,12 +94,17 @@ DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,gullyending.com,REJECT
 DOMAIN-SUFFIX,geniee.jp,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
 
 # H
 DOMAIN,holahupa.com,REJECT
+DOMAIN,henho24h.net,REJECT
+
 DOMAIN-SUFFIX,hqq.to,REJECT
+DOMAIN-SUFFIX,henho24h.net,REJECT
 
 # I
+DOMAIN-SUFFIX,imgur.com,REJECT
 DOMAIN-SUFFIX,iads.vision,REJECT
 DOMAIN-SUFFIX,imad24.com,REJECT
 DOMAIN-SUFFIX,yeuketqua.net,REJECT
@@ -120,6 +135,8 @@ DOMAIN,net88.in,REJECT
 DOMAIN-SUFFIX,net88.in,REJECT
 
 # O
+
+DOMAIN,openfpcdn.io,REJECT
 DOMAIN,oursty.com,REJECT
 DOMAIN,overseagyassa.com,REJECT
 DOMAIN,orbsrv.com,REJECT
@@ -138,6 +155,7 @@ DOMAIN,qc.violet.vn,REJECT
 DOMAIN,qcv5.blogtruyenmoi.com,REJECT
 
 DOMAIN-SUFFIX,almudestilths.com,REJECT
+DOMAIN-SUFFIX,quoracdn.net,REJECT
 
 # R
 DOMAIN,rottencycle.com,REJECT
