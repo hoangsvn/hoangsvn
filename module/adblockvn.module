@@ -43,7 +43,7 @@ DOMAIN,cdnstoremedia.com,REJECT
 DOMAIN-SUFFIX,cdnstoremedia.com,REJECT
 DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
-DOMAIN-SUFFIX,geniee.jp,REJECT
+
 
 # D
 DOMAIN-SUFFIX,dable.io,REJECT
@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,genmonet.com,REJECT
 DOMAIN-SUFFIX,glodretsa.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,gullyending.com,REJECT
+DOMAIN-SUFFIX,geniee.jp,REJECT
 
 # H
 DOMAIN-SUFFIX,hqq.to,REJECT
