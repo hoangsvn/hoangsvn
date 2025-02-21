@@ -37,9 +37,10 @@ DOMAIN-SUFFIX,bncloudfl.com,REJECT
 # C
 DOMAIN,cdnstoremedia.com,REJECT
 
+DOMAIN-SUFFIX,cdnstoremedia.com,REJECT
 DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
-DOMAIN-SUFFIX,cpt.geniee.jp,REJECT
+DOMAIN-SUFFIX,geniee.jp,REJECT
 
 # D
 DOMAIN-SUFFIX,dable.io,REJECT
@@ -51,7 +52,7 @@ DOMAIN-SUFFIX,eclick.vn,REJECT
 
 # F
 DOMAIN-SUFFIX,fly-ads.net,REJECT
-DOMAIN-SUFFIX,fv.togataurnfuls.com,REJECT
+DOMAIN-SUFFIX,foonerne.com,REJECT
 
 # G
 DOMAIN-SUFFIX,gammaplatform.com,REJECT
@@ -67,7 +68,7 @@ DOMAIN-SUFFIX,hqq.to,REJECT
 # I
 DOMAIN-SUFFIX,iads.vision,REJECT
 DOMAIN-SUFFIX,imad24.com,REJECT
-DOMAIN-SUFFIX,img.yeuketqua.net,REJECT
+DOMAIN-SUFFIX,yeuketqua.net,REJECT
 DOMAIN-SUFFIX,immaculate-suspect.com,REJECT
 DOMAIN-SUFFIX,staticscdn.net,REJECT
 # J
@@ -90,7 +91,6 @@ DOMAIN-SUFFIX,yomedia.vn,REJECT
 DOMAIN,net88.in,REJECT
 
 DOMAIN-SUFFIX,net88.in,REJECT
-DOMAIN-SUFFIX,ny.foonerne.com,REJECT
 
 # O
 DOMAIN-SUFFIX,oursty.com,REJECT
@@ -130,6 +130,7 @@ DOMAIN,ss.yomedia.vn,REJECT
 DOMAIN,tvc.biphim.club,REJECT
 DOMAIN,trunkpkg.com,REJECT
 
+DOMAIN-SUFFIX,togataurnfuls.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
 DOMAIN-SUFFIX,tags.native-ad.net,REJECT
 DOMAIN-SUFFIX,toathoule.com,REJECT
