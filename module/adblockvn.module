@@ -152,10 +152,14 @@ DOMAIN-SUFFIX,vidcrunch.com,REJECT
 DOMAIN-SUFFIX,yodimedia.com,REJECT
 # Z
 
-# KEY WORD
+# KEYWORD
 DOMAIN-KEYWORD,ads,REJECT
 DOMAIN-KEYWORD,adv,REJECT
 DOMAIN-KEYWORD,tag,REJECT
+
+# URLREGEX
+
+
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
