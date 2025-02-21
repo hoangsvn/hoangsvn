@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,yeuketqua.net,REJECT
 DOMAIN-SUFFIX,immaculate-suspect.com,REJECT
 DOMAIN-SUFFIX,staticscdn.net,REJECT
 # J
+DOMAIN,jun88.me,REJECT
 # K
 # L
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
@@ -150,6 +151,11 @@ DOMAIN-SUFFIX,vidcrunch.com,REJECT
 # Y
 DOMAIN-SUFFIX,yodimedia.com,REJECT
 # Z
+
+# KEY WORD
+DOMAIN-KEYWORD,ads,REJECT
+DOMAIN-KEYWORD,adv,REJECT
+DOMAIN-KEYWORD,tag,REJECT
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
