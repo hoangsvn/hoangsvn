@@ -170,6 +170,7 @@ DOMAIN-SUFFIX,sourcetobin.com,REJECT
 DOMAIN-SUFFIX,syphonseity.com,REJECT
 DOMAIN-SUFFIX,philacct.com,REJECT
 DOMAIN-SUFFIX,adconnect.vn,REJECT
+DOMAIN-SUFFIX,seovietnam.pro,REJECT
 
 DOMAIN,soc88.com,REJECT
 DOMAIN,s.shopee.vn,REJECT
