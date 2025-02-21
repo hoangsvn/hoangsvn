@@ -9,6 +9,8 @@ DOMAIN,ads.starzd.com,REJECT
 DOMAIN,ads.x-cdn.org,REJECT
 DOMAIN,advertising.amazon.com,REJECT
 DOMAIN,advertise.cloudlinks.cn,REJECT
+DOMAIN,afcdn.net,REJECT
+
 
 DOMAIN-SUFFIX,adfly.vn,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
@@ -18,6 +20,7 @@ DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,adsmogo.org,REJECT
 DOMAIN-SUFFIX,advertnative.com,REJECT
 DOMAIN-SUFFIX,affordedseasick.com,REJECT
+DOMAIN-SUFFIX,afcdn.net,REJECT
 DOMAIN-SUFFIX,aiactiv.io,REJECT
 DOMAIN-SUFFIX,aj1047.online,REJECT
 DOMAIN-SUFFIX,aj2393.online,REJECT
@@ -31,7 +34,10 @@ DOMAIN-SUFFIX,adbro.me,REJECT
 
 
 # B
+DOMAIN,bigstoreminigames.space,REJECT
 
+
+DOMAIN-SUFFIX,bigstoreminigames.space,REJECT
 DOMAIN-SUFFIX,bizfly.vn,REJECT
 DOMAIN-SUFFIX,bidgear-syndication.com,REJECT
 DOMAIN-SUFFIX,blueseed.tv,REJECT
@@ -39,10 +45,19 @@ DOMAIN-SUFFIX,bncloudfl.com,REJECT
 
 # C
 DOMAIN,cdnstoremedia.com,REJECT
+DOMAIN,cdn.jsdelivr.net,REJECT
+DOMAIN,coosync.com,REJECT
 DOMAIN,clgt.xyz,REJECT
+DOMAIN,citadelpathstatue.com,REJECT
+DOMAIN,chaseherbalpasty.com,REJECT
+DOMAIN,citadelpathstatue.com,REJECT
+
+
+DOMAIN-SUFFIX,chaseherbalpasty.com,REJECT
 DOMAIN-SUFFIX,cdnstoremedia.com,REJECT
 DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
+DOMAIN-SUFFIX,cdn.storageimagedisplay.com,REJECT
 
 
 # D
@@ -54,8 +69,11 @@ DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-SUFFIX,eclick.vn,REJECT
 
 # F
+DOMAIN,fieryinjure.com,REJECT
+
 DOMAIN-SUFFIX,fly-ads.net,REJECT
 DOMAIN-SUFFIX,foonerne.com,REJECT
+DOMAIN-SUFFIX,fieryinjure.com,REJECT
 
 # G
 DOMAIN-SUFFIX,gammaplatform.com,REJECT
@@ -65,8 +83,10 @@ DOMAIN-SUFFIX,glodretsa.net,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,gullyending.com,REJECT
 DOMAIN-SUFFIX,geniee.jp,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
 
 # H
+DOMAIN,holahupa.com,REJECT
 DOMAIN-SUFFIX,hqq.to,REJECT
 
 # I
@@ -77,6 +97,7 @@ DOMAIN-SUFFIX,immaculate-suspect.com,REJECT
 DOMAIN-SUFFIX,staticscdn.net,REJECT
 # J
 DOMAIN,jun8899.me,REJECT
+DOMAIN,javbest.cc,REJECT
 # K
 # L
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
@@ -91,6 +112,7 @@ DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
 DOMAIN-SUFFIX,yomedia.vn,REJECT
+DOMAIN-SUFFIX,magsrv.com,REJECT
 
 # N
 DOMAIN,net88.in,REJECT
@@ -98,8 +120,12 @@ DOMAIN,net88.in,REJECT
 DOMAIN-SUFFIX,net88.in,REJECT
 
 # O
+DOMAIN,oursty.com,REJECT
+DOMAIN,overseagyassa.com,REJECT
+DOMAIN,orbsrv.com,REJECT
 DOMAIN-SUFFIX,oursty.com,REJECT
 DOMAIN-SUFFIX,overseagyassa.com,REJECT
+DOMAIN-SUFFIX,orbsrv.com,REJECT
 
 # P
 DOMAIN-SUFFIX,poasauwhoothy.net,REJECT
@@ -141,11 +167,14 @@ DOMAIN-SUFFIX,tags.native-ad.net,REJECT
 DOMAIN-SUFFIX,toathoule.com,REJECT
 
 # U
+DOMAIN,unpkg.com,REJECT
+
 # V
 DOMAIN-SUFFIX,v9banners.com,REJECT
 DOMAIN-SUFFIX,vads.net.vn,REJECT
 DOMAIN-SUFFIX,vidverto.io,REJECT
 DOMAIN-SUFFIX,vidcrunch.com,REJECT
+DOMAIN-SUFFIX,vipads.live,REJECT
 # W
 # X
 # Y
