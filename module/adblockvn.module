@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,apinas.nct.vn,REJECT
 DOMAIN-SUFFIX,adbro.me,REJECT
 DOMAIN-SUFFIX,adxcontent.com,REJECT
 DOMAIN-SUFFIX,adtrafficquality.google,REJECT
+DOMAIN-SUFFIX,amung.us,REJECT
 
 
 # B
@@ -77,6 +78,7 @@ DOMAIN-SUFFIX,doubleclick.net,REJECT
 
 # E
 DOMAIN-SUFFIX,eclick.vn,REJECT
+DOMAIN-SUFFIX,exoclick.com,REJECT
 
 # F
 DOMAIN,fieryinjure.com,REJECT
@@ -114,6 +116,8 @@ DOMAIN-SUFFIX,staticscdn.net,REJECT
 DOMAIN,jun8899.me,REJECT
 DOMAIN,javbest.cc,REJECT
 # K
+DOMAIN,ku42hjr2e.com,REJECT
+DOMAIN-SUFFIX,kvsadman.com,REJECT
 # L
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
 DOMAIN-SUFFIX,lavanetwork.net,REJECT
@@ -145,6 +149,8 @@ DOMAIN-SUFFIX,overseagyassa.com,REJECT
 DOMAIN-SUFFIX,orbsrv.com,REJECT
 
 # P
+DOMAIN-SUFFIX,pasjcutadak.com,REJECT
+
 DOMAIN-SUFFIX,poasauwhoothy.net,REJECT
 DOMAIN-SUFFIX,psugheeghuli.net,REJECT
 DOMAIN-SUFFIX,pubmatic.com,REJECT
@@ -164,6 +170,11 @@ DOMAIN-SUFFIX,realclick.vn,REJECT
 DOMAIN-SUFFIX,rottencycle.com,REJECT
 
 # S
+
+DOMAIN,soc88.com,REJECT
+DOMAIN,s.shopee.vn,REJECT
+DOMAIN,ss.yomedia.vn,REJECT
+
 DOMAIN-SUFFIX,sbbanner.com,REJECT
 DOMAIN-SUFFIX,soc88.com,REJECT
 DOMAIN-SUFFIX,sourcetobin.com,REJECT
@@ -171,14 +182,14 @@ DOMAIN-SUFFIX,syphonseity.com,REJECT
 DOMAIN-SUFFIX,philacct.com,REJECT
 DOMAIN-SUFFIX,adconnect.vn,REJECT
 DOMAIN-SUFFIX,seovietnam.pro,REJECT
+DOMAIN-SUFFIX,showbiref.pro,REJECT
 
-DOMAIN,soc88.com,REJECT
-DOMAIN,s.shopee.vn,REJECT
-DOMAIN,ss.yomedia.vn,REJECT
+
 
 # T
 DOMAIN,tvc.biphim.club,REJECT
 DOMAIN,trunkpkg.com,REJECT
+DOMAIN,t7cp4fldl.com,REJECT
 
 DOMAIN-SUFFIX,togataurnfuls.com,REJECT
 DOMAIN-SUFFIX,taboola.com,REJECT
@@ -187,6 +198,7 @@ DOMAIN-SUFFIX,toathoule.com,REJECT
 
 # U
 DOMAIN,unpkg.com,REJECT
+DOMAIN,unsungpolicy.com,REJECT
 
 # V
 DOMAIN-SUFFIX,v9banners.com,REJECT
