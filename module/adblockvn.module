@@ -143,6 +143,7 @@ DOMAIN-SUFFIX,toathoule.com,REJECT
 DOMAIN-SUFFIX,v9banners.com,REJECT
 DOMAIN-SUFFIX,vads.net.vn,REJECT
 DOMAIN-SUFFIX,vidverto.io,REJECT
+DOMAIN-SUFFIX,vidcrunch.com,REJECT
 # W
 # X
 # Y
