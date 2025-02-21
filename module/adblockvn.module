@@ -2,6 +2,7 @@
 #!desc=Ads Block Hosts
 [Rule]
 # A
+DOMAIN,admicro.vn,REJECT
 DOMAIN,ads-cdn.fptplay.net,REJECT
 DOMAIN,ads.mxhnkn.pro,REJECT
 DOMAIN,ads.starzd.com,REJECT
@@ -30,6 +31,8 @@ DOMAIN-SUFFIX,adbro.me,REJECT
 
 
 # B
+
+DOMAIN-SUFFIX,bizfly.vn,REJECT
 DOMAIN-SUFFIX,bidgear-syndication.com,REJECT
 DOMAIN-SUFFIX,blueseed.tv,REJECT
 DOMAIN-SUFFIX,bncloudfl.com,REJECT
