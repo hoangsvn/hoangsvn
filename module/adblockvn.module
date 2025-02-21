@@ -2,10 +2,18 @@
 #!desc=Ads Block Hosts
 [Rule]
 # A
+DOMAIN,ads-cdn.fptplay.net,REJECT
+DOMAIN,ads.mxhnkn.pro,REJECT
+DOMAIN,ads.starzd.com,REJECT
+DOMAIN,ads.x-cdn.org,REJECT
+DOMAIN,advertising.amazon.com,REJECT
+DOMAIN,advertise.cloudlinks.cn,REJECT
+
 DOMAIN-SUFFIX,adfly.vn,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
 DOMAIN-SUFFIX,adlinknetwork.vn,REJECT
 DOMAIN-SUFFIX,adpia.vn,REJECT
+DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,adsmogo.org,REJECT
 DOMAIN-SUFFIX,advertnative.com,REJECT
 DOMAIN-SUFFIX,affordedseasick.com,REJECT
@@ -19,16 +27,6 @@ DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,apinas.nct.vn,REJECT
 DOMAIN-SUFFIX,adbro.me,REJECT
-DOMAIN-SUFFIX,admicro.vn,REJECT
-DOMAIN,ads-cdn.fptplay.net,REJECT
-DOMAIN,ads.mxhnkn.pro,REJECT
-DOMAIN,ads.starzd.com,REJECT
-DOMAIN,ads.x-cdn.org,REJECT
-DOMAIN,advertising.amazon.com,REJECT
-DOMAIN,adx.admicro.vn,REJECT
-DOMAIN,advertise.cloudlinks.cn,REJECT
-
-
 
 
 # B
@@ -37,11 +35,11 @@ DOMAIN-SUFFIX,blueseed.tv,REJECT
 DOMAIN-SUFFIX,bncloudfl.com,REJECT
 
 # C
+DOMAIN,cdnstoremedia.com,REJECT
+
 DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
 DOMAIN-SUFFIX,cpt.geniee.jp,REJECT
-
-DOMAIN,cdnstoremedia.com,REJECT
 
 # D
 DOMAIN-SUFFIX,dable.io,REJECT
@@ -72,7 +70,8 @@ DOMAIN-SUFFIX,imad24.com,REJECT
 DOMAIN-SUFFIX,img.yeuketqua.net,REJECT
 DOMAIN-SUFFIX,immaculate-suspect.com,REJECT
 DOMAIN-SUFFIX,staticscdn.net,REJECT
-
+# J
+# K
 # L
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
 DOMAIN-SUFFIX,lavanetwork.net,REJECT
@@ -80,18 +79,18 @@ DOMAIN-SUFFIX,logging.admicro.vn,REJECT
 DOMAIN-SUFFIX,log.adtimaserver.vn,REJECT
 
 # M
+DOMAIN,max88.com,REJECT
+
 DOMAIN-SUFFIX,max88.com,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
 DOMAIN-SUFFIX,yomedia.vn,REJECT
 
-DOMAIN,max88.com,REJECT
-
 # N
+DOMAIN,net88.in,REJECT
+
 DOMAIN-SUFFIX,net88.in,REJECT
 DOMAIN-SUFFIX,ny.foonerne.com,REJECT
-
-DOMAIN,net88.in,REJECT
 
 # O
 DOMAIN-SUFFIX,oursty.com,REJECT
@@ -103,17 +102,17 @@ DOMAIN-SUFFIX,psugheeghuli.net,REJECT
 DOMAIN-SUFFIX,pubmatic.com,REJECT
 
 # Q
-DOMAIN-SUFFIX,almudestilths.com,REJECT
-
 DOMAIN,qc.coccoc.com,REJECT
 DOMAIN,qc.violet.vn,REJECT
 DOMAIN,qcv5.blogtruyenmoi.com,REJECT
 
-# R
-DOMAIN-SUFFIX,realclick.vn,REJECT
+DOMAIN-SUFFIX,almudestilths.com,REJECT
 
+# R
 DOMAIN,rottencycle.com,REJECT
 
+DOMAIN-SUFFIX,realclick.vn,REJECT
+DOMAIN-SUFFIX,rottencycle.com,REJECT
 
 # S
 DOMAIN-SUFFIX,sbbanner.com,REJECT
@@ -128,20 +127,23 @@ DOMAIN,s.shopee.vn,REJECT
 DOMAIN,ss.yomedia.vn,REJECT
 
 # T
-DOMAIN-SUFFIX,taboola.com,REJECT
-DOMAIN-SUFFIX,tags.native-ad.net,REJECT
-DOMAIN-SUFFIX,toathoule.com,REJECT
 DOMAIN,tvc.biphim.club,REJECT
 DOMAIN,trunkpkg.com,REJECT
 
+DOMAIN-SUFFIX,taboola.com,REJECT
+DOMAIN-SUFFIX,tags.native-ad.net,REJECT
+DOMAIN-SUFFIX,toathoule.com,REJECT
+
+# U
 # V
 DOMAIN-SUFFIX,v9banners.com,REJECT
 DOMAIN-SUFFIX,vads.net.vn,REJECT
 DOMAIN-SUFFIX,vidverto.io,REJECT
-
+# W
+# X
 # Y
 DOMAIN-SUFFIX,yodimedia.com,REJECT
-
+# Z
 
 [URL Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
