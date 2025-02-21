@@ -39,7 +39,7 @@ DOMAIN-SUFFIX,bncloudfl.com,REJECT
 
 # C
 DOMAIN,cdnstoremedia.com,REJECT
-
+DOMAIN,clgt.xyz,REJECT
 DOMAIN-SUFFIX,cdnstoremedia.com,REJECT
 DOMAIN-SUFFIX,cloudfront.net,REJECT
 DOMAIN-SUFFIX,contineljs.com,REJECT
@@ -76,7 +76,7 @@ DOMAIN-SUFFIX,yeuketqua.net,REJECT
 DOMAIN-SUFFIX,immaculate-suspect.com,REJECT
 DOMAIN-SUFFIX,staticscdn.net,REJECT
 # J
-DOMAIN,jun88.me,REJECT
+DOMAIN,jun8899.me,REJECT
 # K
 # L
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
