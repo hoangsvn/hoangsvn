@@ -5,6 +5,8 @@ def process_domains(file_path):
     output_lines.append(f"#!name=Block Ads VN")
     output_lines.append(f"#!desc=Ads Block Hosts")
     output_lines.append(f"")
+    output_lines.append(f"#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module")
+    output_lines.append(f"")
     output_lines.append(f"[Rule]")
     with open(file_path, "r", encoding="utf-8") as f:
         lines = sorted({line.strip() for line in f.readlines() if not line.startswith("#")})

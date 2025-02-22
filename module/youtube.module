@@ -1,5 +1,6 @@
 #!name =YouTube
 #!desc =No ADS
+#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module
 
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT

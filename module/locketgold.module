@@ -1,5 +1,6 @@
 #!name=Locket Gold
 #!desc=Gold
+#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/locketgold.module
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com
