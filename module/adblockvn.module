@@ -3,6 +3,198 @@
 
 [Rule]
 # A
+DOMAIN,ad.org.vn,REJECT
+DOMAIN,adasiaholdings.com,REJECT
+DOMAIN,adbro.me,REJECT
+DOMAIN,adconnect.vn,REJECT
+DOMAIN,adflex.vn,REJECT
+DOMAIN,adfly.vn,REJECT
+DOMAIN,adlinknetwork.vn,REJECT
+DOMAIN,admicro.vn,REJECT
+DOMAIN,adminplayer.sohatv.vn,REJECT
+DOMAIN,admob.com,REJECT
+DOMAIN,adpia.vn,REJECT
+DOMAIN,adrealclick.com,REJECT
+DOMAIN,ads-api.twitter.com,REJECT
+DOMAIN,ads-api.x.com,REJECT
+DOMAIN,ads-bidder-api.twitter.com,REJECT
+DOMAIN,ads-cdn.fptplay.net,REJECT
+DOMAIN,ads.mxhnkn.pro,REJECT
+DOMAIN,ads.starzd.com,REJECT
+DOMAIN,ads.twitter.com,REJECT
+DOMAIN,ads.x-cdn.org,REJECT
+DOMAIN,ads.yahoo.com,REJECT
+DOMAIN,adserver.yahoo.com,REJECT
+DOMAIN,adsmogo.org,REJECT
+DOMAIN,adsota.com,REJECT
+DOMAIN,adsparc.com,REJECT
+DOMAIN,adsparc.net,REJECT
+DOMAIN,adsplay.net,REJECT
+DOMAIN,adtimaserver.vn,REJECT
+DOMAIN,adtrafficquality.google,REJECT
+DOMAIN,advertise.cloudlinks.cn,REJECT
+DOMAIN,advertising.amazon.com,REJECT
+DOMAIN,advertnative.com,REJECT
+DOMAIN,adxcontent.com,REJECT
+DOMAIN,afcdn.net,REJECT
+DOMAIN,affordedseasick.com,REJECT
+DOMAIN,aiactiv.io,REJECT
+DOMAIN,aiservice.vn,REJECT
+DOMAIN,aj1047.online,REJECT
+DOMAIN,aj2393.online,REJECT
+DOMAIN,akadigital.vn,REJECT
+DOMAIN,almudestilths.com,REJECT
+DOMAIN,amcdn.vn,REJECT
+DOMAIN,amung.us,REJECT
+DOMAIN,anquan.org,REJECT
+DOMAIN,ants.vn,REJECT
+DOMAIN,apinas.nct.vn,REJECT
+DOMAIN,atdnetwork.com,REJECT
+DOMAIN,autoads.asia,REJECT
+# B
+DOMAIN,bidgear-syndication.com,REJECT
+DOMAIN,bidgear.com,REJECT
+DOMAIN,bigstoreminigames.space,REJECT
+DOMAIN,bizfly.vn,REJECT
+DOMAIN,blueseed.tv,REJECT
+DOMAIN,bncloudfl.com,REJECT
+# C
+DOMAIN,cdn.jsdelivr.net,REJECT
+DOMAIN,cdn.storageimagedisplay.com,REJECT
+DOMAIN,cdnstoremedia.com,REJECT
+DOMAIN,chaseherbalpasty.com,REJECT
+DOMAIN,citadelpathstatue.com,REJECT
+DOMAIN,cityads.com,REJECT
+DOMAIN,clevernet.vn,REJECT
+DOMAIN,clgt.xyz,REJECT
+DOMAIN,cloudfront.net,REJECT
+DOMAIN,contineljs.com,REJECT
+DOMAIN,coosync.com,REJECT
+# D
+DOMAIN,dable.io,REJECT
+DOMAIN,deqik.com,REJECT
+DOMAIN,diagramjawlineunhappy.com,REJECT
+DOMAIN,distinctrobin.com,REJECT
+DOMAIN,donglogs.com,REJECT
+DOMAIN,doubleclick.net,REJECT
+# E
+DOMAIN,eclick.vn,REJECT
+DOMAIN,exoclick.com,REJECT
+# F
+DOMAIN,fieryinjure.com,REJECT
+DOMAIN,fly-ads.net,REJECT
+DOMAIN,foonerne.com,REJECT
+DOMAIN,fuseplatform.net,REJECT
+# G
+DOMAIN,gammaplatform.com,REJECT
+DOMAIN,geniee.jp,REJECT
+DOMAIN,genieesspv.jp,REJECT
+DOMAIN,genmonet.com,REJECT
+DOMAIN,glodretsa.net,REJECT
+DOMAIN,googlesyndication.com,REJECT
+DOMAIN,googletagmanager.com,REJECT
+DOMAIN,gullyending.com,REJECT
+# H
+DOMAIN,hbplatform.com,REJECT
+DOMAIN,henho24h.net,REJECT
+DOMAIN,holahupa.com,REJECT
+DOMAIN,hotngay.vn,REJECT
+DOMAIN,hqq.to,REJECT
+# I
+DOMAIN,iads.vision,REJECT
+DOMAIN,imad24.com,REJECT
+DOMAIN,images.dmca.com,REJECT
+DOMAIN,imgur.com,REJECT
+DOMAIN,immaculate-suspect.com,REJECT
+# J
+DOMAIN,javbest.cc,REJECT
+DOMAIN,jun8899.me,REJECT
+# K
+DOMAIN,klick.vn,REJECT
+DOMAIN,ku42hjr2e.com,REJECT
+DOMAIN,kvsadman.com,REJECT
+# L
+DOMAIN,lavamedia.vn,REJECT
+DOMAIN,lavanetwork.net,REJECT
+DOMAIN,log.adtimaserver.vn,REJECT
+DOMAIN,logging.admicro.vn,REJECT
+# M
+DOMAIN,magsrv.com,REJECT
+DOMAIN,max88.com,REJECT
+DOMAIN,mediaz.asia,REJECT
+DOMAIN,mediaz.vn,REJECT
+DOMAIN,mepuzz.com,REJECT
+DOMAIN,meta.vn,REJECT
+DOMAIN,midgetmaying.com,REJECT
+DOMAIN,mobilead.vn,REJECT
+# N
+DOMAIN,nanda.vn,REJECT
+DOMAIN,net88.in,REJECT
+DOMAIN,novanet.vn,REJECT
+DOMAIN,novaon.asia,REJECT
+DOMAIN,novaonads.com,REJECT
+DOMAIN,novaonx.com,REJECT
+# O
+DOMAIN,ohchat.net,REJECT
+DOMAIN,oncustomer.asia,REJECT
+DOMAIN,onfluencer.net,REJECT
+DOMAIN,openfpcdn.io,REJECT
+DOMAIN,orbsrv.com,REJECT
+DOMAIN,oursty.com,REJECT
+DOMAIN,overseagyassa.com,REJECT
+# P
+DOMAIN,pasjcutadak.com,REJECT
+DOMAIN,phanquang.vn,REJECT
+DOMAIN,philacct.com,REJECT
+DOMAIN,poasauwhoothy.net,REJECT
+DOMAIN,proadscdn.com,REJECT
+DOMAIN,psugheeghuli.net,REJECT
+DOMAIN,pubmatic.com,REJECT
+DOMAIN,pushdy.vn,REJECT
+# Q
+DOMAIN,qc.coccoc.com,REJECT
+DOMAIN,qc.violet.vn,REJECT
+DOMAIN,qcv5.blogtruyenmoi.com,REJECT
+DOMAIN,quoracdn.net,REJECT
+# R
+DOMAIN,realclick.vn,REJECT
+DOMAIN,rottencycle.com,REJECT
+# S
+DOMAIN,s.shopee.vn,REJECT
+DOMAIN,sbbanner.com,REJECT
+DOMAIN,seovietnam.pro,REJECT
+DOMAIN,showbiref.pro,REJECT
+DOMAIN,smartadserver.com,REJECT
+DOMAIN,soc88.com,REJECT
+DOMAIN,sourcetobin.com,REJECT
+DOMAIN,ss.yomedia.vn,REJECT
+DOMAIN,staticscdn.net,REJECT
+DOMAIN,surfcountor.com,REJECT
+DOMAIN,syphonseity.com,REJECT
+# T
+DOMAIN,t7cp4fldl.com,REJECT
+DOMAIN,taboola.com,REJECT
+DOMAIN,tags.native-ad.net,REJECT
+DOMAIN,toathoule.com,REJECT
+DOMAIN,togataurnfuls.com,REJECT
+DOMAIN,trunkpkg.com,REJECT
+DOMAIN,tvc.biphim.club,REJECT
+# U
+DOMAIN,unpkg.com,REJECT
+DOMAIN,unsungpolicy.com,REJECT
+# V
+DOMAIN,v9banners.com,REJECT
+DOMAIN,vads.net.vn,REJECT
+DOMAIN,vcmedia.vn,REJECT
+DOMAIN,vidcrunch.com,REJECT
+DOMAIN,vidoomy.com,REJECT
+DOMAIN,vidverto.io,REJECT
+DOMAIN,vipads.live,REJECT
+# Y
+DOMAIN,yeuketqua.net,REJECT
+DOMAIN,yodimedia.com,REJECT
+DOMAIN,yomedia.vn,REJECT
+# A
 DOMAIN-SUFFIX,ad.org.vn,REJECT
 DOMAIN-SUFFIX,adasiaholdings.com,REJECT
 DOMAIN-SUFFIX,adbro.me,REJECT
