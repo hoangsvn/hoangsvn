@@ -11,11 +11,14 @@ afcdn.net
 adminplayer.sohatv.vn
 ads.yahoo.com
 ads-api.twitter.com
+iadsdk.apple.com
+iads.unity3d.com
 ads-bidder-api.twitter.com
 ads.twitter.com
 ads-api.x.com
 adtimaserver.vn
 appsflyer.com
+iad.apple.com
 pangle.io
 pangle-b.io
 app-measurement.com
