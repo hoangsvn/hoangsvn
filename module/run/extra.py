@@ -8,15 +8,7 @@ def process_domains(file_path):
     output_lines.append(f"[Rule]")
     with open(file_path, "r", encoding="utf-8") as f:
         lines = sorted({line.strip() for line in f.readlines() if not line.startswith("#")})
-        last_initial = None
-        for line in lines:
-            line = line.strip()
-            if line and not line.startswith("#"):
-                initial = line[0].upper()
-                if initial != last_initial:
-                    output_lines.append(f"# {initial}")
-                    last_initial = initial
-                output_lines.append(f"DOMAIN,{line},REJECT")
+
         last_initial = None
         for line in lines:
             line = line.strip()
