@@ -6,6 +6,7 @@
 DOMAIN-SUFFIX,ad.org.vn,REJECT
 DOMAIN-SUFFIX,adasiaholdings.com,REJECT
 DOMAIN-SUFFIX,adbro.me,REJECT
+DOMAIN-SUFFIX,adcolony.com,REJECT
 DOMAIN-SUFFIX,adconnect.vn,REJECT
 DOMAIN-SUFFIX,adflex.vn,REJECT
 DOMAIN-SUFFIX,adfly.vn,REJECT
@@ -21,10 +22,12 @@ DOMAIN-SUFFIX,ads-bidder-api.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-cdn.fptplay.net,REJECT
 DOMAIN-SUFFIX,ads.mxhnkn.pro,REJECT
 DOMAIN-SUFFIX,ads.starzd.com,REJECT
+DOMAIN-SUFFIX,ads.tiktok.com,REJECT
 DOMAIN-SUFFIX,ads.twitter.com,REJECT
 DOMAIN-SUFFIX,ads.x-cdn.org,REJECT
 DOMAIN-SUFFIX,ads.yahoo.com,REJECT
 DOMAIN-SUFFIX,adserver.yahoo.com,REJECT
+DOMAIN-SUFFIX,adservice.google.com,REJECT
 DOMAIN-SUFFIX,adsmogo.org,REJECT
 DOMAIN-SUFFIX,adsota.com,REJECT
 DOMAIN-SUFFIX,adsparc.com,REJECT
@@ -49,6 +52,7 @@ DOMAIN-SUFFIX,amung.us,REJECT
 DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,apinas.nct.vn,REJECT
+DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,atdnetwork.com,REJECT
 DOMAIN-SUFFIX,autoads.asia,REJECT
@@ -92,7 +96,6 @@ DOMAIN-SUFFIX,geniee.jp,REJECT
 DOMAIN-SUFFIX,genieesspv.jp,REJECT
 DOMAIN-SUFFIX,genmonet.com,REJECT
 DOMAIN-SUFFIX,glodretsa.net,REJECT
-DOMAIN-SUFFIX,googleadservices.com,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,gullyending.com,REJECT
@@ -184,6 +187,7 @@ DOMAIN-SUFFIX,togataurnfuls.com,REJECT
 DOMAIN-SUFFIX,trunkpkg.com,REJECT
 DOMAIN-SUFFIX,tvc.biphim.club,REJECT
 # U
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,unpkg.com,REJECT
 DOMAIN-SUFFIX,unsungpolicy.com,REJECT
 # V
