@@ -17,16 +17,7 @@ def process_domains(file_path):
                     output_lines.append(f"# {initial}")
                     last_initial = initial
                 output_lines.append(f"DOMAIN-SUFFIX,{line},REJECT")
-        last_initial = None
-        for line in lines:
-            line = line.strip()
-            if line and not line.startswith("#"):
-                initial = line[0].upper()
-                if initial != last_initial:
-                    output_lines.append(f"# {initial}")
-                    last_initial = initial
-                output_lines.append(f"DOMAIN,{line},REJECT")
-        output_lines.append(f"# END MODULE")
+       
     return "\n".join(output_lines)
 
 # Đọc nội dung từ file đầu vào

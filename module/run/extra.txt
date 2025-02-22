@@ -18,6 +18,7 @@ adtimaserver.vn
 appsflyer.com
 pangle.io
 pangle-b.io
+googleadservices.com
 
 adsplay.net
 adasiaholdings.com
