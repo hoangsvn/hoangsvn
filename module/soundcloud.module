@@ -3,7 +3,7 @@
 
 [Script]
 
-SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/Soundcloud/soundcloud.js
+SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/js/soundcloud.js
 
 [MITM]
 
