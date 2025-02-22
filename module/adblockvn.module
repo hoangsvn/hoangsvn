@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,amung.us,REJECT
 DOMAIN-SUFFIX,anquan.org,REJECT
 DOMAIN-SUFFIX,ants.vn,REJECT
 DOMAIN-SUFFIX,apinas.nct.vn,REJECT
+DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,atdnetwork.com,REJECT
 DOMAIN-SUFFIX,autoads.asia,REJECT
 # B
@@ -241,6 +242,7 @@ DOMAIN,amung.us,REJECT
 DOMAIN,anquan.org,REJECT
 DOMAIN,ants.vn,REJECT
 DOMAIN,apinas.nct.vn,REJECT
+DOMAIN,appsflyer.com,REJECT
 DOMAIN,atdnetwork.com,REJECT
 DOMAIN,autoads.asia,REJECT
 # B

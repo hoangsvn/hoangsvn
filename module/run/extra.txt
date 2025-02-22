@@ -15,6 +15,7 @@ ads-bidder-api.twitter.com
 ads.twitter.com
 ads-api.x.com
 adtimaserver.vn
+appsflyer.com
 
 adsplay.net
 adasiaholdings.com
