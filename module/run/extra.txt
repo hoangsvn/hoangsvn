@@ -16,6 +16,8 @@ ads.twitter.com
 ads-api.x.com
 adtimaserver.vn
 appsflyer.com
+pangle.io
+pangle-b.io
 
 adsplay.net
 adasiaholdings.com

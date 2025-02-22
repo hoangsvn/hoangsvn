@@ -144,6 +144,8 @@ DOMAIN-SUFFIX,orbsrv.com,REJECT
 DOMAIN-SUFFIX,oursty.com,REJECT
 DOMAIN-SUFFIX,overseagyassa.com,REJECT
 # P
+DOMAIN-SUFFIX,pangle-b.io,REJECT
+DOMAIN-SUFFIX,pangle.io,REJECT
 DOMAIN-SUFFIX,pasjcutadak.com,REJECT
 DOMAIN-SUFFIX,phanquang.vn,REJECT
 DOMAIN-SUFFIX,philacct.com,REJECT
@@ -337,6 +339,8 @@ DOMAIN,orbsrv.com,REJECT
 DOMAIN,oursty.com,REJECT
 DOMAIN,overseagyassa.com,REJECT
 # P
+DOMAIN,pangle-b.io,REJECT
+DOMAIN,pangle.io,REJECT
 DOMAIN,pasjcutadak.com,REJECT
 DOMAIN,phanquang.vn,REJECT
 DOMAIN,philacct.com,REJECT
