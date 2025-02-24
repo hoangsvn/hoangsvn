@@ -3,8 +3,8 @@ def process_domains(file_path):
     processed_domains = set()    
     output_lines = []
     output_lines.append(f"#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module")
-    output_lines.append(f"#!name=ADSBlock")
-    output_lines.append(f"#!desc=Block ADS")
+    output_lines.append(f"#!name=ADBlock")
+    output_lines.append(f"#!desc=Block QC")
     output_lines.append(f"")
     output_lines.append(f"[Rule]")
     with open(file_path, "r", encoding="utf-8") as f:
