@@ -14,8 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 #  ShadowRocket
-### Active SoundCloud Youtube Spotify
-[SoundCloud](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module)
+### Youtube [link](https://tinyurl.com/ywbrjudz)
 ### Youtube [Youtube](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module)
 ### Spotify [Spotify](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module)
 ### AdsBLock [AdsBlockVN](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module)
