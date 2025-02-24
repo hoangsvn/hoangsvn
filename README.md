@@ -14,11 +14,11 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 #  ShadowRocket
-### Youtube [link](https://tinyurl.com/ywbrjudz)
-### Youtube [Youtube](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module)
-### Spotify [Spotify](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module)
-### AdsBLock [AdsBlockVN](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module)
-### LocketGold [LockKetGOLD](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/locketgold.module)
+### SoundCloud [link](https://tinyurl.com/ywbrjudz)
+### Youtube [link](https://tinyurl.com/mr2ah8ra)
+### Spotify [link](https://tinyurl.com/nbnn728d)
+### ADSBLock [link](https://tinyurl.com/y77ywu3c)
+### Locket [link](https://tinyurl.com/yzzz7ac2)
 
 #  Assistive Touch
 #### Vì app trên chplay có nhiều quảng cáo nên tự code app tự dùng 
