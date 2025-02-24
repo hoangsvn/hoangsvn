@@ -1,5 +1,4 @@
 import { AccountAttribute } from '../lib/protobuf/spotify/main_pb.js'
-
 try {
   if (!$response?.body) {
     throw new Error('Response body is undefined or null')
@@ -8,7 +7,6 @@ try {
     throw new TypeError('Response body is not an ArrayBuffer')
   }
   processMapObj(AccountAttribute.fromBinary(new Uint8Array($response.body)))
-  // @ts-expect-error
   $done({ body })
 } catch (error) {
   console.error('Error processing protobuf:', error)
