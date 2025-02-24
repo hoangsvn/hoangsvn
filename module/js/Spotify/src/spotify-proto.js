@@ -1,19 +1,11 @@
 import { AccountAttribute } from '../lib/protobuf/spotify/main_pb.js'
 try {
-  if (!$response?.body) {
-    throw new Error('Response body is undefined or null')
-  }
-  if (!($response.body instanceof ArrayBuffer)) {
-    throw new TypeError('Response body is not an ArrayBuffer')
-  }
-  processMapObj(AccountAttribute.fromBinary(new Uint8Array($response.body)))
+  let body = AccountAttribute.fromBinary(new Uint8Array($response.body));
+  processMapObj(body)
   $done({ body })
 } catch (error) {
-  console.error('Error processing protobuf:', error)
   $done()
 }
-
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 function processMapObj (accountAttributesMapObj) {
   accountAttributesMapObj['player-license'] = { stringValue: 'premium' }
   accountAttributesMapObj.mobile = { boolValue: true }
