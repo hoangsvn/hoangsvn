@@ -1,6 +1,7 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
-#!name=ADBHoangVN
-#!desc=ADBlock
+#!name=ADSBlock
+#!desc=Block ADS
+
 [Rule]
 # A
 DOMAIN-SUFFIX,ad.org.vn,REJECT

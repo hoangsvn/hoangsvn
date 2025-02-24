@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module
-#!name=SpotifyHoang
-#!desc=Premium
+#!name=Spotify
+#!desc=Active Premium
 
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
