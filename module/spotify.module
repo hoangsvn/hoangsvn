@@ -1,7 +1,6 @@
-#!name=Spotify(iOS15)
+#!name=SpotifyHoang
 #!desc=Premium
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module
-
 
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
