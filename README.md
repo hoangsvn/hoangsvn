@@ -13,6 +13,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+#  ShadowRocket
+### Active SoundCloud Youtube Spotify
+### SoundCloud [SoundCloud](shadowrocket://install?module='https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module')
+### Youtube [Youtube](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module)
+### Spotify [Spotify](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module)
+### AdsBLock [AdsBlockVN](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module)
+### LocketGold [LockKetGOLD](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/locketgold.module)
 
 #  Assistive Touch
 #### Vì app trên chplay có nhiều quảng cáo nên tự code app tự dùng 
@@ -21,10 +28,4 @@ Here are some ideas to get you started:
 ## Ảnh sử dụng
 <img src="ima/1.png" width="30%"> <img src="ima/2.png" width="30%"> <img src="ima/3.png" width="30%">
 
-#  ShadowRocket
-### Active SoundCloud Youtube Spotify
-##### SoundCloud [SoundCloud](shadowrocket://install?module=//https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module)
-##### Youtube [Youtube](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module)
-##### Spotify [Spotify](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module)
-##### AdsBLock [AdsBlockVN](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module)
-##### LocketGold [LockKetGOLD](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/locketgold.module)
+
