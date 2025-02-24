@@ -14,9 +14,17 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-#  Asistive Touch
+#  Assistive Touch
 #### Vì app trên chplay có nhiều quảng cáo nên tự code app tự dùng 
-## DownLoad  [App.apk](https://github.com/hoangsvn/hoangsvn/raw/main/apk/app-release.apk)
+### DownLoad  [App.apk](https://github.com/hoangsvn/hoangsvn/raw/main/apk/app-release.apk)
 
 ## Ảnh sử dụng
 <img src="ima/1.png" width="30%"> <img src="ima/2.png" width="30%"> <img src="ima/3.png" width="30%">
+
+#  ShadowRocket
+### Active SoundCloud Youtube Spotify
+##### [SoundCloud](shadowrocket://install?module=//https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module)
+##### [Youtube](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module)
+##### [Spotify](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module)
+##### [AdsBlockVN](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module)
+##### [LockKetGOLD](shadowrocket://install?module=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/locketgold.module)

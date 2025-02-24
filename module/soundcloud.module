@@ -1,6 +1,6 @@
-﻿#!name=SoundCloud
+﻿#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module
+#!name=SoundCloud
 #!desc=Active Go
-#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module
 
 [Script]
 

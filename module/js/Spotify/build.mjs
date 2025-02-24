@@ -7,5 +7,5 @@ esbuild.buildSync({
   minify: true,
   banner: { js: `// Build Spotify: ${now}` },
   sourcemap: false,
-  outfile: './dist/spotify.js'
+  outfile: './dist/spotifyproto.js'
 })

@@ -47,7 +47,7 @@ function processMapObj(accountAttributesMapObj){
     accountAttributesMapObj['financial-product'] = {stringValue : 'pr:premium,tc:0'};
     accountAttributesMapObj['license-acceptance-grace-days'] = {longValue : 30};
     accountAttributesMapObj['mobile-login'] = {boolValue : true};
-    accountAttributesMapObj['name'] = {stringValue : 'Spotify Premium'};
+    accountAttributesMapObj['name'] = {stringValue : 'Active Premium'};
     accountAttributesMapObj['on-demand'] = {boolValue : true};
     accountAttributesMapObj['ads'] = {boolValue : false};
     accountAttributesMapObj['catalogue'] = {stringValue : 'premium'};
