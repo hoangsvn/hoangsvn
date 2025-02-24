@@ -8,7 +8,6 @@ esbuild.buildSync({
   bundle: true,
   minify: !debug,
   banner: { js: `// Build Spotify: ${now}` },
-  // inject: ['./lib/text-polyfill.mjs'],
   sourcemap: false,
   outfile: './dist/spotify.js'
 })

@@ -281,8 +281,7 @@ const spotifyJson = {
 const url = $request.url
 const method = $request.method
 const postMethod = 'POST'
-const isQuanX = typeof $task !== 'undefined'
-const binaryBody = isQuanX ? new Uint8Array($response.bodyBytes) : $response.body
+const binaryBody = new Uint8Array($response.bodyBytes)
 let accountAttributesMapObj
 let body
 if (url.includes('bootstrap/v1/bootstrap') && method === postMethod) {
@@ -291,20 +290,15 @@ if (url.includes('bootstrap/v1/bootstrap') && method === postMethod) {
     accountAttributesMapObj = bootstrapResponseObj.ucsResponseV0.success.customization.success.accountAttributesSuccess.accountAttributes
     processMapObj(accountAttributesMapObj)
     body = bootstrapResponseType.encode(bootstrapResponseObj).finish()
-    console.log('bootstrap')
 } else if (url.includes('user-customization-service/v1/customize') && method === postMethod) {
     let ucsResponseWrapperType = protobuf.Root.fromJSON(spotifyJson).lookupType('UcsResponseWrapper')
     let ucsResponseWrapperMessage = ucsResponseWrapperType.decode(binaryBody)
     accountAttributesMapObj = ucsResponseWrapperMessage.success.accountAttributesSuccess.accountAttributes
     processMapObj(accountAttributesMapObj)
     body = ucsResponseWrapperType.encode(ucsResponseWrapperMessage).finish()
-    console.log('customize')
 }
-if (isQuanX) {
-    $done({ bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset) })
-} else {
-    $done({ body })
-}
+
+$done({ body })
 
 function processMapObj (accountAttributesMapObj) {
     accountAttributesMapObj['player-license'] = { stringValue: 'premium' }
