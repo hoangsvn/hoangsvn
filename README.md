@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 ### SoundCloud [link](https://tinyurl.com/ywbrjudz)
 ### Youtube [link](https://tinyurl.com/mr2ah8ra)
 ### Spotify [link](https://tinyurl.com/nbnn728d)
-### ADSBLock [link](https://tinyurl.com/y77ywu3c)
+### ADBLock [link](https://tinyurl.com/y77ywu3c)
 ### Locket [link](https://tinyurl.com/yzzz7ac2)
 
 #  Assistive Touch
