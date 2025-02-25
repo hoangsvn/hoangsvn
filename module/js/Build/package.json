@@ -1,13 +1,14 @@
 {
-  "name": "youtube",
+  "name": "build",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ts",
+  "main": "",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node test/test.ts",
-    "build": "node build.mjs",
+    "build:youtube": "node youtube.mjs",
+    "build:spotify": "node spotify.mjs",
     "build:proto": "npx buf generate"
   },
   "author": "",
@@ -15,7 +16,8 @@
   "dependencies": {
     "@bufbuild/protobuf": "^1.7.2",
     "esbuild": "0.16.17",
-    "fast-text-encoding": "^1.0.6"
+    "fast-text-encoding": "^1.0.6",
+    "protobufjs": "^7.4.0"
   },
   "devDependencies": {
     "@bufbuild/buf": "^1.29.0",
