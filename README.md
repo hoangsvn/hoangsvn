@@ -14,6 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 #  ShadowRocket
+### Config [link](https://tinyurl.com/2s4yad8d)
 ### SoundCloud [link](https://tinyurl.com/ywbrjudz)
 ### Youtube [link](https://tinyurl.com/mr2ah8ra)
 ### Spotify [link](https://tinyurl.com/nbnn728d)
