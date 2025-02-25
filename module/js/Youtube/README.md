@@ -1,21 +1,14 @@
-# YouTube 去广告
-
+# YouTube NoAdS
 ## 1 install
-
 ```
 npm install
 ```
-
 ## 2 build
-
 **Build new YouTube.js**
-
 ```
 npm run build
 ```
-
 **Generate new youtube.ts from proto**
-
 ```
 npm run build:proto
 ```
