@@ -4,7 +4,7 @@
 
 [Script]
 
-SoundCloud=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/js/soundcloud.js
+SoundCloud=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/Build/dist/soundcloud.js
 
 [MITM]
 

@@ -1,11 +1,13 @@
 import * as esbuild from 'esbuild'
 
 esbuild.buildSync({
-  entryPoints: ['index.ts'],
+  entryPoints: {
+    youtube: 'index.js'
+  },
   bundle: true,
   minify: true,
   banner: { js: `// Build Youtube Start: ${new Date().toLocaleString()}` },
   footer: { js: `// Build Youtube End: ${new Date().toLocaleString()}` },
   sourcemap: false,
-  outfile: './dist/youtube.js'
+  outdir: './dist'
 })
