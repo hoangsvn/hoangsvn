@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "@bufbuild/protobuf": "^1.7.2",
-    "esbuild": "0.16.17"
+    "esbuild": "0.16.17",
+    "fast-text-encoding": "^1.0.6"
   },
   "devDependencies": {
     "@bufbuild/buf": "^1.29.0",

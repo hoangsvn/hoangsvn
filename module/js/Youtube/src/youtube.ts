@@ -31,18 +31,15 @@ export abstract class YouTubeMessage {
 
     decodeArgument(): Record<string, any> {
         const args = {
-
             debug: false
         }
         return $.decodeParams(args)
     }
-
     fromBinary(binaryBody: Uint8Array | undefined | string): YouTubeMessage {
         if (binaryBody instanceof Uint8Array) {
             this.message = this.msgType.fromBinary(binaryBody)
             return this
         }
-        $.log('YouTube can not get binaryBody')
         $.exit()
         return this
     }
@@ -100,7 +97,6 @@ export abstract class YouTubeMessage {
         while (stack.length) {
             const item = stack.pop()
             const keys = Object.keys(item)
-
             for (const key of keys) {
                 if (key === target) {
                     call(item, stack)

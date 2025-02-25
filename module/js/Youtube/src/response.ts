@@ -5,7 +5,7 @@ import {Next} from '../lib/protobuf/response/next_pb'
 import {Search} from '../lib/protobuf/response/search_pb'
 import {Shorts} from '../lib/protobuf/response/shorts_pb'
 import {Guide} from '../lib/protobuf/response/guide_pb'
-import {Player, BackgroundPlayer, TranslationLanguage, CaptionTrack} from '../lib/protobuf/response/player_pb'
+import {Player, BackgroundPlayer, TranslationLanguage} from '../lib/protobuf/response/player_pb'
 import {Setting, SubSetting, SettingItem} from '../lib/protobuf/response/setting_pb'
 import {Watch} from '../lib/protobuf/response/watch_pb'
 import {YouTubeMessage} from './youtube'
@@ -14,7 +14,6 @@ export class BrowseMessage extends YouTubeMessage {
     constructor(msgType: any = Browse, name: string = 'Browse') {
         super(msgType, name)
     }
-
     async pure(): Promise<YouTubeMessage> {
         this.iterate(this.message, 'sectionListSupportedRenderers', (obj) => {
             for (let i = obj.sectionListSupportedRenderers.length - 1; i >= 0; i--) {
@@ -66,9 +65,7 @@ export class PlayerMessage extends YouTubeMessage {
         if (this.message.adSlots?.length) {
             this.message.adSlots.length = 0
         }
-        // 去除广告追踪
         delete this.message?.playbackTracking?.pageadViewthroughconversion
-        // 增加 premium 特性
         this.addPlayAbility()
         this.addTranslateCaption()
         this.needProcess = true
@@ -76,12 +73,10 @@ export class PlayerMessage extends YouTubeMessage {
     }
 
     addPlayAbility(): void {
-        // 开启画中画
         const miniPlayerRender = this.message?.playabilityStatus?.miniPlayer?.miniPlayerRender
         if (typeof miniPlayerRender === 'object') {
             miniPlayerRender.active = true
         }
-        // 开启后台播放
         if (typeof this.message.playabilityStatus === 'object') {
             this.message.playabilityStatus.backgroundPlayer = new BackgroundPlayer({
                 backgroundPlayerRender: {
@@ -164,7 +159,6 @@ export class SettingMessage extends YouTubeMessage {
     }
 
     pure(): YouTubeMessage {
-        // 增加 PIP
         this.iterate(this.message.settingItems, 'categoryId', (obj) => {
             if (obj.categoryId === 10135) {
                 const PipSettingRender = new SubSetting({

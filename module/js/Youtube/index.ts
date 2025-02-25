@@ -1,4 +1,5 @@
 import createMessage from './lib/factory'
+import "fast-text-encoding"
 import {$} from './lib/env'
 
 async function run(): Promise<void> {
