@@ -1,14 +1,12 @@
 import * as esbuild from 'esbuild'
 
-const now = new Date().toLocaleString()
-const debug = false
-
 esbuild.buildSync({
   entryPoints: ['index.ts'],
   bundle: true,
-  minify: !debug,
-  banner: { js: `// Build: ${now}` },
-  inject: ['./lib/text-polyfill.mjs'],
+  minify: true,
+  banner: { js: `// Build Youtube Start: ${new Date().toLocaleString()}` },
+  footer: { js: `// Build Youtube End: ${new Date().toLocaleString()}` },
+  // inject: ['./lib/text-polyfill.mjs'],
   sourcemap: false,
   outfile: './dist/youtube.js'
 })

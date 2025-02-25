@@ -1,11 +1,14 @@
 import * as esbuild from 'esbuild'
-const now = new Date().toLocaleString()
 
 esbuild.buildSync({
-  entryPoints: ['./src/spotify-proto.js'],
-  bundle: true,
-  minify: true,
-  banner: { js: `// Build Spotify: ${now}` },
-  sourcemap: false,
-  outfile: './dist/spotifyproto.js'
+    entryPoints: {
+        spotifyproto:'./src/spotifyproto.js',
+        spotifyjson:'./src/spotifyjson.js'
+    },
+    bundle: true,
+    minify: true,
+    banner: { js: `// Build Spotify Start: ${new Date().toLocaleString()}` },
+    footer: { js: `// Build Spotify End: ${new Date().toLocaleString()}` },
+    sourcemap: false,
+    outdir: './dist'
 })

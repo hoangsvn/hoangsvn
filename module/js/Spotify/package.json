@@ -7,19 +7,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node test/test.ts",
-    "build": "node build.mjs",
-    "build:proto": "npx buf generate"
+    "build": "node build.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@bufbuild/protobuf": "^1.7.2",
     "esbuild": "0.16.17",
     "protobufjs": "^7.4.0"
   },
   "devDependencies": {
-    "@bufbuild/buf": "^1.29.0",
-    "@bufbuild/protoc-gen-es": "^1.7.2",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "eslint": "^8.31.0",
     "eslint-config-standard-with-typescript": "^26.0.0",
