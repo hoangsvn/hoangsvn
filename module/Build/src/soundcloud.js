@@ -54,4 +54,5 @@ obj.features = [
     'plans': []
   }
 ]
-$done(JSON.stringify(obj))
+$done({ body: JSON.stringify(obj) });
+
