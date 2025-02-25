@@ -67,7 +67,7 @@ declare interface ConversionRule<T> {
 declare const $environment: SgEnvironment | QxEnvironment
 declare const $request: SgRequest | QxRequest
 declare const $response: SgResponse | QxResponse
-declare const $done: (options?: SgDone | QxDone) => void
+declare const $done: (options?: string) => void
 declare const $loon: any
 declare const $rocket: any
 declare const $persistentStore: PersistentStore

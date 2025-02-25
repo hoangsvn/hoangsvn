@@ -9,6 +9,8 @@
     "start": "ts-node test/test.ts",
     "build:youtube": "node youtube.mjs",
     "build:spotify": "node spotify.mjs",
+    "build:locket": "node locket.mjs",
+    "build:soundcloud": "node soundcloud.mjs",
     "build:proto": "npx buf generate"
   },
   "author": "",

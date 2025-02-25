@@ -1,1 +1,2 @@
-$done({ url: $request.url.replace(/platform=iphone/, 'platform=ipad') });
+$done($request.url.replace(/platform=iphone/, 'platform=ipad'))
+
