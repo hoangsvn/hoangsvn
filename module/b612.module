@@ -1,6 +1,6 @@
 ﻿#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/b612.module#!name=B612
 #!desc=Active Member
 [Script]
-B612=type=http-response,pattern=https://user-kaji-api.b612kaji.com/v1/purchase/subscription/subscriber/status,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/Build/dist/b612.js
+B612=type=http-response,pattern=https://user-b612.api.snow.me/v1/purchase/subscription/subscriber/status,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/Build/dist/b612.js
 [MITM]
 hostname = %APPEND% user-kaji-api.b612kaji.com
