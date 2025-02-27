@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 ### Spotify [link](https://tinyurl.com/nbnn728d)
 ### ADBLock [link](https://tinyurl.com/y77ywu3c)
 ### Locket [link](https://tinyurl.com/yzzz7ac2)
-### B612 [link](https://tinyurl.com/53vsyw93)
+### B612 [link](https://tinyurl.com/mtm63vfy)
 
 #  Assistive Touch
 #### Vì app trên chplay có nhiều quảng cáo nên tự code app tự dùng 
