@@ -1,3 +1,6 @@
+
+
+console.log(JSON.stringify($response.body));
 const obj = {
     result: {
         activated: true,
