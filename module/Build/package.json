@@ -11,6 +11,7 @@
     "build:spotify": "node spotify.mjs",
     "build:locket": "node locket.mjs",
     "build:soundcloud": "node soundcloud.mjs",
+    "build:b612": "node b612.mjs",
     "build:proto": "npx buf generate"
   },
   "author": "",
