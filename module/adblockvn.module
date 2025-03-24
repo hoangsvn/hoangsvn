@@ -5,8 +5,13 @@
 [Rule]
 # 1
 DOMAIN-SUFFIX,12signup.com,REJECT
+DOMAIN-SUFFIX,1thegioi.vn,REJECT
 # 2
 DOMAIN-SUFFIX,24hstatic.com,REJECT
+# 5
+DOMAIN-SUFFIX,568play.vn,REJECT
+# 6
+DOMAIN-SUFFIX,6svn.com,REJECT
 # A
 DOMAIN-SUFFIX,accesstrade.vn,REJECT
 DOMAIN-SUFFIX,ad-admin.vnay.vn,REJECT
@@ -30,6 +35,7 @@ DOMAIN-SUFFIX,adhub.mobifone.vn,REJECT
 DOMAIN-SUFFIX,adlinknetwork.vn,REJECT
 DOMAIN-SUFFIX,adm.phunusuckhoe.vn,REJECT
 DOMAIN-SUFFIX,adm.phunuvagiadinh.vn,REJECT
+DOMAIN-SUFFIX,admatrix.vn,REJECT
 DOMAIN-SUFFIX,admicro.vn,REJECT
 DOMAIN-SUFFIX,admin.giaminhmedia.vn,REJECT
 DOMAIN-SUFFIX,admin.sothuchi.vn,REJECT
@@ -38,19 +44,11 @@ DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,adms.phunusuckhoe.vn,REJECT
 DOMAIN-SUFFIX,adop.asia,REJECT
 DOMAIN-SUFFIX,adpia.vn,REJECT
-DOMAIN-SUFFIX,adpostback.headlines.pw,REJECT
 DOMAIN-SUFFIX,adrealclick.com,REJECT
-DOMAIN-SUFFIX,ads-api.playfun.vn,REJECT
 DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-api.x.com,REJECT
 DOMAIN-SUFFIX,ads-bidder-api.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-cdn.fptplay.net,REJECT
-DOMAIN-SUFFIX,ads.1thegioi.vn,REJECT
-DOMAIN-SUFFIX,ads.568play.vn,REJECT
-DOMAIN-SUFFIX,ads.6svn.com,REJECT
-DOMAIN-SUFFIX,ads.admatrix.vn,REJECT
-DOMAIN-SUFFIX,ads.alobacsi.vn,REJECT
-DOMAIN-SUFFIX,ads.autonet.com.vn,REJECT
 DOMAIN-SUFFIX,ads.baoangiang.com.vn,REJECT
 DOMAIN-SUFFIX,ads.baobinhduong.vn,REJECT
 DOMAIN-SUFFIX,ads.baobinhthuan.com.vn,REJECT
@@ -93,7 +91,6 @@ DOMAIN-SUFFIX,ads.salemall.vn,REJECT
 DOMAIN-SUFFIX,ads.seovietnam.pro,REJECT
 DOMAIN-SUFFIX,ads.sexyland.vn,REJECT
 DOMAIN-SUFFIX,ads.songmoi.vn,REJECT
-DOMAIN-SUFFIX,ads.starzd.com,REJECT
 DOMAIN-SUFFIX,ads.suckhoegiadinh.com.vn,REJECT
 DOMAIN-SUFFIX,ads.thesaigontimes.vn,REJECT
 DOMAIN-SUFFIX,ads.thitruongtaichinhtiente.vn,REJECT
@@ -106,12 +103,9 @@ DOMAIN-SUFFIX,ads.vietbao.vn,REJECT
 DOMAIN-SUFFIX,ads.vishare.vn,REJECT
 DOMAIN-SUFFIX,ads.vlr.vn,REJECT
 DOMAIN-SUFFIX,ads.vovlive.vn,REJECT
-DOMAIN-SUFFIX,ads.x-cdn.org,REJECT
 DOMAIN-SUFFIX,ads.xedoisong.vn,REJECT
 DOMAIN-SUFFIX,ads.xemphimso.com,REJECT
 DOMAIN-SUFFIX,ads.yahoo.com,REJECT
-DOMAIN-SUFFIX,ads.zunia.vn,REJECT
-DOMAIN-SUFFIX,ads1.careerbuilder.vn,REJECT
 DOMAIN-SUFFIX,ads8.fpt.vn,REJECT
 DOMAIN-SUFFIX,adsbanner.game.zing.vn,REJECT
 DOMAIN-SUFFIX,adserver.lag.vn,REJECT
@@ -130,12 +124,9 @@ DOMAIN-SUFFIX,adstracking.apps.zing.vn,REJECT
 DOMAIN-SUFFIX,adsv2.autodaily.vn,REJECT
 DOMAIN-SUFFIX,adsweb.vn,REJECT
 DOMAIN-SUFFIX,adt.com.vn,REJECT
-DOMAIN-SUFFIX,adtima.brand.zing.vn,REJECT
 DOMAIN-SUFFIX,adtima.net.vn,REJECT
 DOMAIN-SUFFIX,adtima.org,REJECT
 DOMAIN-SUFFIX,adtima.vn,REJECT
-DOMAIN-SUFFIX,adtimabot.brand.zing.vn,REJECT
-DOMAIN-SUFFIX,adtimabox.brand.zing.vn,REJECT
 DOMAIN-SUFFIX,adtimaserver.vn,REJECT
 DOMAIN-SUFFIX,adtrafficquality.google,REJECT
 DOMAIN-SUFFIX,adv.anhsangvacuocsong.vn,REJECT
@@ -173,6 +164,7 @@ DOMAIN-SUFFIX,aj2393.online,REJECT
 DOMAIN-SUFFIX,ak9.6895588.com,REJECT
 DOMAIN-SUFFIX,akadigital.vn,REJECT
 DOMAIN-SUFFIX,almudestilths.com,REJECT
+DOMAIN-SUFFIX,alobacsi.vn,REJECT
 DOMAIN-SUFFIX,ambient-platform.com,REJECT
 DOMAIN-SUFFIX,ambientdsp.com,REJECT
 DOMAIN-SUFFIX,ambientplatform.vn,REJECT
@@ -200,6 +192,7 @@ DOMAIN-SUFFIX,apps.haraads.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,atdnetwork.com,REJECT
 DOMAIN-SUFFIX,autoads.asia,REJECT
+DOMAIN-SUFFIX,autonet.com.vn,REJECT
 DOMAIN-SUFFIX,avoadsservices.com,REJECT
 DOMAIN-SUFFIX,ax.mpcdn.top,REJECT
 # B
@@ -221,6 +214,7 @@ DOMAIN-SUFFIX,botbanhang.vn,REJECT
 DOMAIN-SUFFIX,brand.zing.vn,REJECT
 # C
 DOMAIN-SUFFIX,campaign.brand.zing.vn,REJECT
+DOMAIN-SUFFIX,careerbuilder.vn,REJECT
 DOMAIN-SUFFIX,carnelbawrel.com,REJECT
 DOMAIN-SUFFIX,casso.vn,REJECT
 DOMAIN-SUFFIX,cdn-ads.thesaigontimes.vn,REJECT
@@ -261,6 +255,7 @@ DOMAIN-SUFFIX,delivery.senvangvn.com,REJECT
 DOMAIN-SUFFIX,delivery.upremium.asia,REJECT
 DOMAIN-SUFFIX,demopage.me,REJECT
 DOMAIN-SUFFIX,deqik.com,REJECT
+DOMAIN-SUFFIX,designervn.net,REJECT
 DOMAIN-SUFFIX,diagramjawlineunhappy.com,REJECT
 DOMAIN-SUFFIX,distinctrobin.com,REJECT
 DOMAIN-SUFFIX,donglogs.com,REJECT
@@ -302,6 +297,7 @@ DOMAIN-SUFFIX,haproinfo.vn,REJECT
 DOMAIN-SUFFIX,hara.vn,REJECT
 DOMAIN-SUFFIX,haravan.com,REJECT
 DOMAIN-SUFFIX,hbplatform.com,REJECT
+DOMAIN-SUFFIX,headlines.pw,REJECT
 DOMAIN-SUFFIX,henho24h.net,REJECT
 DOMAIN-SUFFIX,hicity.vn,REJECT
 DOMAIN-SUFFIX,holahupa.com,REJECT
@@ -326,6 +322,7 @@ DOMAIN-SUFFIX,interactive.brand.zing.vn,REJECT
 DOMAIN-SUFFIX,interactive.tinnhanhchungkhoan.vn,REJECT
 # J
 DOMAIN-SUFFIX,jagodo.vn,REJECT
+DOMAIN-SUFFIX,japo.vn,REJECT
 DOMAIN-SUFFIX,javbest.cc,REJECT
 DOMAIN-SUFFIX,jeoway.com,REJECT
 DOMAIN-SUFFIX,jun8899.me,REJECT
@@ -334,6 +331,7 @@ DOMAIN-SUFFIX,kabbmedia.com,REJECT
 DOMAIN-SUFFIX,kernh41.com,REJECT
 DOMAIN-SUFFIX,ketquaxosotoancau.org,REJECT
 DOMAIN-SUFFIX,klick.vn,REJECT
+DOMAIN-SUFFIX,kqbd88.com,REJECT
 DOMAIN-SUFFIX,ku42hjr2e.com,REJECT
 DOMAIN-SUFFIX,kvsadman.com,REJECT
 # L
@@ -341,23 +339,6 @@ DOMAIN-SUFFIX,lamthong.net,REJECT
 DOMAIN-SUFFIX,landingpagelagi.vn,REJECT
 DOMAIN-SUFFIX,lavamedia.vn,REJECT
 DOMAIN-SUFFIX,lavanetwork.net,REJECT
-DOMAIN-SUFFIX,log-anninhthudo.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-baobackan.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-baonghean.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-baophapluat.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-bizlive.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-giacngo.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-giaoduc.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-giaoducthoidai.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-kienthucnet.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-nhandan.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-plo.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-sggp.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-thanhnien.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-tienphong.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-tinnhanhchungkhoan.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-vietnamdaily.zadn.vn,REJECT
-DOMAIN-SUFFIX,log-vovworld.zadn.vn,REJECT
 DOMAIN-SUFFIX,log.adtimaserver.vn,REJECT
 DOMAIN-SUFFIX,log.zingmp3.vn,REJECT
 DOMAIN-SUFFIX,logging.admicro.vn,REJECT
@@ -378,6 +359,7 @@ DOMAIN-SUFFIX,menu.metu.vn,REJECT
 DOMAIN-SUFFIX,mepuzz.com,REJECT
 DOMAIN-SUFFIX,meta.vn,REJECT
 DOMAIN-SUFFIX,metaconex.io,REJECT
+DOMAIN-SUFFIX,mhsolution.vn,REJECT
 DOMAIN-SUFFIX,microad.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
 DOMAIN-SUFFIX,mobilead.vn,REJECT
@@ -385,6 +367,7 @@ DOMAIN-SUFFIX,mobileads.dieuviet.com,REJECT
 DOMAIN-SUFFIX,mobio.vn,REJECT
 DOMAIN-SUFFIX,modestsunf.com,REJECT
 DOMAIN-SUFFIX,motphimqq.pro,REJECT
+DOMAIN-SUFFIX,mxhnkn.pro,REJECT
 DOMAIN-SUFFIX,myad.vn,REJECT
 DOMAIN-SUFFIX,mytvnet.vn,REJECT
 # N
@@ -392,6 +375,7 @@ DOMAIN-SUFFIX,nanda.vn,REJECT
 DOMAIN-SUFFIX,native-ad.net,REJECT
 DOMAIN-SUFFIX,net88.in,REJECT
 DOMAIN-SUFFIX,ng-vn-notice.gameitop.com,REJECT
+DOMAIN-SUFFIX,nixcdn.com,REJECT
 DOMAIN-SUFFIX,novanet.vn,REJECT
 DOMAIN-SUFFIX,novaon.asia,REJECT
 DOMAIN-SUFFIX,novaonads.com,REJECT
@@ -418,6 +402,7 @@ DOMAIN-SUFFIX,phukienthoitranggiare.com,REJECT
 DOMAIN-SUFFIX,phunuxuavanay.vn,REJECT
 DOMAIN-SUFFIX,pinetech.vn,REJECT
 DOMAIN-SUFFIX,piwik.rta.vn,REJECT
+DOMAIN-SUFFIX,playfun.vn,REJECT
 DOMAIN-SUFFIX,poasauwhoothy.net,REJECT
 DOMAIN-SUFFIX,polyad.net,REJECT
 DOMAIN-SUFFIX,proadscdn.com,REJECT
@@ -428,10 +413,6 @@ DOMAIN-SUFFIX,pushtimize.com,REJECT
 # Q
 DOMAIN-SUFFIX,qc.5giay.vn,REJECT
 DOMAIN-SUFFIX,qc.coccoc.com,REJECT
-DOMAIN-SUFFIX,qc.designervn.net,REJECT
-DOMAIN-SUFFIX,qc.japo.vn,REJECT
-DOMAIN-SUFFIX,qc.kqbd88.com,REJECT
-DOMAIN-SUFFIX,qc.mhsolution.vn,REJECT
 DOMAIN-SUFFIX,qc.ultraviewer.net,REJECT
 DOMAIN-SUFFIX,qc.violet.vn,REJECT
 DOMAIN-SUFFIX,qccoccocmedia.vn,REJECT
@@ -470,12 +451,9 @@ DOMAIN-SUFFIX,soc88.com,REJECT
 DOMAIN-SUFFIX,sourcetobin.com,REJECT
 DOMAIN-SUFFIX,ss.yomedia.vn,REJECT
 DOMAIN-SUFFIX,starseed.fr,REJECT
-DOMAIN-SUFFIX,static.adconnect.vn,REJECT
+DOMAIN-SUFFIX,starzd.com,REJECT
 DOMAIN-SUFFIX,static.mvot.vn,REJECT
 DOMAIN-SUFFIX,staticscdn.net,REJECT
-DOMAIN-SUFFIX,stc-nas.nixcdn.com,REJECT
-DOMAIN-SUFFIX,stc.interactive.brand.zing.vn,REJECT
-DOMAIN-SUFFIX,stc.nas.nixcdn.com,REJECT
 DOMAIN-SUFFIX,stockbook-ads.firebaseapp.com,REJECT
 DOMAIN-SUFFIX,stockbook-ads.firebaseio.com,REJECT
 DOMAIN-SUFFIX,subiz.com.vn,REJECT
@@ -538,17 +516,8 @@ DOMAIN-SUFFIX,webvb88.biz,REJECT
 DOMAIN-SUFFIX,weightypikas.shop,REJECT
 DOMAIN-SUFFIX,widget.headlines.pw,REJECT
 DOMAIN-SUFFIX,wiinvent.tv,REJECT
-DOMAIN-SUFFIX,www.12signup.com,REJECT
-DOMAIN-SUFFIX,www.adt.com.vn,REJECT
-DOMAIN-SUFFIX,www.avoadsservices.com,REJECT
-DOMAIN-SUFFIX,www.ketquaxosotoancau.org,REJECT
-DOMAIN-SUFFIX,www.microad.vn,REJECT
-DOMAIN-SUFFIX,www.sbbanner.com,REJECT
-DOMAIN-SUFFIX,www.v9banners.com,REJECT
-DOMAIN-SUFFIX,www.vietbuzzad.com,REJECT
-DOMAIN-SUFFIX,www.vietdorje.com,REJECT
-DOMAIN-SUFFIX,www.vipads.live,REJECT
 # X
+DOMAIN-SUFFIX,x-cdn.org,REJECT
 DOMAIN-SUFFIX,xads.joboko.com,REJECT
 DOMAIN-SUFFIX,xmadsapi.joboko.com,REJECT
 # Y
@@ -567,3 +536,4 @@ DOMAIN-SUFFIX,zapps.vn,REJECT
 DOMAIN-SUFFIX,zascdn.me,REJECT
 DOMAIN-SUFFIX,zinimedia.com,REJECT
 DOMAIN-SUFFIX,zlog.zingmp3.vn,REJECT
+DOMAIN-SUFFIX,zunia.vn,REJECT
