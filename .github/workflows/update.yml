@@ -16,7 +16,7 @@ jobs:
                 run: |
                       echo "Lấy thông tin release..."
                       curl -s -H "Authorization: token ${{ secrets.PRIVATE_REPO_TOKEN }}" \
-                        https://api.github.com/repos/hoangsvn/Touch/releases/latest > release.json
+                            https://api.github.com/repos/hoangsvn/Touch/releases/latest > release.json
                       echo "Tạo danh sách APK URLs..."
                       mkdir -p apk
                       jq -r '.assets[] | select(.name | endswith(".apk")) | .browser_download_url' release.json > apk_urls.txt
