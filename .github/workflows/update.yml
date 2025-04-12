@@ -15,7 +15,7 @@ jobs:
                 id: get_apks
                 run: |
                       echo "Lấy thông tin release..."
-                      curl -s \
+                      curl -L \
                             -H "Accept: application/vnd.github+json" \
                             -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" \
                             -H "X-GitHub-Api-Version: 2022-11-28" \
