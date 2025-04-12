@@ -31,7 +31,26 @@ jobs:
                       while read url; do
                         name=$(basename "$url")
                         echo "Tải $name"
-                        curl -L -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" "$url" -o "apk/$name"
+                        if [ -f "apk/$name" ]; then
+                            echo "🧹 Xóa file cũ: apk/$name"
+                            rm -f "apk/$name"
+                        fi
+                        curl -L $url \
+                             -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" \
+                             -H "accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'" \
+                             -H "accept-language: vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5" \
+                             -H "cache-control: no-cache" \
+                             -H "pragma: no-cache" \
+                             -H "priority: u=0, i" \
+                             -H "sec-fetch-dest: document" \ 
+                             -H "sec-fetch-mode: navigate" \
+                             -H "sec-fetch-site: none" \ 
+                             -H "sec-fetch-user: ?1" \ 
+                             -H "upgrade-insecure-requests: 1" \
+                             -H "user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1" \
+                             -H "Cookie: _device_id=896ab5e2bfa19cecefb73ee2be56b529; fs_uid=#o-1FH3DA-na1#6066174912966656:1014398009846822979:::#/1748451842; _octo=GH1.1.574497459.1728036936; saved_user_sessions=102905275%3Amed2AYp7vAIK0Dwksf768K09m2EhddkeJqWxoJNvKTIcGrpz; user_session=med2AYp7vAIK0Dwksf768K09m2EhddkeJqWxoJNvKTIcGrpz; __Host-user_session_same_site=med2AYp7vAIK0Dwksf768K09m2EhddkeJqWxoJNvKTIcGrpz; logged_in=yes; dotcom_user=hoangsvn; color_mode=%7B%22color_mode%22%3A%22auto%22%2C%22light_theme%22%3A%7B%22name%22%3A%22light%22%2C%22color_mode%22%3A%22light%22%7D%2C%22dark_theme%22%3A%7B%22name%22%3A%22dark%22%2C%22color_mode%22%3A%22dark%22%7D%7D; cpu_bucket=lg; preferred_color_mode=light; tz=Asia%2FSaigon; _gh_sess=C85B3esMqsS2OmOC8QkbduTCBIbA%2Fn1OIpHgOlLv%2FJTZ9nGDL09930Jy2ogGJ8C23I01zGse8AReJvtzSVNSHDLVomAWDU2n9JenCVEKQo0evf459MjkG4dtcEjGn5qwxzFFASFBZv%2BmtvllQNKRDTh1QZgrsthmKULDi%2F%2Fs4detAaYyNA4iJf6bnIuPCETMEw9rWCFPMjgzaykEjycUnh6zNXJa376Iz5k4vzFMBRIvrjtCiFUff8T5q4w2OnGew2%2F3m%2FNxZwuhHk%2BWcZ%2FF85sAKJa7Eg99TkF%2FIzVH4SKVPQnbOV%2BKNuiWZ%2BEeySxAvoVy9VDuO3iwdF4nJAJu8aY8rD2ukBh6E6L7fQSydsAUik8S3f6fO1dVgt9E1PJ7v0OlVkcp9s4MVF9wtBbob67WhUVpqQwke9rtE9asNt0cno35yqJ%2Fmy6MLU%2FQA4Li--6HRIvwZaUUUTLliU--d0WQqRoGatnSp%2FQQU7qAnQ%3D%3D; _gh_sess=B3xolR%2BNBEukAd4aPTobBlu4Ppb7MRK0XfAAQC29gcYjNHmM1kCUH8JhtxbItK2E6dz2fqV0HG%2BqQvg02gJZ0NqD9GWP%2B4Le6V40uMX6La1fu%2FPkRyIC6S4Hw%2BmEteLVWAMeaNBrZa4ZDsEyRGx0ezeNfMPiKhqktsC1qdvkDNrJ54E3SE%2FQOZ76YMpYGsYK4X94rTlZitsw%2FVO22l0T0S9CMvxHX3xxWpxt4HBKBu2tiBI2EtN1y7fBNyVO832Brqs81xrTZfukGcraFylUaVMY50w6XggGXAVKl38lIIJafjijEKzV7zn%2FU%2BqR2uX4I8aQmqFZaqXpdMuEx3Gw6llboxCirtK1xwKrdpT31e68vZgjFJ%2BBAx4%2FX7wCB0jC85BMi5kOXMrw7Pv%2F4AVz6FSsAHG1Duy7Edlf13nns8mnQkSUKzbQip5Hd%2FQGeaPZ--7kM3%2B3zU1AQ69Z8J--qcCAouXIAyloheo%2FkfzDkQ%3D%3D" \
+                             -H "Cookie: _device_id=896ab5e2bfa19cecefb73ee2be56b529; fs_uid=#o-1FH3DA-na1#6066174912966656:1014398009846822979:::#/1748451842; _octo=GH1.1.574497459.1728036936; saved_user_sessions=102905275%3Amed2AYp7vAIK0Dwksf768K09m2EhddkeJqWxoJNvKTIcGrpz; user_session=med2AYp7vAIK0Dwksf768K09m2EhddkeJqWxoJNvKTIcGrpz; __Host-user_session_same_site=med2AYp7vAIK0Dwksf768K09m2EhddkeJqWxoJNvKTIcGrpz; logged_in=yes; dotcom_user=hoangsvn; color_mode=%7B%22color_mode%22%3A%22auto%22%2C%22light_theme%22%3A%7B%22name%22%3A%22light%22%2C%22color_mode%22%3A%22light%22%7D%2C%22dark_theme%22%3A%7B%22name%22%3A%22dark%22%2C%22color_mode%22%3A%22dark%22%7D%7D; cpu_bucket=lg; preferred_color_mode=light; tz=Asia%2FSaigon; _gh_sess=EzL4FFBX2TAY2gEHOBWLtHgiuzsNoIuuRblxvO8cHI3x%2F%2BnPa4dbR1j%2Ba83Y%2F8uyOSQrOzMCd8ynCBMnYSiZVe0HkFJcBgQq3zVdeGWwKIWA5oVaQkSveo%2B8JvDvSdmdmiQBIYVsIqwQV2plAM2IHCZIK7af5aLVcw4xL8jkAdP%2BD6jc3HLG7POzBeNzPNPS9BE46%2F4tHSvS9xxsqcuJb2KgerNR3Vt43LzVYKvi1OmZVKoNn%2FCkFhmxUS6RZicjXehb8vssXwo7VHQeOb6clZ5qdRe5KDAZvvnDncCwJU4iCTXeuyxGK7i%2B%2Fjr8OOlK9n66vzQ88rbjzRR5uTIrf%2FxFcYW3mpKYkbnV474Q3R6QkBD95iYD9EYzUC3O0R603G5yjqumlB7H8KITGE1Airz4FgSHfg6OadjgGzcFEplGY3%2FDix59K%2BmwQWXIYbH0i79pOCT3AzzNwhUVnWrtl1IiKfaP4Nib81t1VFjNVQNm%2BXGA--ex0xPxb%2FEKHp9ZiZ--Cj%2F9%2BDwo5pKcT2P%2BaYF6vw%3D%3D" \
+                             -o "apk/$name"
                       done < apk_urls.txt
             -   name: Cấu hình Git
                 run: |                  
