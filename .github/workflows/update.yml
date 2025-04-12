@@ -27,12 +27,11 @@ jobs:
                       cat apk_urls.txt
             -   name: Download all APK files
                 run: |
-                      ORG="hoangsvn"
                       echo "Bắt đầu tải APKs..."
                       while read url; do
                         name=$(basename "$url")
                         echo "Tải $name"
-                        curl -L -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" "$(echo "$URL" | sed "s|\*\*\*|$ORG|")" -o "apk/$name"
+                        curl -L -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" "$url" -o "apk/$name"
                       done < apk_urls.txt
             -   name: Cấu hình Git
                 run: |                  
