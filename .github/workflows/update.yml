@@ -9,6 +9,9 @@ jobs:
     build-apks:
         runs-on: ubuntu-latest
         steps:
+            -   name: Checkout repo chính
+                uses: actions/checkout@v3
+            
             -   name: Clone project từ repo gốc
                 run: |
                     git clone https://hoangsvn:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/hoangsvn/Touch.git project
@@ -35,6 +38,7 @@ jobs:
                     rm -rf project
             -   name: Cấu hình Git
                 run: |
+                    pwd
                     git config user.name "${{ secrets.USER_NAME }}"
                     git config user.email "${{ secrets.EMAIL }}"
             -   name: Commit & Push APKs
