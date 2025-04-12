@@ -14,6 +14,7 @@ jobs:
             -   name: Get release info and extract APK URLs
                 id: get_apks
                 run: |
+                      REPO="hoangsvn/Touch"
                       echo "Lấy thông tin release..."
                       curl -L \
                             -H "Accept: application/vnd.github+json" \
