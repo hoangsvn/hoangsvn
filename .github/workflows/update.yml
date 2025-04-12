@@ -21,24 +21,23 @@ jobs:
                           -H "X-GitHub-Api-Version: 2022-11-28" \
                           https://api.github.com/repos/hoangsvn/Touch/releases/latest > release.json
                     echo "Tạo danh sách APK URLs..."
-                    cat release.json
                     jq -r '.assets[] | select(.name | endswith(".apk")) | .browser_download_url' release.json > apk_urls.txt
                     cat apk_urls.txt
             -   name: Download all APK files
                 run: |
+                    #!/usr/bin/bash -e
                     echo "Bắt đầu tải APKs..."
                     mkdir -p apk
                     while read url; do
-                    while read url; do
-                    name=$(basename "$url")
-                    echo "Tải $name"
-                    if [ -f "apk/$name" ]; then
-                        echo "🧹 Xóa file cũ: apk/$name"
-                        rm -f "apk/$name"
-                    fi
-                    curl -L "$url" \
-                         -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" \
-                         -o "apk/$name"
+                        name=$(basename "$url")
+                        echo "Tải $name"
+                        if [ -f "apk/$name" ]; then
+                            echo "🧹 Xóa file cũ: apk/$name"
+                            rm -f "apk/$name"
+                        fi
+                        curl -L "$url" \
+                             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                             -o "apk/$name"
                     done < apk_urls.txt
             -   name: Cấu hình Git
                 run: |
