@@ -20,8 +20,8 @@ jobs:
                     java-version: '17'
             
             -   name: Build APKs
+                working-directory: project
                 run: |
-                    cd project
                     chmod +x gradlew
                     ./gradlew build
             
