@@ -24,20 +24,21 @@ jobs:
                       cat release.json
                       jq -r '.assets[] | select(.name | endswith(".apk")) | .browser_download_url' release.json > apk_urls.txt
                       cat apk_urls.txt
-            -   name: Download all APK files
-                run: |
-                      echo "Bắt đầu tải APKs..."
-                      while read url; do
-                        name=$(basename "$url")
-                        echo "Tải $name"
-                        if [ -f "apk/$name" ]; then
-                            echo "🧹 Xóa file cũ: apk/$name"
-                            rm -f "apk/$name"
-                        fi
-                        curl -L $url \
-                             -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" \
-                             -O "apk/$name"
-                      done < apk_urls.txt
+            - name: Download all APK files
+              run: |
+                  echo "Bắt đầu tải APKs..."
+                  mkdir -p apk
+                  while read url; do
+                    name=$(basename "$url")
+                    echo "Tải $name"
+                    if [ -f "apk/$name" ]; then
+                        echo "🧹 Xóa file cũ: apk/$name"
+                        rm -f "apk/$name"
+                    fi
+                    curl -L "$url" \
+                         -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" \
+                         -o "apk/$name"
+                  done < apk_urls.txt
             -   name: Cấu hình Git
                 run: |                  
                       git config user.name ${{ secrets.USER_NAME }}
