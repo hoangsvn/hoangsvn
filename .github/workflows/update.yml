@@ -39,6 +39,7 @@ jobs:
                              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
                              -o "apk/$name"
                     done < apk_urls.txt
+                    ls -lh apk
             -   name: Cấu hình Git
                 run: |
                     git config user.name ${{ secrets.USER_NAME }}
