@@ -24,6 +24,7 @@ jobs:
             -   name: Build APKs
                 working-directory: project
                 run: |
+                    echo ${{secrets.RAWENV}} > .env
                     chmod +x gradlew
                     ./gradlew assembleRelease -x test  
 
@@ -33,7 +34,7 @@ jobs:
                     find project/app/build/outputs/apk -name "*.apk" -exec cp {} apk/ \;
             -   name: Remove project
                 run: |
-                    echo "🧹 remove project..."
+                    echo "🧹 Remove repo"
                     rm -rf project
             -   name: Config Git
                 run: |
