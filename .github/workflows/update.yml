@@ -1,4 +1,4 @@
-name: Clone and Build APKs from Latest Release
+name: Clone and Build APKs
 
 on:
     schedule:
@@ -9,40 +9,38 @@ jobs:
     build-apks:
         runs-on: ubuntu-latest
         steps:
-            -   name: Checkout repo chính
-                uses: actions/checkout@v3
-            
-            -   name: Clone project từ repo gốc
-                run: |
-                    git clone https://hoangsvn:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/hoangsvn/Touch.git project
-                    cd project
             -   name: Set up JDK
                 uses: actions/setup-java@v3
                 with:
                     distribution: 'temurin'
                     java-version: '17'
-            
+
+            -   name: Checkout repo
+                uses: actions/checkout@v3
+
+            -   name: Clone project
+                run: git clone https://${{ secrets.USER_NAME }}:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/${{ secrets.USER_NAME }}/Touch.git project
+
             -   name: Build APKs
                 working-directory: project
                 run: |
                     chmod +x gradlew
-                    ./gradlew build
-            
-            -   name: Copy APKs to root for commit
+                    ./gradlew assembleRelease -x test  
+
+            -   name: Copy Apks
                 run: |
                     mkdir -p apk
                     find project/app/build/outputs/apk -name "*.apk" -exec cp {} apk/ \;
-            -   name: Xoá thư mục project/
+            -   name: Remove project
                 run: |
-                    echo "🧹 Xoá source code project..."
+                    echo "🧹 remove project..."
                     rm -rf project
-            -   name: Cấu hình Git
+            -   name: Config Git
                 run: |
-                    pwd
                     git config user.name "${{ secrets.USER_NAME }}"
                     git config user.email "${{ secrets.EMAIL }}"
             -   name: Commit & Push APKs
                 run: |
                     git add .
-                    git commit -m "Update built APKs"
+                    git commit -m "Update built Apks by Action"
                     git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
