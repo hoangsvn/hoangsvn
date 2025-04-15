@@ -18,15 +18,21 @@ jobs:
             -   name: Checkout repo
                 uses: actions/checkout@v3
 
-            -   name: Clone project
-                run: git clone https://${{ secrets.USER_NAME }}:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/${{ secrets.USER_NAME }}/Touch.git project
-
-            -   name: Build APKs
+            -   name: Clone Project
                 working-directory: project
-                run: |
-                    echo ${{secrets.RAWENV}} > .env
-                    chmod +x gradlew
-                    ./gradlew assembleRelease -x test  
+                run: git clone https://${{ secrets.USER_NAME }}:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/${{ secrets.USER_NAME }}/Touch.git
+
+            -   name: Grant execute permission
+                working-directory: project
+                run: chmod +x gradlew
+
+            -   name: EnvFile
+                working-directory: project
+                run: echo "${{secrets.RAWENV}}" > .env
+
+            -   name: Build Touch with Gradle
+                working-directory: project
+                run: ./gradlew assembleRelease -x test
 
             -   name: Copy Apks
                 run: |
