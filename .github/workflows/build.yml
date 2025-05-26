@@ -1,0 +1,39 @@
+name: Build Module
+
+on:
+    schedule:
+        -   cron: '0 0 */14 * *'
+    workflow_dispatch:
+
+jobs:
+    build-apks:
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout repo
+                uses: actions/checkout@v3
+                
+            -   name: Use Node.js ${{ matrix.node-version }}
+                    uses: actions/setup-node@v3
+                    with:
+                        node-version: ${{ matrix.node-version }}
+            -   name: Npm install
+                run: npm install
+            
+            -   name: Generate Proto
+                run: npm run build:proto
+
+            -   name: Build Youtube
+                run: npm run build:youtube
+                
+            -   name: Build Spotify
+                run: npm run build:spotify
+                
+            -   name: Config github User
+                run: |
+                    git config user.name "${{ secrets.USER_NAME }}"
+                    git config user.email "${{ secrets.EMAIL }}"
+            -   name: Commit & Push
+                run: |
+                    git add .
+                    git commit -m "Update Module by CICD Action"
+                    git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
