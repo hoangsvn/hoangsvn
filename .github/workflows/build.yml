@@ -1,12 +1,11 @@
 name: Build Module
-
 on:
     schedule:
         -   cron: '0 0 */14 * *'
     workflow_dispatch:
 
 jobs:
-    build-apks:
+    build-module:
         runs-on: ubuntu-latest
         defaults:
             run:
