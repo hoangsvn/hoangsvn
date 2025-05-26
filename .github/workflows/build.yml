@@ -14,8 +14,7 @@ jobs:
             -   name: Use Node.js 18.x
                 uses: actions/setup-node@v4
                 with:
-                    node-version: '18.x'
-                    cache: 'npm'
+                    node-version: 18
 
             -   name: Npm install
                 working-directory: extra
