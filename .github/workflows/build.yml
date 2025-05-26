@@ -7,35 +7,34 @@ on:
 jobs:
     build-module:
         runs-on: ubuntu-latest
-        defaults:
-            run:
-                working-directory: extra
-        strategy:
-            matrix:
-                node-version: [ 18.x, 20.x, 22.x ]
         steps:
             -   name: Checkout repo
                 uses: actions/checkout@v3
 
-            -   name: Use Node.js ${{ matrix.node-version }}
+            -   name: Use Node.js 18.x
                 uses: actions/setup-node@v4
                 with:
-                    node-version: ${{ matrix.node-version }}
+                    node-version: '18.x'
                     cache: 'npm'
 
             -   name: Npm install
+                working-directory: extra
                 run: npm install
 
             -   name: Generate Proto
+                working-directory: extra
                 run: npm run build:proto
 
             -   name: Build Youtube
+                working-directory: extra
                 run: npm run build:youtube
 
             -   name: Build Spotify
+                working-directory: extra
                 run: npm run build:spotify
 
             -   name: Build ADBlock
+                working-directory: extra
                 run: node adblock.js
 
             -   name: Config github User
