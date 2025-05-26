@@ -20,10 +20,6 @@ jobs:
                 working-directory: extra
                 run: npm install
 
-            -   name: Generate Proto
-                working-directory: extra
-                run: npm run build:proto
-
             -   name: Build Youtube
                 working-directory: extra
                 run: npm run build:youtube
