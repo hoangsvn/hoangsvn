@@ -8,6 +8,9 @@ on:
 jobs:
     build-apks:
         runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: extra
         steps:
             -   name: Checkout repo
                 uses: actions/checkout@v3
@@ -28,6 +31,9 @@ jobs:
             -   name: Build Spotify
                 run: npm run build:spotify
                 
+            -   name: Build ADBlock
+                run: node adblock.js   
+            
             -   name: Config github User
                 run: |
                     git config user.name "${{ secrets.USER_NAME }}"
