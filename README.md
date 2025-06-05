@@ -17,11 +17,9 @@ Here are some ideas to get you started:
 
 # ShadowRocket
 
-### Config [link](https://tinyurl.com/2s4yad8d)
+### [SoundCloud ](https://tinyurl.com/ywbrjudz)
 
-### SoundCloud [link](https://tinyurl.com/ywbrjudz)
-
-### Youtube [link](https://tinyurl.com/mr2ah8ra)
+### [Youtube](https://tinyurl.com/mr2ah8ra)
 
 ### Spotify [link](https://tinyurl.com/nbnn728d)
 
@@ -33,9 +31,7 @@ Here are some ideas to get you started:
 
 #### Vì app trên chplay có nhiều quảng cáo nên tự code app tự dùng
 
-### DownLoad  [Link](https://github.com/hoangsvn/hoangsvn/tree/main/apk)
-
-## Ảnh sử dụng
+### [Apps](https://github.com/hoangsvn/hoangsvn/tree/main/apk)
 
 
 
