@@ -48,7 +48,7 @@ async function processDomains(filePath, url) {
 }
 
 const inputFile = 'hostblock.txt';
-const url = 'https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt';
+const url = 'https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain-VN.txt';
 const outputFile = '../module/adblockvn.module';
 
 processDomains(inputFile, url).then(outputText => {
