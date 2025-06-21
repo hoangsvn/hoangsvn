@@ -645,6 +645,7 @@ DOMAIN-SUFFIX,d5.adsplay.net,REJECT
 DOMAIN-SUFFIX,d6.adsplay.net,REJECT
 DOMAIN-SUFFIX,dable.io,REJECT
 DOMAIN-SUFFIX,daleriki.com,REJECT
+DOMAIN-SUFFIX,dantocmiennui-log.baotintuc.vn,REJECT
 DOMAIN-SUFFIX,dantocmiennui.vn,REJECT
 DOMAIN-SUFFIX,defaultdsp.admicro.vn,REJECT
 DOMAIN-SUFFIX,defaultdsp.contineljs.com,REJECT
@@ -735,11 +736,13 @@ DOMAIN-SUFFIX,ema.hostvn.net,REJECT
 DOMAIN-SUFFIX,emarketing.eclick.vn,REJECT
 DOMAIN-SUFFIX,embed.wiinvent.com.vn,REJECT
 DOMAIN-SUFFIX,embed.wiinvent.tv,REJECT
+DOMAIN-SUFFIX,en-log.vietnamplus.vn,REJECT
 DOMAIN-SUFFIX,engineering.adsplay.net,REJECT
 DOMAIN-SUFFIX,enterpriseapi.admicro.vn,REJECT
 DOMAIN-SUFFIX,epicdn.me,REJECT
 DOMAIN-SUFFIX,erp.novaon.asia,REJECT
 DOMAIN-SUFFIX,erp2.novaon.asia,REJECT
+DOMAIN-SUFFIX,es-log.vietnamplus.vn,REJECT
 DOMAIN-SUFFIX,euro.klick.vn,REJECT
 DOMAIN-SUFFIX,eva-ad.24hstatic.com,REJECT
 DOMAIN-SUFFIX,event-tracking.hellohealthgroup.com,REJECT
@@ -775,6 +778,7 @@ DOMAIN-SUFFIX,follow.vnay.vn,REJECT
 DOMAIN-SUFFIX,foonerne.com,REJECT
 DOMAIN-SUFFIX,formalhood.com,REJECT
 DOMAIN-SUFFIX,fptad.com,REJECT
+DOMAIN-SUFFIX,fr-log.vietnamplus.vn,REJECT
 DOMAIN-SUFFIX,front.adpia.vn,REJECT
 DOMAIN-SUFFIX,fuseplatform.net,REJECT
 DOMAIN-SUFFIX,fzip.thanhnien.vn,REJECT
@@ -1020,6 +1024,7 @@ DOMAIN-SUFFIX,log.baocaobang.vn,REJECT
 DOMAIN-SUFFIX,log.baodatviet.vn,REJECT
 DOMAIN-SUFFIX,log.baodauthau.vn,REJECT
 DOMAIN-SUFFIX,log.baogialai.com.vn,REJECT
+DOMAIN-SUFFIX,log.baohatinh.vn,REJECT
 DOMAIN-SUFFIX,log.baolaocai.vn,REJECT
 DOMAIN-SUFFIX,log.baomoi.com,REJECT
 DOMAIN-SUFFIX,log.baonghean.vn,REJECT
@@ -1406,6 +1411,7 @@ DOMAIN-SUFFIX,rss2.vietnamnetad.vn,REJECT
 DOMAIN-SUFFIX,rtb-useast.vidoomy.com,REJECT
 DOMAIN-SUFFIX,rtb.eclick.vn,REJECT
 DOMAIN-SUFFIX,ru-geo.cityads.com,REJECT
+DOMAIN-SUFFIX,ru-log.vietnamplus.vn,REJECT
 # S
 DOMAIN-SUFFIX,s-logperf.vnexpress.net,REJECT
 DOMAIN-SUFFIX,s.baomoi.xdn.vn,REJECT
@@ -1952,6 +1958,7 @@ DOMAIN-SUFFIX,zalo-ads-td.zadn.vn,REJECT
 DOMAIN-SUFFIX,zalo-ads.mediaz.vn,REJECT
 DOMAIN-SUFFIX,zalo-ads.zadn.vn,REJECT
 DOMAIN-SUFFIX,zaloads-480.zdn.vn,REJECT
+DOMAIN-SUFFIX,zh-log.vietnamplus.vn,REJECT
 DOMAIN-SUFFIX,zigzag.vn,REJECT
 DOMAIN-SUFFIX,zinimedia.com,REJECT
 DOMAIN-SUFFIX,zlog.mp3.zing.vn,REJECT
