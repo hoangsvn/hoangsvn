@@ -1055,6 +1055,7 @@ DOMAIN-SUFFIX,log.mekongasean.vn,REJECT
 DOMAIN-SUFFIX,log.mp3.zing.vn,REJECT
 DOMAIN-SUFFIX,log.news.zing.vn,REJECT
 DOMAIN-SUFFIX,log.ngaynay.vn,REJECT
+DOMAIN-SUFFIX,log.nguoimuanha.vn,REJECT
 DOMAIN-SUFFIX,log.nhandan.vn,REJECT
 DOMAIN-SUFFIX,log.nhipcaudautu.vn,REJECT
 DOMAIN-SUFFIX,log.oto.com.vn,REJECT
