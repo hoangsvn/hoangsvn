@@ -54,5 +54,7 @@ obj.features = [
     'plans': []
   }
 ]
-$done({ body: JSON.stringify(obj) });
+$notification.post('SoundCloud', 'You have activated SoundCloud GO++', 'Active GO++')
+$done({ body: JSON.stringify(obj) })
+
 

@@ -69,7 +69,6 @@ export abstract class YouTubeMessage {
 
   save (): void {
     if (this.needSave) {
-      $.debug('Update Config')
       const YouTubeAdvertiseInfo = {
         version: this.version,
         whiteNo: this.whiteNo,
@@ -77,7 +76,6 @@ export abstract class YouTubeMessage {
         whiteEml: this.whiteEml,
         blackEml: this.blackEml
       }
-      $.debug(YouTubeAdvertiseInfo)
       $.setJSON(YouTubeAdvertiseInfo, 'YouTubeAdvertiseInfo')
     }
   }
@@ -85,9 +83,7 @@ export abstract class YouTubeMessage {
   done (): void {
     this.save()
     if (this.needProcess) {
-      $.timeStart('toBinary')
       const bodyBytes = this.toBinary()
-      $.timeEnd('toBinary')
       $.done({ bodyBytes })
     }
     $.exit()
@@ -158,14 +154,5 @@ export abstract class YouTubeMessage {
     if (!unknown) return false
     const unknownFields = this.listUnknownFields(unknown)
     return unknownFields?.some(field => this.checkBufferIsAd(field)) ?? false
-  }
-
-  isShorts (field): boolean {
-    let flag = false
-    this.iterate(field, 'eml', (obj, stack) => {
-      flag = /shorts(?!_pivot_item)/.test(obj.eml)
-      stack.length = 0
-    })
-    return flag
   }
 }

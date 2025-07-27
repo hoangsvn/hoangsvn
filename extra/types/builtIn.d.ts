@@ -58,23 +58,10 @@ declare interface CFetchResponse extends FetchResponse<Uint8Array> {
   id?: string
 }
 
-declare interface ConversionRule<T> {
-  key: keyof T
-  newKey?: keyof T
-  convert: (value: any) => any
-}
-
-declare const $environment: SgEnvironment | QxEnvironment
-declare const $request: SgRequest | QxRequest
-declare const $response: SgResponse | QxResponse
-declare const $done: (options?: string) => void
-declare const $loon: any
-declare const $rocket: any
+declare const $request: SgRequest
+declare const $response: SgResponse
+declare const $done: (options?: SgDone) => void
 declare const $persistentStore: PersistentStore
 declare const $httpClient: HttpClient
 declare const $notification: Notification
-declare const $notify: (title: string, subtitle: string, message: string, option?: NotifyOption) => void
-declare const $prefs: Prefs
-declare const $task: Task
-declare const $utils: Utils
 declare const $argument: string | undefined
