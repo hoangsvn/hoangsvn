@@ -3,18 +3,17 @@ import fs from 'fs';
 
 const outputFile = '../module/soundcloud.module';
 const data = [
-    '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/spotify.module',
-    '#!name=Spotify',
-    '#!desc=Active Premium',
+    '﻿#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module',
+    '#!name=SoundCloud',
+    '#!desc=Active Go++',
     '#!date=' + new Date().toLocaleString(),
     '',
     '[MITM]',
-    'hostname = %APPEND% spclient.wg.spotify.com',
+    'hostname= %APPEND% api-mobile.soundcloud.com',
     '',
     '[Script]',
     '',
-    'SpotifyJson = type=http-request,type=http-request,pattern=^https:\\/\\/spclient\\.wg\\.spotify\\.com\\/(artistview\\/v1\\/artist|album-entity-view\\/v2\\/album)\\/,requires-body=0,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/extra/dist/spotifyjson.js',
-    'SpotifyProto = type=http-response,pattern=^https:\\/\\/spclient\\.wg\\.spotify\\.com\\/(bootstrap\\/v1\\/bootstrap|user-customization-service\\/v1\\/customize)$,requires-body=1,binary-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/extra/dist/spotifyproto.js,script-update-interval=0'
+    'SoundCloud=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/extra/dist/soundcloud.js'
 ]
 fs.writeFileSync(outputFile, data.join("\n"), "utf-8")
 
