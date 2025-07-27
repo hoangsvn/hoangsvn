@@ -1,52 +1,52 @@
 name: Clone and Build APKs
 
 on:
-    schedule:
-        -   cron: '0 0 */14 * *'
-    workflow_dispatch:
+  schedule:
+    - cron: '0 0 */20 * *'
+  workflow_dispatch:
 
 jobs:
-    build-apks:
-        runs-on: ubuntu-latest
-        steps:
-            -   name: Set up JDK
-                uses: actions/setup-java@v3
-                with:
-                    distribution: 'temurin'
-                    java-version: '17'
+  build-apks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
 
-            -   name: Checkout repo
-                uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-            -   name: Clone Project
-                run: git clone https://${{ secrets.USER_NAME }}:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/${{ secrets.USER_NAME }}/Touch.git project
+      - name: Clone Project
+        run: git clone https://${{ secrets.USER_NAME }}:${{ secrets.PRIVATE_REPO_TOKEN }}@github.com/${{ secrets.USER_NAME }}/Touch.git project
 
-            -   name: Grant execute permission
-                working-directory: project
-                run: chmod +x gradlew
+      - name: Grant execute permission
+        working-directory: project
+        run: chmod +x gradlew
 
-            -   name: EnvFile
-                working-directory: project
-                run: echo "${{secrets.RAWENV}}" > .env
+      - name: EnvFile
+        working-directory: project
+        run: echo "${{secrets.RAWENV}}" > .env
 
-            -   name: Build Touch with Gradle
-                working-directory: project
-                run: ./gradlew assembleRelease -x test
+      - name: Build Touch with Gradle
+        working-directory: project
+        run: ./gradlew assembleRelease -x test
 
-            -   name: Copy Apks
-                run: |
-                    mkdir -p apk
-                    find project/app/build/outputs/apk -name "*.apk" -exec cp {} apk/ \;
-            -   name: Remove project
-                run: |
-                    echo "🧹 Remove repo"
-                    rm -rf project
-            -   name: Config Git
-                run: |
-                    git config user.name "${{ secrets.USER_NAME }}"
-                    git config user.email "${{ secrets.EMAIL }}"
-            -   name: Commit & Push APKs
-                run: |
-                    git add .
-                    git commit -m "Update built Apks by Action"
-                    git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+      - name: Copy Apks
+        run: |
+          mkdir -p apk
+          find project/app/build/outputs/apk -name "*.apk" -exec cp {} apk/ \;
+      - name: Remove project
+        run: |
+          echo "🧹 Remove repo"
+          rm -rf project
+      - name: Config Git
+        run: |
+          git config user.name "${{ secrets.USER_NAME }}"
+          git config user.email "${{ secrets.EMAIL }}"
+      - name: Commit & Push APKs
+        run: |
+          git add .
+          git commit -m "Update built Apks by Action"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
