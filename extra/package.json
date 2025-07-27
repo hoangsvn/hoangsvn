@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node test/test.ts",
+    "build:adblock": "node adblock.js",
     "build:youtube": "node youtube.mjs",
     "build:spotify": "node spotify.mjs",
     "build:locket": "node locket.mjs",

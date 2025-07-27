@@ -16,6 +16,7 @@ async function processDomains(filePath, url) {
         '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module',
         '#!name=ADBlock',
         '#!desc=Block QC',
+        '#!date=' + new Date().toLocaleString(),
         '',
         '[Rule]'
     ];
