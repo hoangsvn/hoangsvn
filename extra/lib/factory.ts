@@ -6,11 +6,12 @@ import {
     SearchMessage,
     SettingMessage,
     ShortsMessage,
-    WatchMessage
+    WatchMessage,
+    YouTubeMessage
 } from './response'
-import {Youtubemessage} from './youtubemessage'
 
-const messages = new Map<string, new () => Youtubemessage>([
+
+const messages = new Map<string, new () => YouTubeMessage>([
     ['browse', BrowseMessage],
     ['next', NextMessage],
     ['player', PlayerMessage],
@@ -21,7 +22,7 @@ const messages = new Map<string, new () => Youtubemessage>([
     ['get_watch', WatchMessage]
 ])
 
-export default function createMessage(url: string): Youtubemessage | null {
+export default function createMessage(url: string): YouTubeMessage | null {
     for (const [path, MessageClass] of messages.entries()) {
         if (url.includes(path)) {
             return new MessageClass()

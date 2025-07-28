@@ -60,7 +60,7 @@ declare interface CFetchResponse extends FetchResponse<Uint8Array> {
 
 declare const $request: SgRequest
 declare const $response: SgResponse
-declare const $done: (options?: string) => void
+declare const $done: (options?: {}) => void
 declare const $persistentStore: PersistentStore
 declare const $httpClient: HttpClient
 declare const $notification: Notification
