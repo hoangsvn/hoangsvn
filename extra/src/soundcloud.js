@@ -54,6 +54,11 @@ obj.features = [
         'plans': []
     }
 ]
+
+if (!$persistentStore.read('sound-cloud-go-plus')) {
+    $notification.post('SoundCloud', 'You have activated', 'SoundCloud Go+')
+    $persistentStore.write(true, 'sound-cloud-go-plus')
+}
 $done({body: JSON.stringify(obj)})
 
 
