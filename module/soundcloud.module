@@ -1,7 +1,7 @@
 ﻿#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module
 #!name=SoundCloud
 #!desc=Active Go++
-#!date=7/28/2025, 10:34:35 AM
+#!date=7/28/2025, 11:08:38 AM
 
 [MITM]
 hostname= %APPEND% api-mobile.soundcloud.com
