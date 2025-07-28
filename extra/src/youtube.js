@@ -3,9 +3,9 @@ import 'fast-text-encoding'
 import {$} from '../lib/env.js'
 
 async function run() {
-    if (!$persistentStore.read('youtube-premium')) {
+    if ($persistentStore.read('youtube-premium') !== 'true') {
         $notification.post('Youtube', 'You have activated', 'Youtube Premium')
-        $persistentStore.write(true, 'youtube-premium')
+        $persistentStore.write('true', 'youtube-premium')
     }
     const responseMsg = createMessage($.request.url)
     if (responseMsg) {
