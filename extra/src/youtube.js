@@ -1,14 +1,15 @@
 import createMessage from '../lib/factory.js'
 import 'fast-text-encoding'
 import {$} from '../lib/env.js'
+import Store from "../lib/store.js";
 
 async function run() {
-    if ($persistentStore.read('youtube-premium') !== 'true') {
-        $notification.post('Youtube', 'You have activated', 'Youtube Premium')
-        $persistentStore.write('true', 'youtube-premium')
-    }
+
     const responseMsg = createMessage($.request.url)
     if (responseMsg) {
+        Store.OneFunc('youtube-premium', () => {
+            $notification.post('Youtube', 'Youtube Premium', '')
+        })
         const body = $.response.bodyBytes
         responseMsg.fromBinary(body)
         await responseMsg.modify()

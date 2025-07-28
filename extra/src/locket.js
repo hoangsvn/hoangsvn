@@ -1,3 +1,5 @@
+import Store from "../lib/store.js";
+
 const mapping = {
     '%E8%BD%A6%E7%A5%A8%E7%A5%A8': ['vip+watch_vip'],
     'Locket': ['Gold']
@@ -27,8 +29,7 @@ if (match) {
     s ? (locket_expires.product_identifier = s , obj.subscriber.subscriptions[s] = locketsub) : obj.subscriber.subscriptions["com.ohoang7.premium.yearly"] = locketsub, obj.subscriber.entitlements[e] = locket_expires
 } else obj.subscriber.subscriptions["com.ohoang7.premium.yearly"] = locketsub, obj.subscriber.entitlements.pro = locket_expires;
 
-if ($persistentStore.read('locket-gold') !== 'true') {
-    $notification.post('Locket', 'You have activated', 'Locket Gold')
-    $persistentStore.write('true', 'locket-gold')
-}
+Store.OneFunc('locket-gold', () => {
+    $notification.post('SoundCloud', 'Active Locker Gold', '')
+})
 $done({body: JSON.stringify(obj)});
