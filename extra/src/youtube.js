@@ -2,7 +2,7 @@ import createMessage from '../lib/factory.js'
 import 'fast-text-encoding'
 import {$} from '../lib/env.js'
 
-async function run(): Promise<void> {
+async function run() {
     const responseMsg = createMessage($.request.url)
     if (responseMsg) {
         const body = $.response.bodyBytes
