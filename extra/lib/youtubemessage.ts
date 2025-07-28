@@ -1,7 +1,7 @@
-import { Message, WireType } from '@bufbuild/protobuf'
-import { $ } from '../lib/env'
+import { , WireType } from '@bufbuild/protobuf'
+import { $ } from './env'
 
-export abstract class YouTubeMessage {
+export abstract class Youtubemessage {
   name: string
   needProcess: boolean
   needSave: boolean
@@ -11,14 +11,14 @@ export abstract class YouTubeMessage {
   blackNo: number[] = []
   whiteEml: string[] = []
   blackEml: string[] = ['inline_injection_entrypoint_layout.eml']
-  msgType: Message<any>
+  msgType: Youtubemessage<any>
   argument: Record<string, any>
   decoder = new TextDecoder('utf-8', {
     fatal: false,
     ignoreBOM: true
   })
 
-  protected constructor (msgType: Message<any>, name: string) {
+  protected constructor (msgType: Youtubemessage<any>, name: string) {
     this.name = name
     this.msgType = msgType
     this.argument = this.decodeArgument()
@@ -36,7 +36,7 @@ export abstract class YouTubeMessage {
     return $.decodeParams(args)
   }
 
-  fromBinary (binaryBody: Uint8Array | undefined | string): YouTubeMessage {
+  fromBinary (binaryBody: Uint8Array | undefined | string): Youtubemessage {
     if (binaryBody instanceof Uint8Array) {
       this.message = this.msgType.fromBinary(binaryBody)
       return this
@@ -45,9 +45,9 @@ export abstract class YouTubeMessage {
     return this
   }
 
-  abstract pure (): Promise<YouTubeMessage> | YouTubeMessage
+  abstract pure (): Promise<Youtubemessage> | Youtubemessage
 
-  async modify (): Promise<YouTubeMessage> {
+  async modify (): Promise<Youtubemessage> {
     const pureMessage = this.pure()
     if (pureMessage instanceof Promise) {
       return await pureMessage
@@ -61,7 +61,7 @@ export abstract class YouTubeMessage {
   }
 
   listUnknownFields (msg: any): ReadonlyArray<{ no: number, wireType: WireType, data: Uint8Array }> {
-    if (msg instanceof Message) {
+    if (msg instanceof Youtubemessage) {
       return msg.getType().runtime.bin.listUnknownFields(msg)
     }
     return []
@@ -104,7 +104,7 @@ export abstract class YouTubeMessage {
     }
   }
 
-  isAdvertise (o: Message<any>): boolean {
+  isAdvertise (o: Youtubemessage<any>): boolean {
     const filed = this.listUnknownFields(o)[0]
     return filed ? this.handleFieldNo(filed) : this.handleFieldEml(o)
   }

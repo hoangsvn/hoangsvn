@@ -31,7 +31,7 @@ const data = [
 fs.writeFileSync(outputFile, data.join("\n"), "utf-8")
 esbuild.buildSync({
     entryPoints: {
-        youtube: 'index.js'
+        youtube: './src/youtube.js'
     },
     bundle: true,
     minify: true,
