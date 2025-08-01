@@ -1,7 +1,7 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
 #!name=ADBlock
 #!desc=Block QC
-#!date=7/28/2025, 11:33:58 AM
+#!date=8/1/2025, 2:12:06 AM
 
 [Rule]
 # 1
@@ -760,6 +760,7 @@ DOMAIN-SUFFIX,fa.fpt.shop,REJECT
 DOMAIN-SUFFIX,facebook-ads.hara.vn,REJECT
 DOMAIN-SUFFIX,facebookid.younetmedia.com,REJECT
 DOMAIN-SUFFIX,facebookinbox-omni-onapp.haravan.com,REJECT
+DOMAIN-SUFFIX,farawayinstallation.com,REJECT
 DOMAIN-SUFFIX,fbuser.ovp.vn,REJECT
 DOMAIN-SUFFIX,fcd.autoads.asia,REJECT
 DOMAIN-SUFFIX,feed.pushtimize.com,REJECT
