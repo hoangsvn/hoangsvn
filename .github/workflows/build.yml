@@ -3,6 +3,18 @@ on:
   schedule:
     - cron: '0 0 */20 * *'
   workflow_dispatch:
+    inputs:
+      module:
+        description: 'Chọn module cần build'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - youtube
+          - spotify
+          - soundcloud
+          - adblock
 
 jobs:
   build-module:
@@ -21,18 +33,22 @@ jobs:
         run: npm install
 
       - name: Build Youtube
+        if: ${{ github.event.inputs.module == 'all' || github.event.inputs.module == 'youtube' }}
         working-directory: extra
         run: npm run build:youtube
 
       - name: Build Spotify
+        if: ${{ github.event.inputs.module == 'all' || github.event.inputs.module == 'spotify' }}
         working-directory: extra
         run: npm run build:spotify
 
       - name: Build SoundCloud
+        if: ${{ github.event.inputs.module == 'all' || github.event.inputs.module == 'soundcloud' }}
         working-directory: extra
         run: npm run build:soundcloud
 
       - name: Build ADBlock
+        if: ${{ github.event.inputs.module == 'all' || github.event.inputs.module == 'adblock' }}
         working-directory: extra
         run: npm run build:adblock
 
@@ -40,6 +56,7 @@ jobs:
         run: |
           git config user.name "${{ secrets.USER_NAME }}"
           git config user.email "${{ secrets.EMAIL }}"
+
       - name: Commit & Push
         run: |
           git add .
