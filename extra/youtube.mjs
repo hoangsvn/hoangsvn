@@ -19,8 +19,8 @@ const scriptCode = fs.readFileSync('./dist/youtube.js', 'utf-8');
 
 const data = [
     '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module',
-    '#!name =YouTube',
-    '#!desc =No ADS build:'+ new Date().toLocaleString(),
+    '#!name =YouTube Premium',
+    '#!desc =build:'+ new Date().toLocaleString(),
     '',
     '[Rule]',
     'AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT',

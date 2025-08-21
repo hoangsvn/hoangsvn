@@ -19,8 +19,8 @@ const scriptCode = fs.readFileSync('./dist/soundcloud.js', 'utf-8');
 
 const data = [
     '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module',
-    '#!name=SoundCloud',
-    '#!desc=Active Go++ build:' + new Date().toLocaleString(),
+    '#!name=SoundCloud Go++',
+    '#!desc=build:' + new Date().toLocaleString(),
     '',
     '[MITM]',
     'hostname= %APPEND% api-mobile.soundcloud.com',
