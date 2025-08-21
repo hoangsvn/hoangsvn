@@ -8,7 +8,7 @@ obj.plan = {
     'plan_upsells': [],
     'plan_id': 'go-plus',
     'upsells': [],
-    'plan_name': 'Go Plus'
+    'plan_name': 'Go ++'
 }
 obj.features = [
     {
@@ -57,9 +57,8 @@ obj.features = [
     }
 ]
 
-Store.OneFunc('sound-cloud-go', () => {
-    $notification.post('SoundCloud', 'Active Go+', '')
-})
+$notification.post('SoundCloud', 'Active Go+', '')
+console.log(JSON.stringify(obj))
 $done({body: JSON.stringify(obj)})
 
 
