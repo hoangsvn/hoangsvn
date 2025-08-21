@@ -7,9 +7,9 @@ async function run() {
 
     const responseMsg = createMessage($.request.url)
     if (responseMsg) {
-        Store.OneFunc('youtube-premium', () => {
-            $notification.post('Youtube', 'Youtube Premium', '')
-        })
+        
+        $notification.post('Youtube', 'Youtube Premium', '')
+        
         const body = $.response.bodyBytes
         responseMsg.fromBinary(body)
         await responseMsg.modify()
