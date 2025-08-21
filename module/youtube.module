@@ -1,7 +1,7 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module
 #!name =YouTube
 #!desc =No ADS
-#!date=8/1/2025, 2:12:05 AM
+#!date=8/21/2025, 1:45:10 AM
 
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
