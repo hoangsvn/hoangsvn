@@ -1,3 +1,1 @@
-// Build Soundcloud Start: 8/21/2025, 10:17:25 PM
 (()=>{var e=JSON.parse($response.body);e.plan={vendor:"apple",id:"high_tier",manageable:!0,plan_upsells:[],plan_id:"go-plus",upsells:[],plan_name:"Go ++"};e.features=[{name:"offline_sync",enabled:!0,plans:["mid_tier","high_tier"]},{name:"no_audio_ads",enabled:!0,plans:["mid_tier","high_tier"]},{name:"hq_audio",enabled:!0,plans:["high_tier"]},{name:"system_playlist_in_library",enabled:!0,plans:[]},{name:"ads_krux",enabled:!1,plans:[]},{name:"new_home",enabled:!0,plans:[]},{name:"spotlight",enabled:!1,plans:[]}];$notification.post("SoundCloud","Active Go+","");console.log(JSON.stringify(e));$done({body:JSON.stringify(e)});})();
-// Build Soundcloud End: 8/21/2025, 10:17:25 PM
