@@ -1,7 +1,6 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
-#!name=ADBlock
-#!desc=Block QC
-#!date=8/21/2025, 11:36:52 PM
+#!name=AD-Block Host
+#!desc=build:8/22/2025, 12:14:03 AM
 
 [Rule]
 # 1
