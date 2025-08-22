@@ -1,10 +1,10 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module
-#!name=SoundCloud
-#!desc=Active Go++ build:8/21/2025, 10:57:57 PM
+#!name=SoundCloud Go++
+#!desc=build:8/21/2025, 11:36:51 PM
 
 [MITM]
 hostname= %APPEND% api-mobile.soundcloud.com
 
 [Script]
 
-SoundCloud=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script=(()=>{var e=JSON.parse($response.body);e.plan={vendor:"apple",id:"high_tier",manageable:!0,plan_upsells:[],plan_id:"go-plus",upsells:[],plan_name:"Go ++"};e.features=[{name:"offline_sync",enabled:!0,plans:["mid_tier","high_tier"]},{name:"no_audio_ads",enabled:!0,plans:["mid_tier","high_tier"]},{name:"hq_audio",enabled:!0,plans:["high_tier"]},{name:"system_playlist_in_library",enabled:!0,plans:[]},{name:"ads_krux",enabled:!1,plans:[]},{name:"new_home",enabled:!0,plans:[]},{name:"spotlight",enabled:!1,plans:[]}];$notification.post("SoundCloud","Active Go+","");console.log(JSON.stringify(e));$done({body:JSON.stringify(e)});})();
+SoundCloud=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script=(()=>{var e=JSON.parse($response.body);e.plan={vendor:"apple",id:"high_tier",manageable:!0,plan_upsells:[],plan_id:"go-plus",upsells:[],plan_name:"SoundCloud Go++"};e.features=[{name:"offline_sync",enabled:!0,plans:["mid_tier","high_tier"]},{name:"no_audio_ads",enabled:!0,plans:["mid_tier","high_tier"]},{name:"hq_audio",enabled:!0,plans:["high_tier"]},{name:"system_playlist_in_library",enabled:!0,plans:[]},{name:"ads_krux",enabled:!1,plans:[]},{name:"new_home",enabled:!0,plans:[]},{name:"spotlight",enabled:!1,plans:[]}];$done({body:JSON.stringify(e)});})();
