@@ -5,7 +5,7 @@ const outputFile = '../module/youtube.module';
 
 const data = [
     '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module',
-    '#!name=YouTube',
+    '#!name=YouTube Premium',
     '#!desc=build:'+new Date().toLocaleString(),
     '',
     '[Rule]',
