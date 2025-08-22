@@ -3,24 +3,10 @@ import fs from 'fs';
 
 const outputFile = '../module/youtube.module';
 
-// Build youtube.js trước
-esbuild.buildSync({
-    entryPoints: {
-        youtube: './src/youtube.js'
-    },
-    bundle: true,
-    minify: true,
-    sourcemap: false,
-    outdir: './dist'
-});
-
-// Đọc nội dung sau build
-const scriptCode = fs.readFileSync('./dist/youtube.js', 'utf-8');
-
 const data = [
     '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module',
-    '#!name =YouTube Premium',
-    '#!desc =build:'+ new Date().toLocaleString(),
+    '#!name=YouTube',
+    '#!desc=build:'+new Date().toLocaleString(),
     '',
     '[Rule]',
     'AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT',
@@ -38,7 +24,18 @@ const data = [
     '',
     '[Script]',
     '',
-    `Youtube=type=http-response,pattern=^https:\\/\\/youtubei\\.googleapis\\.com\\/youtubei\\/v1\\/(browse|next|player|search|reel\\/reel_watch_sequence|guide|account\\/get_setting|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,script=${scriptCode},argument="{}"`,
-]
+    'Youtube=type=http-response,pattern=^https:\\/\\/youtubei\\.googleapis\\.com\\/youtubei\\/v1\\/(browse|next|player|search|reel\\/reel_watch_sequence|guide|account\\/get_setting|get_watch),requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/extra/dist/youtube.js,argument="{}"',
 
+]
 fs.writeFileSync(outputFile, data.join("\n"), "utf-8")
+esbuild.buildSync({
+    entryPoints: {
+        youtube: './src/youtube.js'
+    },
+    bundle: true,
+    minify: true,
+    banner: {js: `// Build Youtube Start: ${new Date().toLocaleString()}`},
+    footer: {js: `// Build Youtube End: ${new Date().toLocaleString()}`},
+    sourcemap: false,
+    outdir: './dist'
+})

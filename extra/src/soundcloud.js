@@ -1,3 +1,4 @@
+import Store from "../lib/store.js";
 
 const obj = JSON.parse($response.body)
 obj.plan = {
@@ -7,7 +8,7 @@ obj.plan = {
     'plan_upsells': [],
     'plan_id': 'go-plus',
     'upsells': [],
-    'plan_name': 'SoundCloud Go++'
+    'plan_name': 'SoundCloud Go+'
 }
 obj.features = [
     {
@@ -56,6 +57,8 @@ obj.features = [
     }
 ]
 
+Store.OneFunc('sound-cloud-go', () => {
+    $notification.post('SoundCloud', 'Active Go+', '')
+})
 $done({body: JSON.stringify(obj)})
-
 
