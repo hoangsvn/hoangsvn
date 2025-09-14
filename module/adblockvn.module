@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
-#!name=AD-Block Host
-#!desc=build:8/30/2025, 10:10:58 AM
+#!name=AD-Block Vn
+#!desc=build:9/14/2025, 10:15:21 AM
 
 [Rule]
 # 1
@@ -146,6 +146,7 @@ DOMAIN-SUFFIX,ads.lamchame.vn,REJECT
 DOMAIN-SUFFIX,ads.laodongnghean.vn,REJECT
 DOMAIN-SUFFIX,ads.markettimes.vn,REJECT
 DOMAIN-SUFFIX,ads.marry.vn,REJECT
+DOMAIN-SUFFIX,ads.msdigital.vn,REJECT
 DOMAIN-SUFFIX,ads.mxhnkn.pro,REJECT
 DOMAIN-SUFFIX,ads.nghenhinvietnam.vn,REJECT
 DOMAIN-SUFFIX,ads.nguoiduatin.vn,REJECT
