@@ -14,7 +14,7 @@ function fetchDomainsFromUrl(url) {
 async function processDomains(filePath, url) {
     const outputLines = [
         '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module',
-        '#!name=AD-Block Host',
+        '#!name=AD-Block Vn',
         '#!desc=build:' + new Date().toLocaleString(),
         '',
         '[Rule]'

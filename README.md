@@ -13,8 +13,8 @@
 - 📝 [**AdGuard DNS**](https://tinyurl.com/adguarddnss)
 - 🎵 [**SoundCloud Go+**](https://tinyurl.com/ywbrjudz)
 - ▶️ [**YouTube No Ads**](https://tinyurl.com/mr2ah8ra)
-- 🛑 [**Block AD Host**](https://tinyurl.com/y77ywu3c)
-- 🖼 [**Locket Gold**](https://tinyurl.com/yzzz7ac2)
+- 🛑 [**Ad Block VN**](https://tinyurl.com/y77ywu3c)
+- 📷 [**Locket Gold**](https://tinyurl.com/yzzz7ac2)
 
 ---
 
