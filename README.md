@@ -8,14 +8,16 @@
 ## 🚀 Cấu hình nổi bật
 
 ### **ShadowRocket**
-> Một số cấu hình tiện ích hỗ trợ trải nghiệm tốt hơn.
 
-- 📝 [**AdGuard DNS**](https://tinyurl.com/adguarddnss)
-- 🎵 [**SoundCloud Go+**](https://tinyurl.com/ywbrjudz)
-- ▶️ [**YouTube No Ads**](https://tinyurl.com/mr2ah8ra)
-- 🛑 [**Ad Block VN**](https://tinyurl.com/y77ywu3c)
-- 📷 [**Locket Gold**](https://tinyurl.com/yzzz7ac2)
+> Cấu hình tiện ích .
+- 📝 [**AdGuard DNS conf**](https://tinyurl.com/adguarddns-conf)
+---
 
+> Một số module tiện ích .
+- 🎵 [**SoundCloud Go+**](https://tinyurl.com/soundcloud-goplus-module)
+- ▶️ [**YouTube No Ads**](https://tinyurl.com/youtube-noads-module)
+- 🛑 [**Ad Block VN**](https://tinyurl.com/adblockvn-module)
+- 📷 [**Locket Gold**](https://tinyurl.com/locketgold-module)
 ---
 
 ## 🛠 Assistive Touch
