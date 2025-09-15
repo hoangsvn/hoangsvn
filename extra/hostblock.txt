@@ -2635,3 +2635,8 @@ zunia.vn
 s.zzcdn.me
 # [zzz.vn]
 s1.zzz.vn
+udc.yahoo.com
+advertising.yahoo.com
+advertising.yandex.ru
+advertising.apple.com
+advertising-api-eu.amazon.com
