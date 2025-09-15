@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
 #!name=AD-Block Vn
-#!desc=build:9/14/2025, 10:15:21 AM
+#!desc=build:9/15/2025, 5:26:08 AM
 
 [Rule]
 # 1
@@ -98,11 +98,13 @@ DOMAIN-SUFFIX,adpostback.headlines.pw,REJECT
 DOMAIN-SUFFIX,adrealclick.com,REJECT
 DOMAIN-SUFFIX,ads-admin.hubs.vn,REJECT
 DOMAIN-SUFFIX,ads-api.playfun.vn,REJECT
+DOMAIN-SUFFIX,ads-api.tiktok.com,REJECT
 DOMAIN-SUFFIX,ads-api.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-api.x.com,REJECT
 DOMAIN-SUFFIX,ads-bidder-api.twitter.com,REJECT
 DOMAIN-SUFFIX,ads-cdn.fptplay.net,REJECT
 DOMAIN-SUFFIX,ads-platform.zalo.me,REJECT
+DOMAIN-SUFFIX,ads-sg.tiktok.com,REJECT
 DOMAIN-SUFFIX,ads-thanhnien-vn.cdn.ampproject.org,REJECT
 DOMAIN-SUFFIX,ads.1thegioi.vn,REJECT
 DOMAIN-SUFFIX,ads.568play.vn,REJECT
@@ -155,6 +157,7 @@ DOMAIN-SUFFIX,ads.novanet.vn,REJECT
 DOMAIN-SUFFIX,ads.phunuonline.com.vn,REJECT
 DOMAIN-SUFFIX,ads.phunusuckhoe.vn,REJECT
 DOMAIN-SUFFIX,ads.phunuvagiadinh.vn,REJECT
+DOMAIN-SUFFIX,ads.pinterest.com,REJECT
 DOMAIN-SUFFIX,ads.platform.zalo.me,REJECT
 DOMAIN-SUFFIX,ads.salemall.vn,REJECT
 DOMAIN-SUFFIX,ads.seovietnam.pro,REJECT
@@ -329,6 +332,7 @@ DOMAIN-SUFFIX,analytics.novanet.vn,REJECT
 DOMAIN-SUFFIX,analytics.ntlc.com.vn,REJECT
 DOMAIN-SUFFIX,analytics.onfluencer.net,REJECT
 DOMAIN-SUFFIX,analytics.pancake.vn,REJECT
+DOMAIN-SUFFIX,analytics.pinterest.com,REJECT
 DOMAIN-SUFFIX,analytics.rever.vn,REJECT
 DOMAIN-SUFFIX,analytics.saas-vn.network,REJECT
 DOMAIN-SUFFIX,analytics.sohatv.vn,REJECT
@@ -366,6 +370,7 @@ DOMAIN-SUFFIX,api.adtimaserver.vn,REJECT
 DOMAIN-SUFFIX,api.affmates.com,REJECT
 DOMAIN-SUFFIX,api.autoads.asia,REJECT
 DOMAIN-SUFFIX,api.boclinkads.com,REJECT
+DOMAIN-SUFFIX,api.bugsnag.com,REJECT
 DOMAIN-SUFFIX,api.cityads.com,REJECT
 DOMAIN-SUFFIX,api.dable.io,REJECT
 DOMAIN-SUFFIX,api.donglogs.com,REJECT
@@ -399,8 +404,10 @@ DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,app.adsota.com,REJECT
 DOMAIN-SUFFIX,app.ants.vn,REJECT
 DOMAIN-SUFFIX,app.brand.zing.vn,REJECT
+DOMAIN-SUFFIX,app.bugsnag.com,REJECT
 DOMAIN-SUFFIX,app.cdp.asia,REJECT
 DOMAIN-SUFFIX,app.gammaplatform.com,REJECT
+DOMAIN-SUFFIX,app.getsentry.com,REJECT
 DOMAIN-SUFFIX,app.harafunnel.com,REJECT
 DOMAIN-SUFFIX,app.haraloyalty.com,REJECT
 DOMAIN-SUFFIX,app.harasocial.com,REJECT
@@ -412,6 +419,7 @@ DOMAIN-SUFFIX,app.sbz.workers.dev,REJECT
 DOMAIN-SUFFIX,app.slimads.vn,REJECT
 DOMAIN-SUFFIX,app.subiz.com.vn,REJECT
 DOMAIN-SUFFIX,app2.jeoway.net,REJECT
+DOMAIN-SUFFIX,appmetrica.yandex.ru,REJECT
 DOMAIN-SUFFIX,appota.com,REJECT
 DOMAIN-SUFFIX,apps.ants.vn,REJECT
 DOMAIN-SUFFIX,apps.haraads.com,REJECT
@@ -469,8 +477,10 @@ DOMAIN-SUFFIX,boxpr.aiservice.vn,REJECT
 DOMAIN-SUFFIX,brand.admicro.vn,REJECT
 DOMAIN-SUFFIX,brand.zing.vn,REJECT
 DOMAIN-SUFFIX,brief.mediaz.vn,REJECT
+DOMAIN-SUFFIX,browser.sentry-cdn.com,REJECT
 DOMAIN-SUFFIX,btrack.homedy.com,REJECT
 DOMAIN-SUFFIX,bubblyzucchini.com,REJECT
+DOMAIN-SUFFIX,business-api.tiktok.com,REJECT
 DOMAIN-SUFFIX,business.cleverads.vn,REJECT
 DOMAIN-SUFFIX,button-call.zalo.me,REJECT
 DOMAIN-SUFFIX,button-follow.zalo.me,REJECT
@@ -572,6 +582,7 @@ DOMAIN-SUFFIX,clgt.xyz,REJECT
 DOMAIN-SUFFIX,cli.ambient-platform.com,REJECT
 DOMAIN-SUFFIX,cli.m.ambient-platform.com,REJECT
 DOMAIN-SUFFIX,click.adpia.vn,REJECT
+DOMAIN-SUFFIX,click.googleanalytics.com,REJECT
 DOMAIN-SUFFIX,click.m.ambientplatform.vn,REJECT
 DOMAIN-SUFFIX,click.novanet.vn,REJECT
 DOMAIN-SUFFIX,click.phanquang.vn,REJECT
@@ -1043,6 +1054,7 @@ DOMAIN-SUFFIX,log.dav.edu.vn,REJECT
 DOMAIN-SUFFIX,log.doanhnhan.vn,REJECT
 DOMAIN-SUFFIX,log.dubaotiente.com,REJECT
 DOMAIN-SUFFIX,log.eclick.vn,REJECT
+DOMAIN-SUFFIX,log.fc.yahoo.com,REJECT
 DOMAIN-SUFFIX,log.giacngo.vn,REJECT
 DOMAIN-SUFFIX,log.giaoduc.net.vn,REJECT
 DOMAIN-SUFFIX,log.giaoducthoidai.vn,REJECT
@@ -1184,6 +1196,7 @@ DOMAIN-SUFFIX,media.adtimaserver.vn,REJECT
 DOMAIN-SUFFIX,media.ambientplatform.vn,REJECT
 DOMAIN-SUFFIX,media.bidgear.com,REJECT
 DOMAIN-SUFFIX,media.m.ambientplatform.vn,REJECT
+DOMAIN-SUFFIX,media.net,REJECT
 DOMAIN-SUFFIX,media.org.adtimaserver.vn,REJECT
 DOMAIN-SUFFIX,media.proadscdn.com,REJECT
 DOMAIN-SUFFIX,media.yomedia.vn,REJECT
@@ -1202,6 +1215,7 @@ DOMAIN-SUFFIX,metrics.ambient-platform.com,REJECT
 DOMAIN-SUFFIX,metrics.ambientdsp.com,REJECT
 DOMAIN-SUFFIX,metrics.coccoc.com,REJECT
 DOMAIN-SUFFIX,metrics.m.ambientplatform.vn,REJECT
+DOMAIN-SUFFIX,metrika.yandex.ru,REJECT
 DOMAIN-SUFFIX,mhsolution.vn,REJECT
 DOMAIN-SUFFIX,microad.vn,REJECT
 DOMAIN-SUFFIX,midgetmaying.com,REJECT
@@ -1241,6 +1255,7 @@ DOMAIN-SUFFIX,ng-vn-notice.gameitop.com,REJECT
 DOMAIN-SUFFIX,nixcdn.com,REJECT
 DOMAIN-SUFFIX,nl-geo.cityads.com,REJECT
 DOMAIN-SUFFIX,notify-service.admicro.vn,REJECT
+DOMAIN-SUFFIX,notify.bugsnag.com,REJECT
 DOMAIN-SUFFIX,novanet.vn,REJECT
 DOMAIN-SUFFIX,novaon.asia,REJECT
 DOMAIN-SUFFIX,novaon.vn,REJECT
@@ -1288,6 +1303,7 @@ DOMAIN-SUFFIX,page.widget.zalo.me,REJECT
 DOMAIN-SUFFIX,pangle-b.io,REJECT
 DOMAIN-SUFFIX,pangle.io,REJECT
 DOMAIN-SUFFIX,partner.accesstrade.vn,REJECT
+DOMAIN-SUFFIX,partnerads.ysm.yahoo.com,REJECT
 DOMAIN-SUFFIX,pasjcutadak.com,REJECT
 DOMAIN-SUFFIX,pb.adsparc.net,REJECT
 DOMAIN-SUFFIX,phanquang.vn,REJECT
@@ -1461,6 +1477,7 @@ DOMAIN-SUFFIX,service-api.accesstrade.vn,REJECT
 DOMAIN-SUFFIX,service.adlinknetwork.vn,REJECT
 DOMAIN-SUFFIX,serving-ad.tv24.vn,REJECT
 DOMAIN-SUFFIX,serving.ad.org.vn,REJECT
+DOMAIN-SUFFIX,sessions.bugsnag.com,REJECT
 DOMAIN-SUFFIX,sg.cityads.com,REJECT
 DOMAIN-SUFFIX,sh-cdn.younetmedia.com,REJECT
 DOMAIN-SUFFIX,sh-staging-cdn.younetmedia.com,REJECT
@@ -1555,6 +1572,7 @@ DOMAIN-SUFFIX,static.fuseplatform.net,REJECT
 DOMAIN-SUFFIX,static.gammaplatform.com,REJECT
 DOMAIN-SUFFIX,static.hbplatform.com,REJECT
 DOMAIN-SUFFIX,static.masoffer.net,REJECT
+DOMAIN-SUFFIX,static.media.net,REJECT
 DOMAIN-SUFFIX,static.mediaz.asia,REJECT
 DOMAIN-SUFFIX,static.mepuzz.com,REJECT
 DOMAIN-SUFFIX,static.mvot.vn,REJECT
