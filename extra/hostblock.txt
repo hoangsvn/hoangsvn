@@ -314,6 +314,7 @@ almudestilths.com
 ads.alobacsi.vn
 alobacsi.vn
 # [amazon.com]
+advertising-api-eu.amazon.com
 advertising.amazon.com
 # [ambient-platform.com]
 ambient-platform.com
@@ -457,6 +458,7 @@ stg.anymind360.com
 # [app-measurement.com]
 app-measurement.com
 # [apple.com]
+advertising.apple.com
 iad.apple.com
 iadsdk.apple.com
 # [appota.com]
@@ -2415,13 +2417,16 @@ y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me
 # [yahoo.com]
 ads.yahoo.com
 adserver.yahoo.com
+advertising.yahoo.com
 gemini.yahoo.com
 log.fc.yahoo.com
 partnerads.ysm.yahoo.com
+udc.yahoo.com
 udcm.yahoo.com
 # [yahooinc.com]
 adtech.yahooinc.com
 # [yandex.ru]
+advertising.yandex.ru
 appmetrica.yandex.ru
 metrika.yandex.ru
 # [yeah1publishing.com]
@@ -2635,8 +2640,3 @@ zunia.vn
 s.zzcdn.me
 # [zzz.vn]
 s1.zzz.vn
-udc.yahoo.com
-advertising.yahoo.com
-advertising.yandex.ru
-advertising.apple.com
-advertising-api-eu.amazon.com
