@@ -3,7 +3,7 @@ import fs from 'fs';
 
 const outputFile = '../module/soundcloud.module';
 const data = [
-    '﻿#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module',
+    '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/soundcloud.module',
     '#!name=SoundCloud Go++',
     '#!desc=build:' + new Date().toLocaleString(),
     '',
