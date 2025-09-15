@@ -12,13 +12,17 @@ function fetchDomainsFromUrl(url) {
 }
 
 function formatVersion(date) {
-    // VD: 2509101608 = YYMMDDHHmm (năm 2025 → 25)
     const yy = String(date.getFullYear()).slice(-2);
     const MM = String(date.getMonth() + 1).padStart(2, '0');
     const dd = String(date.getDate()).padStart(2, '0');
     const HH = String(date.getHours()).padStart(2, '0');
     const mm = String(date.getMinutes()).padStart(2, '0');
     return `${yy}${MM}${dd}${HH}${mm}`;
+}
+
+function getRootDomain(host) {
+    const parts = host.split('.');
+    return parts.slice(-2).join('.');
 }
 
 async function processDomains(filePath, url) {
@@ -29,14 +33,28 @@ async function processDomains(filePath, url) {
 
     const urlLines = await fetchDomainsFromUrl(url);
 
-    const lines = [...new Set([...localLines, ...urlLines]
-        .filter(line => line && !line.startsWith('#')))]
-        .sort();
+    const allLines = [...new Set([...localLines, ...urlLines]
+        .filter(line => line && !line.startsWith('#')))];
+
+    // Gom nhóm theo root domain
+    const groups = {};
+    for (const host of allLines) {
+        const root = getRootDomain(host);
+        if (!groups[root]) groups[root] = [];
+        groups[root].push(host);
+    }
+
+    // Sắp xếp domain gốc và subdomain
+    const sortedRoots = Object.keys(groups).sort();
+    for (const root of sortedRoots) {
+        groups[root].sort();
+    }
 
     const now = new Date();
     const version = formatVersion(now);
     const lastModified = now.toLocaleString('en-GB', { timeZone: 'Asia/Ho_Chi_Minh', hour12: false }) + ' UTC+7';
 
+    // Tạo nội dung module
     const outputLines = [
         '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module',
         '#!name=AD-Block Vn',
@@ -45,30 +63,40 @@ async function processDomains(filePath, url) {
         '# Title: AD-Block Vn',
         `# Last modified: ${lastModified}`,
         `# Version: ${version}`,
-        `# Blocked: ${lines.length.toLocaleString('en-US')} domains`,
+        `# Blocked: ${allLines.length.toLocaleString('en-US')} domains`,
         '# Only include advertisers in Vietnam',
         '',
         '[Rule]'
     ];
 
-    let lastInitial = null;
-    for (const line of lines) {
-        const initial = line[0].toUpperCase();
-        if (initial !== lastInitial) {
-            outputLines.push('# ' + initial);
-            lastInitial = initial;
+    for (const root of sortedRoots) {
+        outputLines.push(`# [${root}]`);
+        for (const host of groups[root]) {
+            outputLines.push(`DOMAIN-SUFFIX,${host},REJECT`);
         }
-        outputLines.push('DOMAIN-SUFFIX,' + line + ',REJECT');
     }
 
-    return outputLines.join('\n');
+
+    const flatList = [];
+    for (const root of sortedRoots) {
+        flatList.push(`# [${root}]`);
+        flatList.push(...groups[root]);
+    }
+
+    return {
+        outputLines ,
+        flatList
+    };
 }
 
 const inputFile = 'hostblock.txt';
 const url = 'https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain-VN.txt';
 const outputFile = '../module/adblockvn.module';
 
-processDomains(inputFile, url).then(outputText => {
-    fs.writeFileSync(outputFile, outputText, 'utf-8');
-    console.log('Xử lý hoàn tất! Kiểm tra file ' + outputFile + '.');
+processDomains(inputFile, url).then(({ outputLines, flatList }) => {
+    fs.writeFileSync(outputFile, outputLines.join('\n'), 'utf-8');
+    fs.writeFileSync(inputFile, flatList.join('\n'), 'utf-8');
+
+    console.log('Xử lý hoàn tất!');
+    console.log('Đã tạo:', outputFile, 'và cập nhật ',inputFile);
 }).catch(err => console.error('Lỗi: ' + err.message));
