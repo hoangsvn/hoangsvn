@@ -1,6 +1,12 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
 #!name=AD-Block Vn
-#!desc=build:9/15/2025, 5:26:08 AM
+#!desc=build:9/15/2025, 5:47:53 AM
+
+# Title: AD-Block Vn
+# Last modified: 15/09/2025, 12:47:53 UTC+7
+# Version: 2509150547
+# Blocked: 1,960 domains
+# Only include advertisers in Vietnam
 
 [Rule]
 # 1
@@ -210,6 +216,7 @@ DOMAIN-SUFFIX,adsvr.adsparc.net,REJECT
 DOMAIN-SUFFIX,adsvr2.adsparc.net,REJECT
 DOMAIN-SUFFIX,adsweb.vn,REJECT
 DOMAIN-SUFFIX,adt.com.vn,REJECT
+DOMAIN-SUFFIX,adtech.yahooinc.com,REJECT
 DOMAIN-SUFFIX,adtima-common.zadn.vn,REJECT
 DOMAIN-SUFFIX,adtima-common.zascdn.me,REJECT
 DOMAIN-SUFFIX,adtima-media-td.zadn.vn,REJECT
@@ -807,6 +814,7 @@ DOMAIN-SUFFIX,gammaplatform.com,REJECT
 DOMAIN-SUFFIX,gammassp.com,REJECT
 DOMAIN-SUFFIX,gandalf.younetmedia.com,REJECT
 DOMAIN-SUFFIX,gcjs.genmonet.com,REJECT
+DOMAIN-SUFFIX,gemini.yahoo.com,REJECT
 DOMAIN-SUFFIX,geniee.jp,REJECT
 DOMAIN-SUFFIX,genieesspv.jp,REJECT
 DOMAIN-SUFFIX,genmonet.com,REJECT
@@ -1780,6 +1788,7 @@ DOMAIN-SUFFIX,tvc.biphim.club,REJECT
 DOMAIN-SUFFIX,txx.tjme.io,REJECT
 # U
 DOMAIN-SUFFIX,u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me,REJECT
+DOMAIN-SUFFIX,udcm.yahoo.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN-SUFFIX,unpkg.com,REJECT
 DOMAIN-SUFFIX,unsungpolicy.com,REJECT
