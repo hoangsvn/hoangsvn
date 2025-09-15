@@ -10,8 +10,8 @@
 ### **ShadowRocket**
 
 > Cấu hình tiện ích .
-- 📝 [**AdGuard DNS conf**](https://tinyurl.com/adguarddns-conf)
 - 📝 [**Next DNS conf**](https://tinyurl.com/nextdns-conf)
+- 📝 [**AdGuard DNS conf**](https://tinyurl.com/adguarddns-conf)
 ---
 
 > Một số module tiện ích .
