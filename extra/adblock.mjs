@@ -56,15 +56,17 @@ async function processDomains(filePath, url) {
 
     // Tạo nội dung module
     const outputLines = [
-        '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module',
-        '#!name=AD-Block Vn',
-        '#!desc=build:' + now.toLocaleString(),
-        '',
+        '# Author: Hoangsvn',
+        '# Email: i36nxhvn@icloud.com',
         '# Title: AD-Block Vn',
         `# Last modified: ${lastModified}`,
+        `# Blocked: ${allLines.length.toLocaleString('en-US')} host`,
         `# Version: ${version}`,
-        `# Blocked: ${allLines.length.toLocaleString('en-US')} domains`,
         '# Only include advertisers in Vietnam',
+        '',
+        '#!name=AD-Block Vn',
+        '#!desc=build:' + now.toLocaleString(),
+        '#!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module',
         '',
         '[Rule]'
     ];
