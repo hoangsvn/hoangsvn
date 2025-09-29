@@ -12,6 +12,7 @@
 > Cấu hình tiện ích .
 - 📝 [**Next DNS conf**](https://tinyurl.com/nextdns-conf)
 - 📝 [**AdGuard DNS conf**](https://tinyurl.com/adguarddns-conf)
+- 📝 [**ShadowRocket conf**](https://tinyurl.com/shadowrocket-conf)
 ---
 
 > Một số module tiện ích .
