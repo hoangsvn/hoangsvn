@@ -1,13 +1,13 @@
 #!name=ADS Host Block
-#!desc=build:9/26/2025, 3:29:44 PM
+#!desc=build:10/15/2025, 9:21:05 PM
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
 
 #Author: Hoangsvn
 #Email: i36nxhvn@icloud.com
 #Title: ADS Host Block
-#Last modified: 26/09/2025, 22:29:44 UTC+7
+#Last modified: 16/10/2025, 04:21:05 UTC+7
 #Blocked: 8,404 host
-#Version: 2509261529
+#Version: 2510152121
 
 [Rule]
 # [10gb.vn]
