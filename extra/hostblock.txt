@@ -4513,6 +4513,8 @@ evbk.gamooga.com
 traxex.gannettdigital.com
 # [gapone.vn]
 tracking.gapone.vn
+# [gcafe.vn]
+hp.gcafe.vn
 # [gdeslon.ru]
 gdeslon.ru
 # [gemius.pl]
@@ -4943,6 +4945,7 @@ analytics.hub-js.com
 marketing.hub-js.com
 # [hubs.vn]
 ads-admin.hubs.vn
+hp.hubs.vn
 hubs.vn
 mautic.hubs.vn
 tracking.hubs.vn
@@ -7275,6 +7278,8 @@ apicssdk.onemt.co
 onetag-sys.com
 # [onetrust.com]
 geolocation.onetrust.com
+# [onflix.vip]
+analytics.onflix.vip
 # [onfluencer.net]
 alpha.onfluencer.net
 analytics.onfluencer.net
@@ -10761,11 +10766,13 @@ beta.ads.zalo.me
 button-call.zalo.me
 button-follow.zalo.me
 button-share.zalo.me
+form.ads.zalo.me
 groupstats.chat.zalo.me
 groupstats.event.zalo.me
 jr.ads.zalo.me
 jr.stg.ads.zalo.me
 m.ads.zalo.me
+page.ads.zalo.me
 page.widget.zalo.me
 preview.ads.zalo.me
 px.za.zalo.me

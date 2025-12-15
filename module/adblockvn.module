@@ -1,13 +1,13 @@
 #!name=ADS Host Block
-#!desc=build:10/15/2025, 9:21:05 PM
+#!desc=build:12/15/2025, 2:14:58 AM
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
 
 #Author: Hoangsvn
 #Email: i36nxhvn@icloud.com
 #Title: ADS Host Block
-#Last modified: 16/10/2025, 04:21:05 UTC+7
-#Blocked: 8,404 host
-#Version: 2510152121
+#Last modified: 15/12/2025, 09:14:58 UTC+7
+#Blocked: 8,409 host
+#Version: 2512150214
 
 [Rule]
 # [10gb.vn]
@@ -4525,6 +4525,8 @@ DOMAIN-SUFFIX,evbk.gamooga.com,REJECT
 DOMAIN-SUFFIX,traxex.gannettdigital.com,REJECT
 # [gapone.vn]
 DOMAIN-SUFFIX,tracking.gapone.vn,REJECT
+# [gcafe.vn]
+DOMAIN-SUFFIX,hp.gcafe.vn,REJECT
 # [gdeslon.ru]
 DOMAIN-SUFFIX,gdeslon.ru,REJECT
 # [gemius.pl]
@@ -4955,6 +4957,7 @@ DOMAIN-SUFFIX,analytics.hub-js.com,REJECT
 DOMAIN-SUFFIX,marketing.hub-js.com,REJECT
 # [hubs.vn]
 DOMAIN-SUFFIX,ads-admin.hubs.vn,REJECT
+DOMAIN-SUFFIX,hp.hubs.vn,REJECT
 DOMAIN-SUFFIX,hubs.vn,REJECT
 DOMAIN-SUFFIX,mautic.hubs.vn,REJECT
 DOMAIN-SUFFIX,tracking.hubs.vn,REJECT
@@ -7287,6 +7290,8 @@ DOMAIN-SUFFIX,apicssdk.onemt.co,REJECT
 DOMAIN-SUFFIX,onetag-sys.com,REJECT
 # [onetrust.com]
 DOMAIN-SUFFIX,geolocation.onetrust.com,REJECT
+# [onflix.vip]
+DOMAIN-SUFFIX,analytics.onflix.vip,REJECT
 # [onfluencer.net]
 DOMAIN-SUFFIX,alpha.onfluencer.net,REJECT
 DOMAIN-SUFFIX,analytics.onfluencer.net,REJECT
@@ -10773,11 +10778,13 @@ DOMAIN-SUFFIX,beta.ads.zalo.me,REJECT
 DOMAIN-SUFFIX,button-call.zalo.me,REJECT
 DOMAIN-SUFFIX,button-follow.zalo.me,REJECT
 DOMAIN-SUFFIX,button-share.zalo.me,REJECT
+DOMAIN-SUFFIX,form.ads.zalo.me,REJECT
 DOMAIN-SUFFIX,groupstats.chat.zalo.me,REJECT
 DOMAIN-SUFFIX,groupstats.event.zalo.me,REJECT
 DOMAIN-SUFFIX,jr.ads.zalo.me,REJECT
 DOMAIN-SUFFIX,jr.stg.ads.zalo.me,REJECT
 DOMAIN-SUFFIX,m.ads.zalo.me,REJECT
+DOMAIN-SUFFIX,page.ads.zalo.me,REJECT
 DOMAIN-SUFFIX,page.widget.zalo.me,REJECT
 DOMAIN-SUFFIX,preview.ads.zalo.me,REJECT
 DOMAIN-SUFFIX,px.za.zalo.me,REJECT
