@@ -1,13 +1,13 @@
 #!name=ADS Host Block
-#!desc=build:12/15/2025, 2:14:58 AM
+#!desc=build:2/12/2026, 10:19:41 AM
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
 
 #Author: Hoangsvn
 #Email: i36nxhvn@icloud.com
 #Title: ADS Host Block
-#Last modified: 15/12/2025, 09:14:58 UTC+7
-#Blocked: 8,409 host
-#Version: 2512150214
+#Last modified: 12/02/2026, 17:19:41 UTC+7
+#Blocked: 8,419 host
+#Version: 2602121019
 
 [Rule]
 # [10gb.vn]
@@ -110,6 +110,8 @@ DOMAIN-SUFFIX,banner.5giay.vn,REJECT
 DOMAIN-SUFFIX,qc.5giay.vn,REJECT
 # [6895588.com]
 DOMAIN-SUFFIX,ak9.6895588.com,REJECT
+# [6opo.com]
+DOMAIN-SUFFIX,6opo.com,REJECT
 # [6svn.com]
 DOMAIN-SUFFIX,6svn.com,REJECT
 DOMAIN-SUFFIX,ads.6svn.com,REJECT
@@ -2307,6 +2309,8 @@ DOMAIN-SUFFIX,bncloudfl.com,REJECT
 # [bnmla.com]
 DOMAIN-SUFFIX,bnmla.com,REJECT
 DOMAIN-SUFFIX,match.bnmla.com,REJECT
+# [bobapsoabauns.com]
+DOMAIN-SUFFIX,bobapsoabauns.com,REJECT
 # [boclinkads.com]
 DOMAIN-SUFFIX,api.boclinkads.com,REJECT
 DOMAIN-SUFFIX,api2.boclinkads.com,REJECT
@@ -2524,6 +2528,7 @@ DOMAIN-SUFFIX,webchat.caresoft.vn,REJECT
 # [carmudi.vn]
 DOMAIN-SUFFIX,ads.carmudi.vn,REJECT
 # [carnelbawrel.com]
+DOMAIN-SUFFIX,ae.carnelbawrel.com,REJECT
 DOMAIN-SUFFIX,carnelbawrel.com,REJECT
 # [carnivalmobile.com]
 DOMAIN-SUFFIX,devices.carnivalmobile.com,REJECT
@@ -3200,6 +3205,8 @@ DOMAIN-SUFFIX,cdn-v3.conductrics.com,REJECT
 DOMAIN-SUFFIX,mobile.confsettings.com,REJECT
 # [congstar.de]
 DOMAIN-SUFFIX,banner.congstar.de,REJECT
+# [congthuong.vn]
+DOMAIN-SUFFIX,delivery.congthuong.vn,REJECT
 # [connatix.com]
 DOMAIN-SUFFIX,assets.connatix.com,REJECT
 DOMAIN-SUFFIX,capi.connatix.com,REJECT
@@ -3409,6 +3416,7 @@ DOMAIN-SUFFIX,widget.va1.vip.prod.criteo.com,REJECT
 # [criteo.net]
 DOMAIN-SUFFIX,am5.vip.prod.criteo.net,REJECT
 DOMAIN-SUFFIX,as.criteo.net,REJECT
+DOMAIN-SUFFIX,client-side-metrics.as.criteo.net,REJECT
 DOMAIN-SUFFIX,criteo.net,REJECT
 DOMAIN-SUFFIX,csm.as.criteo.net,REJECT
 DOMAIN-SUFFIX,csm.da.us.criteo.net,REJECT
@@ -4304,6 +4312,8 @@ DOMAIN-SUFFIX,imgcf.flashtalking.com,REJECT
 DOMAIN-SUFFIX,s3cf.flashtalking.com,REJECT
 DOMAIN-SUFFIX,servedby.flashtalking.com,REJECT
 DOMAIN-SUFFIX,stat8.flashtalking.com,REJECT
+# [fleraprt.com]
+DOMAIN-SUFFIX,fleraprt.com,REJECT
 # [flipboard.com]
 DOMAIN-SUFFIX,ad.flipboard.com,REJECT
 DOMAIN-SUFFIX,ue.flipboard.com,REJECT
@@ -6766,6 +6776,7 @@ DOMAIN-SUFFIX,analytics.moneycat.vn,REJECT
 DOMAIN-SUFFIX,sdk.moneyoyo.com,REJECT
 # [moneyoyo.org]
 DOMAIN-SUFFIX,api.moneyoyo.org,REJECT
+DOMAIN-SUFFIX,feed.moneyoyo.org,REJECT
 # [mookie1.com]
 DOMAIN-SUFFIX,ar-gmtdmp.mookie1.com,REJECT
 DOMAIN-SUFFIX,au-gmtdmp.mookie1.com,REJECT
@@ -7988,6 +7999,8 @@ DOMAIN-SUFFIX,cdn.quantummetric.com,REJECT
 DOMAIN-SUFFIX,gong-eb.qubit.com,REJECT
 DOMAIN-SUFFIX,lookup.qubit.com,REJECT
 DOMAIN-SUFFIX,sse.qubit.com,REJECT
+# [quge5.com]
+DOMAIN-SUFFIX,quge5.com,REJECT
 # [quoracdn.net]
 DOMAIN-SUFFIX,quoracdn.net,REJECT
 # [qwapi.com]
@@ -9740,6 +9753,8 @@ DOMAIN-SUFFIX,ads.twitter.com,REJECT
 DOMAIN-SUFFIX,analytics.twitter.com,REJECT
 # [tynt.com]
 DOMAIN-SUFFIX,de.tynt.com,REJECT
+# [tzegilo.com]
+DOMAIN-SUFFIX,tzegilo.com,REJECT
 # [u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me]
 DOMAIN-SUFFIX,u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me,REJECT
 # [ua.com]
@@ -10677,6 +10692,8 @@ DOMAIN-SUFFIX,payment.yodo1api.com,REJECT
 DOMAIN-SUFFIX,rodeoconfig.yodo1api.com,REJECT
 DOMAIN-SUFFIX,sensors.yodo1api.com,REJECT
 DOMAIN-SUFFIX,uc-ap.yodo1api.com,REJECT
+# [yohle.com]
+DOMAIN-SUFFIX,yohle.com,REJECT
 # [yolacdn.net]
 DOMAIN-SUFFIX,analytics.yolacdn.net,REJECT
 # [yolanda.hk]

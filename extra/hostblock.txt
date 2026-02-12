@@ -98,6 +98,8 @@ banner.5giay.vn
 qc.5giay.vn
 # [6895588.com]
 ak9.6895588.com
+# [6opo.com]
+6opo.com
 # [6svn.com]
 6svn.com
 ads.6svn.com
@@ -2295,6 +2297,8 @@ bncloudfl.com
 # [bnmla.com]
 bnmla.com
 match.bnmla.com
+# [bobapsoabauns.com]
+bobapsoabauns.com
 # [boclinkads.com]
 api.boclinkads.com
 api2.boclinkads.com
@@ -2512,6 +2516,7 @@ webchat.caresoft.vn
 # [carmudi.vn]
 ads.carmudi.vn
 # [carnelbawrel.com]
+ae.carnelbawrel.com
 carnelbawrel.com
 # [carnivalmobile.com]
 devices.carnivalmobile.com
@@ -3188,6 +3193,8 @@ cdn-v3.conductrics.com
 mobile.confsettings.com
 # [congstar.de]
 banner.congstar.de
+# [congthuong.vn]
+delivery.congthuong.vn
 # [connatix.com]
 assets.connatix.com
 capi.connatix.com
@@ -3397,6 +3404,7 @@ widget.va1.vip.prod.criteo.com
 # [criteo.net]
 am5.vip.prod.criteo.net
 as.criteo.net
+client-side-metrics.as.criteo.net
 criteo.net
 csm.as.criteo.net
 csm.da.us.criteo.net
@@ -4292,6 +4300,8 @@ imgcf.flashtalking.com
 s3cf.flashtalking.com
 servedby.flashtalking.com
 stat8.flashtalking.com
+# [fleraprt.com]
+fleraprt.com
 # [flipboard.com]
 ad.flipboard.com
 ue.flipboard.com
@@ -6754,6 +6764,7 @@ analytics.moneycat.vn
 sdk.moneyoyo.com
 # [moneyoyo.org]
 api.moneyoyo.org
+feed.moneyoyo.org
 # [mookie1.com]
 ar-gmtdmp.mookie1.com
 au-gmtdmp.mookie1.com
@@ -7976,6 +7987,8 @@ cdn.quantummetric.com
 gong-eb.qubit.com
 lookup.qubit.com
 sse.qubit.com
+# [quge5.com]
+quge5.com
 # [quoracdn.net]
 quoracdn.net
 # [qwapi.com]
@@ -9728,6 +9741,8 @@ ads.twitter.com
 analytics.twitter.com
 # [tynt.com]
 de.tynt.com
+# [tzegilo.com]
+tzegilo.com
 # [u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me]
 u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me
 # [ua.com]
@@ -10665,6 +10680,8 @@ payment.yodo1api.com
 rodeoconfig.yodo1api.com
 sensors.yodo1api.com
 uc-ap.yodo1api.com
+# [yohle.com]
+yohle.com
 # [yolacdn.net]
 analytics.yolacdn.net
 # [yolanda.hk]
@@ -10953,14 +10970,3 @@ log-collector.svctr.zynga.com
 s.zzcdn.me
 # [zzz.vn]
 s1.zzz.vn
-
-quge5.com
-6opo.com
-tzegilo.com
-fleraprt.com
-bobapsoabauns.com
-yohle.com
-cdn.jsdelivr.net
-
-client-side-metrics.as.criteo.net
-ae.carnelbawrel.com
