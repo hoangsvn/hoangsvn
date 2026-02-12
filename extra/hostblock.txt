@@ -10953,3 +10953,14 @@ log-collector.svctr.zynga.com
 s.zzcdn.me
 # [zzz.vn]
 s1.zzz.vn
+
+quge5.com
+6opo.com
+tzegilo.com
+fleraprt.com
+bobapsoabauns.com
+yohle.com
+cdn.jsdelivr.net
+
+client-side-metrics.as.criteo.net
+ae.carnelbawrel.com
