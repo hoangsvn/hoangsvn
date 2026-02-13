@@ -54,7 +54,10 @@ async function processDomains(filePath, url) {
     const version = formatVersion(now);
     const name = "ADS Host Block";
 
-    const lastModified = now.toLocaleString('en-GB', { timeZone: 'Asia/Ho_Chi_Minh', hour12: false }) + ' UTC+7';
+    const lastModified = now.toLocaleString('en-GB', {
+		timeZone: 'Asia/Ho_Chi_Minh', 
+		hour12: false }
+	);
 
     // Tạo nội dung module
     const outputLines = [
@@ -65,7 +68,7 @@ async function processDomains(filePath, url) {
         '#Author: Hoangsvn',
         '#Email: i36nxhvn@icloud.com',
         `#Title: ${name}`,
-        `#Last modified: ${lastModified}`,
+        `#Last modified: ${lastModified} UTC+7`,
         `#Blocked: ${allLines.length.toLocaleString('en-US')} host`,
         `#Version: ${version}`,
         '',
@@ -99,7 +102,5 @@ const outputFile = '../module/adblockvn.module';
 processDomains(inputFile, url).then(({ outputLines, flatList }) => {
     fs.writeFileSync(outputFile, outputLines.join('\n'), 'utf-8');
     fs.writeFileSync(inputFile, flatList.join('\n'), 'utf-8');
-
-    console.log('Xử lý hoàn tất!');
     console.log('Đã tạo:', outputFile, 'và cập nhật ',inputFile);
 }).catch(err => console.error('Lỗi: ' + err.message));

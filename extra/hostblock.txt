@@ -9954,8 +9954,7 @@ utarget.ru
 banner.uto.vn
 # [v-mate.mobi]
 log.apk.v-mate.mobi
-# [v0h8c6kcd8wd9lzg2mtlo0gj7cju82latost2c8qjs2gj6yti8zhs5kltx7d.me]
-v0h8c6kcd8wd9lzg2mtlo0gj7cju82latost2c8qjs2gj6yti8zhs5kltx7d.me
+ 
 # [v9banners.com]
 v9banners.com
 www.v9banners.com
@@ -10415,8 +10414,6 @@ ad.weplayer.cc
 crosspromotion.weplayer.cc
 # [wesdk.co]
 track.wesdk.co
-# [wfgo5vjs6cp0cdjx7bms3cn9lof2p01xho0pxgm1fd2fah3j5d8qd7x1d6eu.me]
-wfgo5vjs6cp0cdjx7bms3cn9lof2p01xho0pxgm1fd2fah3j5d8qd7x1d6eu.me
 # [wfxtriggers.com]
 triggers.wfxtriggers.com
 # [wickedreports.com]
@@ -10549,8 +10546,6 @@ sdk6.ibm.xtify.com
 sdk8.ibm.xtify.com
 # [xtv.vn]
 adx.xtv.vn
-# [y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me]
-y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me
 # [yadro.ru]
 counter.yadro.ru
 # [yahoo.com]
@@ -10735,8 +10730,6 @@ ads.youtube.com
 # [yyapi.net]
 global.yyapi.net
 t.global.yyapi.net
-# [z8g0wlq5p0f6jg3k7eh2kyd58hjeskx0w9g5eu7q3m5hyq8l0xwofj3ap2nv.me]
-z8g0wlq5p0f6jg3k7eh2kyd58hjeskx0w9g5eu7q3m5hyq8l0xwofj3ap2nv.me
 # [zadn.vn]
 adtima-common.zadn.vn
 adtima-media-td.zadn.vn
@@ -10970,3 +10963,42 @@ log-collector.svctr.zynga.com
 s.zzcdn.me
 # [zzz.vn]
 s1.zzz.vn
+adtago.s3.amazonaws.com
+analyticsengine.s3.amazonaws.com
+analytics.s3.amazonaws.com
+advice-ads.s3.amazonaws.com
+pagead2.googlesyndication.com
+adservice.google.com
+pagead2.googleadservices.com
+afs.googlesyndication.com
+mouseflow.com
+cdn.mouseflow.com
+cdn-test.mouseflow.com
+luckyorange.com
+api.luckyorange.com
+realtime.luckyorange.com
+cdn.luckyorange.com
+w1.luckyorange.com
+upload.luckyorange.net
+cs.luckyorange.net
+iot-eu-logser.realme.com
+bdapi-ads.realmemobile.com
+settings.luckyorange.net
+bdapi-in-ads.realmemobile.com
+ck.ads.oppomobile.com
+metrics.mzstatic.com
+metrics.mzstatic.com
+api-adservices.apple.com
+books-analytics-events.apple.com
+data.mistat.xiaomi.com
+data.mistat.india.xiaomi.com
+data.mistat.rus.xiaomi.com
+sdkconfig.ad.xiaomi.com
+metrics.data.hicloud.com
+metrics2.data.hicloud.com
+grs.hicloud.com
+logservice.hicloud.com
+logservice1.hicloud.com
+logbak.hicloud.com
+smetrics.samsung.com
+analytics-api.samsunghealthcn.com
