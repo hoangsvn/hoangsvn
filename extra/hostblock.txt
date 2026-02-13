@@ -1427,7 +1427,11 @@ adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com
 adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com
 adservingvpc-1239633584.eu-west-1.elb.amazonaws.com
 adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com
+adtago.s3.amazonaws.com
 advancelocal-adapter-image-uploads.s3.amazonaws.com
+advice-ads.s3.amazonaws.com
+analytics.s3.amazonaws.com
+analyticsengine.s3.amazonaws.com
 audience-164723144.us-east-1.elb.amazonaws.com
 beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com
 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
@@ -1736,6 +1740,8 @@ web0.track.appier.net
 sdkapicdn.applanga.com
 # [apple.com]
 advertising.apple.com
+api-adservices.apple.com
+books-analytics-events.apple.com
 ca.iadsdk.apple.com
 cf.iadsdk.apple.com
 iad.apple.com
@@ -4680,6 +4686,7 @@ static.googleadsserving.cn
 click.googleanalytics.com
 # [googlesyndication.com]
 ade.googlesyndication.com
+afs.googlesyndication.com
 googlesyndication.com
 pagead2.googlesyndication.com
 tpc.googlesyndication.com
@@ -4886,6 +4893,13 @@ hghit.com
 hicity.vn
 matomo.hicity.vn
 mautic.hicity.vn
+# [hicloud.com]
+grs.hicloud.com
+logbak.hicloud.com
+logservice.hicloud.com
+logservice1.hicloud.com
+metrics.data.hicloud.com
+metrics2.data.hicloud.com
 # [hiconversion.com]
 h30-deploy.hiconversion.com
 # [hiido.com]
@@ -5986,6 +6000,16 @@ dc.lsosad.com
 # [lsvn.vn]
 delivery.lsvn.vn
 tracking.lsvn.vn
+# [luckyorange.com]
+api.luckyorange.com
+cdn.luckyorange.com
+luckyorange.com
+realtime.luckyorange.com
+w1.luckyorange.com
+# [luckyorange.net]
+cs.luckyorange.net
+settings.luckyorange.net
+upload.luckyorange.net
 # [lululemon.com]
 smetrics.lululemon.com
 # [luminati.io]
@@ -6827,6 +6851,10 @@ morgdm.ru
 openx.motgame.vn
 # [motphimqq.pro]
 motphimqq.pro
+# [mouseflow.com]
+cdn-test.mouseflow.com
+cdn.mouseflow.com
+mouseflow.com
 # [moz.com]
 analytics.moz.com
 mozbar.moz.com
@@ -6915,6 +6943,8 @@ t.myvisualiq.net
 vt.myvisualiq.net
 # [mzbcdn.net]
 mzbcdn.net
+# [mzstatic.com]
+metrics.mzstatic.com
 # [n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com]
 n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com
 # [naiadsystems.com]
@@ -7351,6 +7381,7 @@ api-a.op-mobile.opera.com
 adsfs.oppomobile.com
 adx.ads.oppomobile.com
 bdapi.ads.oppomobile.com
+ck.ads.oppomobile.com
 data-id.ads.oppomobile.com
 data.ads.oppomobile.com
 # [opstag.com]
@@ -8054,7 +8085,11 @@ realclick.vn
 stats.realclick.vn
 www.realclick.vn
 # [realme.com]
+iot-eu-logser.realme.com
 iot-logser.realme.com
+# [realmemobile.com]
+bdapi-ads.realmemobile.com
+bdapi-in-ads.realmemobile.com
 # [realvu.net]
 ac.realvu.net
 # [rebel.ai]
@@ -8318,12 +8353,15 @@ tag.mtrcs.samba.tv
 tracker.samplicio.us
 # [samsung.com]
 insights.samsung.com
+smetrics.samsung.com
 # [samsungadhub.com]
 ad.samsungadhub.com
 # [samsungads.com]
 ads.samsungads.com
 config.samsungads.com
 samsungads.com
+# [samsunghealthcn.com]
+analytics-api.samsunghealthcn.com
 # [sanchoikns.vn]
 logs.sanchoikns.vn
 # [sandai.net]
@@ -9954,7 +9992,8 @@ utarget.ru
 banner.uto.vn
 # [v-mate.mobi]
 log.apk.v-mate.mobi
- 
+# [v0h8c6kcd8wd9lzg2mtlo0gj7cju82latost2c8qjs2gj6yti8zhs5kltx7d.me]
+v0h8c6kcd8wd9lzg2mtlo0gj7cju82latost2c8qjs2gj6yti8zhs5kltx7d.me
 # [v9banners.com]
 v9banners.com
 www.v9banners.com
@@ -10414,6 +10453,8 @@ ad.weplayer.cc
 crosspromotion.weplayer.cc
 # [wesdk.co]
 track.wesdk.co
+# [wfgo5vjs6cp0cdjx7bms3cn9lof2p01xho0pxgm1fd2fah3j5d8qd7x1d6eu.me]
+wfgo5vjs6cp0cdjx7bms3cn9lof2p01xho0pxgm1fd2fah3j5d8qd7x1d6eu.me
 # [wfxtriggers.com]
 triggers.wfxtriggers.com
 # [wickedreports.com]
@@ -10527,6 +10568,9 @@ collector.xhamster.com
 # [xiaomi.com]
 api.ad.intl.xiaomi.com
 api.ad.xiaomi.com
+data.mistat.india.xiaomi.com
+data.mistat.rus.xiaomi.com
+data.mistat.xiaomi.com
 diagnosis.ad.intl.xiaomi.com
 log.ad.xiaomi.com
 sdkconfig.ad.india.xiaomi.com
@@ -10546,6 +10590,8 @@ sdk6.ibm.xtify.com
 sdk8.ibm.xtify.com
 # [xtv.vn]
 adx.xtv.vn
+# [y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me]
+y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me
 # [yadro.ru]
 counter.yadro.ru
 # [yahoo.com]
@@ -10730,6 +10776,8 @@ ads.youtube.com
 # [yyapi.net]
 global.yyapi.net
 t.global.yyapi.net
+# [z8g0wlq5p0f6jg3k7eh2kyd58hjeskx0w9g5eu7q3m5hyq8l0xwofj3ap2nv.me]
+z8g0wlq5p0f6jg3k7eh2kyd58hjeskx0w9g5eu7q3m5hyq8l0xwofj3ap2nv.me
 # [zadn.vn]
 adtima-common.zadn.vn
 adtima-media-td.zadn.vn
@@ -10963,42 +11011,3 @@ log-collector.svctr.zynga.com
 s.zzcdn.me
 # [zzz.vn]
 s1.zzz.vn
-adtago.s3.amazonaws.com
-analyticsengine.s3.amazonaws.com
-analytics.s3.amazonaws.com
-advice-ads.s3.amazonaws.com
-pagead2.googlesyndication.com
-adservice.google.com
-pagead2.googleadservices.com
-afs.googlesyndication.com
-mouseflow.com
-cdn.mouseflow.com
-cdn-test.mouseflow.com
-luckyorange.com
-api.luckyorange.com
-realtime.luckyorange.com
-cdn.luckyorange.com
-w1.luckyorange.com
-upload.luckyorange.net
-cs.luckyorange.net
-iot-eu-logser.realme.com
-bdapi-ads.realmemobile.com
-settings.luckyorange.net
-bdapi-in-ads.realmemobile.com
-ck.ads.oppomobile.com
-metrics.mzstatic.com
-metrics.mzstatic.com
-api-adservices.apple.com
-books-analytics-events.apple.com
-data.mistat.xiaomi.com
-data.mistat.india.xiaomi.com
-data.mistat.rus.xiaomi.com
-sdkconfig.ad.xiaomi.com
-metrics.data.hicloud.com
-metrics2.data.hicloud.com
-grs.hicloud.com
-logservice.hicloud.com
-logservice1.hicloud.com
-logbak.hicloud.com
-smetrics.samsung.com
-analytics-api.samsunghealthcn.com

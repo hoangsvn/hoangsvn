@@ -1,13 +1,13 @@
 #!name=ADS Host Block
-#!desc=build:2/12/2026, 10:19:41 AM
+#!desc=build:2/13/2026, 12:59:53 PM
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/adblockvn.module
 
 #Author: Hoangsvn
 #Email: i36nxhvn@icloud.com
 #Title: ADS Host Block
-#Last modified: 12/02/2026, 17:19:41 UTC+7
-#Blocked: 8,419 host
-#Version: 2602121019
+#Last modified: 13/02/2026, 19:59:53 UTC+7
+#Blocked: 8,453 host
+#Version: 2602131259
 
 [Rule]
 # [10gb.vn]
@@ -1439,7 +1439,11 @@ DOMAIN-SUFFIX,adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,adservingvpc-1239633584.eu-west-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com,REJECT
+DOMAIN-SUFFIX,adtago.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,advancelocal-adapter-image-uploads.s3.amazonaws.com,REJECT
+DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com,REJECT
+DOMAIN-SUFFIX,analytics.s3.amazonaws.com,REJECT
+DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com,REJECT
 DOMAIN-SUFFIX,audience-164723144.us-east-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com,REJECT
@@ -1748,6 +1752,8 @@ DOMAIN-SUFFIX,web0.track.appier.net,REJECT
 DOMAIN-SUFFIX,sdkapicdn.applanga.com,REJECT
 # [apple.com]
 DOMAIN-SUFFIX,advertising.apple.com,REJECT
+DOMAIN-SUFFIX,api-adservices.apple.com,REJECT
+DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT
 DOMAIN-SUFFIX,ca.iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,cf.iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,iad.apple.com,REJECT
@@ -4692,6 +4698,7 @@ DOMAIN-SUFFIX,static.googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,click.googleanalytics.com,REJECT
 # [googlesyndication.com]
 DOMAIN-SUFFIX,ade.googlesyndication.com,REJECT
+DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
 DOMAIN-SUFFIX,tpc.googlesyndication.com,REJECT
@@ -4898,6 +4905,13 @@ DOMAIN-SUFFIX,hghit.com,REJECT
 DOMAIN-SUFFIX,hicity.vn,REJECT
 DOMAIN-SUFFIX,matomo.hicity.vn,REJECT
 DOMAIN-SUFFIX,mautic.hicity.vn,REJECT
+# [hicloud.com]
+DOMAIN-SUFFIX,grs.hicloud.com,REJECT
+DOMAIN-SUFFIX,logbak.hicloud.com,REJECT
+DOMAIN-SUFFIX,logservice.hicloud.com,REJECT
+DOMAIN-SUFFIX,logservice1.hicloud.com,REJECT
+DOMAIN-SUFFIX,metrics.data.hicloud.com,REJECT
+DOMAIN-SUFFIX,metrics2.data.hicloud.com,REJECT
 # [hiconversion.com]
 DOMAIN-SUFFIX,h30-deploy.hiconversion.com,REJECT
 # [hiido.com]
@@ -5998,6 +6012,16 @@ DOMAIN-SUFFIX,dc.lsosad.com,REJECT
 # [lsvn.vn]
 DOMAIN-SUFFIX,delivery.lsvn.vn,REJECT
 DOMAIN-SUFFIX,tracking.lsvn.vn,REJECT
+# [luckyorange.com]
+DOMAIN-SUFFIX,api.luckyorange.com,REJECT
+DOMAIN-SUFFIX,cdn.luckyorange.com,REJECT
+DOMAIN-SUFFIX,luckyorange.com,REJECT
+DOMAIN-SUFFIX,realtime.luckyorange.com,REJECT
+DOMAIN-SUFFIX,w1.luckyorange.com,REJECT
+# [luckyorange.net]
+DOMAIN-SUFFIX,cs.luckyorange.net,REJECT
+DOMAIN-SUFFIX,settings.luckyorange.net,REJECT
+DOMAIN-SUFFIX,upload.luckyorange.net,REJECT
 # [lululemon.com]
 DOMAIN-SUFFIX,smetrics.lululemon.com,REJECT
 # [luminati.io]
@@ -6839,6 +6863,10 @@ DOMAIN-SUFFIX,morgdm.ru,REJECT
 DOMAIN-SUFFIX,openx.motgame.vn,REJECT
 # [motphimqq.pro]
 DOMAIN-SUFFIX,motphimqq.pro,REJECT
+# [mouseflow.com]
+DOMAIN-SUFFIX,cdn-test.mouseflow.com,REJECT
+DOMAIN-SUFFIX,cdn.mouseflow.com,REJECT
+DOMAIN-SUFFIX,mouseflow.com,REJECT
 # [moz.com]
 DOMAIN-SUFFIX,analytics.moz.com,REJECT
 DOMAIN-SUFFIX,mozbar.moz.com,REJECT
@@ -6927,6 +6955,8 @@ DOMAIN-SUFFIX,t.myvisualiq.net,REJECT
 DOMAIN-SUFFIX,vt.myvisualiq.net,REJECT
 # [mzbcdn.net]
 DOMAIN-SUFFIX,mzbcdn.net,REJECT
+# [mzstatic.com]
+DOMAIN-SUFFIX,metrics.mzstatic.com,REJECT
 # [n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com]
 DOMAIN-SUFFIX,n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com,REJECT
 # [naiadsystems.com]
@@ -7363,6 +7393,7 @@ DOMAIN-SUFFIX,api-a.op-mobile.opera.com,REJECT
 DOMAIN-SUFFIX,adsfs.oppomobile.com,REJECT
 DOMAIN-SUFFIX,adx.ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,bdapi.ads.oppomobile.com,REJECT
+DOMAIN-SUFFIX,ck.ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,data-id.ads.oppomobile.com,REJECT
 DOMAIN-SUFFIX,data.ads.oppomobile.com,REJECT
 # [opstag.com]
@@ -8066,7 +8097,11 @@ DOMAIN-SUFFIX,realclick.vn,REJECT
 DOMAIN-SUFFIX,stats.realclick.vn,REJECT
 DOMAIN-SUFFIX,www.realclick.vn,REJECT
 # [realme.com]
+DOMAIN-SUFFIX,iot-eu-logser.realme.com,REJECT
 DOMAIN-SUFFIX,iot-logser.realme.com,REJECT
+# [realmemobile.com]
+DOMAIN-SUFFIX,bdapi-ads.realmemobile.com,REJECT
+DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com,REJECT
 # [realvu.net]
 DOMAIN-SUFFIX,ac.realvu.net,REJECT
 # [rebel.ai]
@@ -8330,12 +8365,15 @@ DOMAIN-SUFFIX,tag.mtrcs.samba.tv,REJECT
 DOMAIN-SUFFIX,tracker.samplicio.us,REJECT
 # [samsung.com]
 DOMAIN-SUFFIX,insights.samsung.com,REJECT
+DOMAIN-SUFFIX,smetrics.samsung.com,REJECT
 # [samsungadhub.com]
 DOMAIN-SUFFIX,ad.samsungadhub.com,REJECT
 # [samsungads.com]
 DOMAIN-SUFFIX,ads.samsungads.com,REJECT
 DOMAIN-SUFFIX,config.samsungads.com,REJECT
 DOMAIN-SUFFIX,samsungads.com,REJECT
+# [samsunghealthcn.com]
+DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com,REJECT
 # [sanchoikns.vn]
 DOMAIN-SUFFIX,logs.sanchoikns.vn,REJECT
 # [sandai.net]
@@ -10542,6 +10580,9 @@ DOMAIN-SUFFIX,collector.xhamster.com,REJECT
 # [xiaomi.com]
 DOMAIN-SUFFIX,api.ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,api.ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,data.mistat.india.xiaomi.com,REJECT
+DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com,REJECT
+DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
 DOMAIN-SUFFIX,diagnosis.ad.intl.xiaomi.com,REJECT
 DOMAIN-SUFFIX,log.ad.xiaomi.com,REJECT
 DOMAIN-SUFFIX,sdkconfig.ad.india.xiaomi.com,REJECT
