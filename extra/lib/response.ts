@@ -166,7 +166,14 @@ export abstract class YouTubeMessage {
         const unknownFields = this.listUnknownFields(unknown)
         return unknownFields?.some(field => this.checkBufferIsAd(field)) ?? false
     }
-    
+    isShorts(field): boolean {
+        let flag = false
+        this.iterate(field, 'eml', (obj, stack) => {
+            flag = /shorts(?!_pivot_item)/.test(obj.eml)
+            stack.length = 0
+        })
+        return flag
+    }   
 }
 
 export class BrowseMessage extends YouTubeMessage {
@@ -178,6 +185,7 @@ export class BrowseMessage extends YouTubeMessage {
         this.iterate(this.message, 'sectionListSupportedRenderers', (obj) => {
             for (let i = obj.sectionListSupportedRenderers.length - 1; i >= 0; i--) {
                 this.removeCommonAD(obj, i)
+                this.removeShorts(obj, i)
             }
         })
         return this
@@ -191,6 +199,13 @@ export class BrowseMessage extends YouTubeMessage {
                 richItemContent.splice(j, 1)
                 this.needProcess = true
             }
+        }
+    }
+    removeShorts(obj: any, index: number): void {
+        const shelfRenderer = obj.sectionListSupportedRenderers[index]?.shelfRenderer
+        if (this.isShorts(shelfRenderer)) {
+            obj.sectionListSupportedRenderers.splice(index, 1)
+            this.needProcess = true
         }
     }
 }
