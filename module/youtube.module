@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/hoangsvn/hoangsvn/main/module/youtube.module
 #!name=YouTube Premium
-#!desc=build:8/22/2025, 6:19:23 AM
+#!desc=build:4/25/2026, 5:13:44 AM
 
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
